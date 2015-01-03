@@ -322,96 +322,72 @@ $app->get('/', function() use($app) {
 
 
 		<div id="slideshow">
+			
+	<!----banner---->
+	<!----start-slider-script---->
+			<script src="./js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager: true,
+			        nav: true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+			<!----//End-slider-script---->
+			
+			<!-- Slideshow 4 -->
+			    <div  id="top" class="callbacks_container" id="home">
+			      <ul class="rslides" id="slider4">
+			        <li>
+			          <img src="./images/banner.jpg" alt="">
+						<div class="caption bounceInDown" >
+			          	<div class="slide-text-info">
+			          		<h1>Intellectual Property has the Shelf Life</h1>
+			          		<p>of a Banana.</p>
+							<a class="banner-btn wow bounceIn" data-wow-delay="0.4s" href="#">Become a Member</a>
+			          	</div>
+			          </div>
+			        </li>
+			        <li>
+			          <img src="./images/banner.jpg" alt="">
+			        <div class="caption">
+			          	<div class="slide-text-info bounceInDown" >
+			          		<h1>Intellectual Property has the Shelf Life</h1>
+			          		<p>of a Banana.</p>
+							<a class="banner-btn wow bounceIn" data-wow-delay="0.4s" href="#">Become a Member</a>
+			          	</div>
+			          </div>
+			        </li>
+			        <li>
+			          <img src="./images/banner.jpg" alt="">
+			          <div class="caption">
+			          	<div class="slide-text-info bounceInDown" >
+			          		<h1>Intellectual Property has the Shelf Life</h1>
+			          		<p>of a Banana.</p>
+							<a class="banner-btn wow bounceIn" data-wow-delay="0.4s" href="#">Become a Member</a>
+			          	</div>
+			          </div>
+			        </li>
+			      </ul>
+			    </div>	         
+			    <div class="clearfix"> </div>
 
-
-			<!-- START REVOLUTION SLIDER ver. 2.2.1 -->
-
-			<div id="rev_slider_8_1_wrapper"
-				class="rev_slider_wrapper fullwidthbanner-container"
-				style="margin: 0px auto; background-color: #E9E9E9; padding: 0px; margin-top: 0px; margin-bottom: 0px; max-height: 500px; direction: ltr;">
-				<div id="rev_slider_8_1" class="rev_slider fullwidthabanner"
-					style="display: none; max-height: 500px; height: 500px;">
-					<ul>
-
-						<li data-transition="fade" data-slotamount="7"
-							data-masterspeed="300"><img src="images/slider_web.jpg" alt="" />
-
-
-							<div class="tp-caption rev-slider-title-nobackground fade"
-								data-x="5" data-y="293" data-speed="300" data-start="1200"
-								data-easing="easeOutExpo">#Call4InnLab</div>
-
-
-							<div class="tp-caption rev-slider-title-nobackground fade"
-								data-x="3" data-y="112" data-speed="300" data-start="500"
-								data-easing="easeOutExpo">ROMA E MILANO 2015</div>
-
-
-							<div class="tp-caption rev-slider-button fade" data-x="8"
-								data-y="401" data-speed="300" data-start="1500"
-								data-easing="easeOutExpo">
-								<div class="bigbutton-place">
-									<a href="/lab-2015.html" class="bigbutton bigbutton2"
-										target="tag">加入我们</a>
-								</div>
-							</div>
-
-
-							<div class="tp-caption rev-slider-title-nobackground fade"
-								data-x="5" data-y="178" data-speed="300" data-start="800"
-								data-easing="easeOutExpo">意大利华人专业人士协会</div></li>
-					</ul>
-				</div>
-			</div>
-	<!-- 
-			<script type="text/javascript">
-
-                                                            var tpj = jQuery;
-
-
-                                                            var revapi8;
-
-                                                            tpj(document).ready(function () {
-
-                                                                if (tpj.fn.cssOriginal != undefined)
-                                                                    tpj.fn.css = tpj.fn.cssOriginal;
-
-                                                                if (tpj('#rev_slider_8_1').revolution == undefined)
-                                                                    revslider_showDoubleJqueryError('#rev_slider_8_1', "joomla");
-                                                                else
-                                                                    revapi8 = tpj('#rev_slider_8_1').show().revolution(
-                                                                            {
-                                                                                delay: 10000,
-                                                                                startwidth: 1140,
-                                                                                startheight: 500,
-                                                                                hideThumbs: 200,
-                                                                                thumbWidth: 100,
-                                                                                thumbHeight: 50,
-                                                                                thumbAmount: 1,
-                                                                                navigationType: "none",
-                                                                                navigationArrows: "verticalcentered",
-                                                                                navigationStyle: "round",
-                                                                                touchenabled: "on",
-                                                                                onHoverStop: "off",
-                                                                                shadow: 0,
-                                                                                fullWidth: "on",
-                                                                                navigationHAlign: "center",
-                                                                                navigationVAlign: "bottom",
-                                                                                navigationHOffset: 0,
-                                                                                navigationVOffset: 20,
-                                                                                stopLoop: "off",
-                                                                                stopAfterLoops: -1,
-                                                                                stopAtSlide: -1,
-                                                                                shuffle: "off",
-                                                                                hideSliderAtLimit: 0,
-                                                                                hideCaptionAtLimit: 0,
-                                                                                hideAllCaptionAtLilmit: 0});
-
-                                                            });	//ready
-
-            </script>
-
-		END REVOLUTION SLIDER -->
+			<!-- //End-slider -->
+			
+	<!----//banner---->
 
 		</div>
 
