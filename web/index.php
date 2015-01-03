@@ -1,6 +1,6 @@
 
 <?php
-/* */
+/* 
 require('../vendor/autoload.php');
 
 $app = new Silex\Application();
@@ -17,7 +17,7 @@ $app->get('/', function() use($app) {
   $app['monolog']->addDebug('logging output.');
   return 'Hello';
 });
-
+*/
 ?>
 
 
@@ -231,6 +231,28 @@ $app->get('/', function() use($app) {
                                                     s.parentNode.insertBefore(ga, s);
                                                 })();
                                             </script>
+												
+												<!---- styles for the slid begin ---->
+												
+												
+												<!---- animated-css ---->
+												<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+												<script src="js/wow.min.js"></script>
+														<script>
+															 new WOW().init();
+														</script>
+												
+												
+												<!----- theme-style ------>												
+												<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+												<!----- //theme-style ------>
+												<meta name="viewport" content="width=device-width, initial-scale=1">
+												<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+												</script>
+												<!---- styles for the slid end ---->
+												
+												
 </head>
 
 <body class="">
@@ -320,8 +342,6 @@ $app->get('/', function() use($app) {
 			</div>
 		</header>
 
-
-		<div id="slideshow">
 			
 	<!----banner---->
 	<!----start-slider-script---->
@@ -389,7 +409,6 @@ $app->get('/', function() use($app) {
 			
 	<!----//banner---->
 
-		</div>
 
 
 

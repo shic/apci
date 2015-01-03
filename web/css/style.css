@@ -465,6 +465,13 @@ a.banner-btn{
 	background:#7DA008;
 }
 /*---slider---*/
+
+
+
+
+
+
+
 .content-top{
 	text-align:center;
 	padding: 6em 0 0;
@@ -580,7 +587,7 @@ a.banner-btn{
 	-ms-border-radius:6px;
 	-o-border-radius:6px;
 	-moz-border-radius:6px;
-	color:#fff;
+	:#fff;
 	text-decoration:none;
  }
  .content-bottom-left-head a:hover{
