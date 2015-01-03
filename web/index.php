@@ -344,6 +344,102 @@ $app->get('/', function() use($app) {
 
 			
 	<!----banner---->
+	<!-- START REVOLUTION SLIDER ver. 2.2.1 -->
+				
+					<div id="rev_slider_2_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:500px;direction:ltr;">
+						<div id="rev_slider_2_1" class="rev_slider fullwidthabanner" style="display:none;max-height:500px;height:500px;">						
+											<ul>
+								
+						<li data-transition="fade" data-slotamount="7" data-masterspeed="300" > 
+					    
+							<img src="http://www.innovactionlab.org/images/slide_home3.jpg" alt="" />
+						
+														
+					<div class="tp-caption rev-slider-title fade"  
+						 data-x="15" 
+						 data-y="140" 
+						 data-speed="300" 
+						 data-start="800" 
+						 data-easing="easeOutExpo"  >INNOVACTIONLAB</div>
+				
+								
+					<div class="tp-caption rev-slider-title fade"  
+						 data-x="15" 
+						 data-y="210" 
+						 data-speed="300" 
+						 data-start="1100" 
+						 data-easing="easeOutExpo"  >E' UN'ASSOCIAZIONE NO PROFIT</div>
+				
+								
+					<div class="tp-caption rev-slider-title fade"  
+						 data-x="15" 
+						 data-y="280" 
+						 data-speed="300" 
+						 data-start="1400" 
+						 data-easing="easeOutExpo"  >NATA NEL 2011</div>
+				
+													</li>
+									</ul>
+															</div>
+					</div>
+							
+				<script type="text/javascript">
+				
+					var tpj=jQuery;
+				
+				
+					var revapi2;
+				
+					tpj(document).ready(function() {
+				
+					if (tpj.fn.cssOriginal != undefined)
+						tpj.fn.css = tpj.fn.cssOriginal;
+				
+					if(tpj('#rev_slider_2_1').revolution == undefined)
+						revslider_showDoubleJqueryError('#rev_slider_2_1',"joomla");
+					else	
+						revapi2 = tpj('#rev_slider_2_1').show().revolution(
+						 {
+							delay:9000,
+							startwidth:1140,
+							startheight:500,
+							hideThumbs:200,
+						
+							thumbWidth:100,
+							thumbHeight:50,
+							thumbAmount:1,
+						
+							navigationType:"none",
+							navigationArrows:"verticalcentered",
+							navigationStyle:"round",
+						
+							touchenabled:"on",
+							onHoverStop:"on",
+						
+							shadow:0,
+							fullWidth:"on",
+
+							navigationHAlign:"center",
+							navigationVAlign:"bottom",
+							navigationHOffset:0,
+							navigationVOffset:20,
+								
+							stopLoop:"off",
+							stopAfterLoops:-1,
+							stopAtSlide:-1,
+								
+							shuffle:"off",
+						
+							hideSliderAtLimit:0,
+							hideCaptionAtLimit:0,
+							hideAllCaptionAtLilmit:0					});
+				
+					});	//ready
+				
+				</script>
+			
+								<!-- END REVOLUTION SLIDER -->
+	
 	<!----start-slider-script---->
 			<script src="js/responsiveslides.min.js"></script>
 			 <script>
