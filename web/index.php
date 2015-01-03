@@ -325,7 +325,7 @@ $app->get('/', function() use($app) {
 			
 	<!----banner---->
 	<!----start-slider-script---->
-			<script src="./js/responsiveslides.min.js"></script>
+			<script src="js/responsiveslides.min.js"></script>
 			 <script>
 			    // You can also use "$(window).load(function() {"
 			    $(function () {
@@ -352,7 +352,7 @@ $app->get('/', function() use($app) {
 			    <div  id="top" class="callbacks_container" id="home">
 			      <ul class="rslides" id="slider4">
 			        <li>
-			          <img src="./images/banner.jpg" alt="">
+			          <img src="images/banner.jpg" alt="">
 						<div class="caption bounceInDown" >
 			          	<div class="slide-text-info">
 			          		<h1>Intellectual Property has the Shelf Life</h1>
@@ -362,7 +362,7 @@ $app->get('/', function() use($app) {
 			          </div>
 			        </li>
 			        <li>
-			          <img src="./images/banner.jpg" alt="">
+			          <img src="images/banner.jpg" alt="">
 			        <div class="caption">
 			          	<div class="slide-text-info bounceInDown" >
 			          		<h1>Intellectual Property has the Shelf Life</h1>
@@ -372,7 +372,7 @@ $app->get('/', function() use($app) {
 			          </div>
 			        </li>
 			        <li>
-			          <img src="./images/banner.jpg" alt="">
+			          <img src="images/banner.jpg" alt="">
 			          <div class="caption">
 			          	<div class="slide-text-info bounceInDown" >
 			          		<h1>Intellectual Property has the Shelf Life</h1>
