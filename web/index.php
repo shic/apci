@@ -363,7 +363,7 @@ $app->get('/', function() use($app) {
 					</ul>
 				</div>
 			</div>
-
+	<!-- 
 			<script type="text/javascript">
 
                                                             var tpj = jQuery;
@@ -409,9 +409,9 @@ $app->get('/', function() use($app) {
 
                                                             });	//ready
 
-                                                        </script>
+            </script>
 
-			<!-- END REVOLUTION SLIDER -->
+		END REVOLUTION SLIDER -->
 
 		</div>
 
