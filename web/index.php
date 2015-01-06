@@ -377,10 +377,10 @@
 
                                                                                     <div class="moduleItemIntrotext">
 
-                                                                                        <p style="text-align:; font-size: 35px">意大利华人专业人士协会</p>
-                                                                                        <p style="text-align:; font-size: 20px">Associazione Professionisti Cinesi in Italia</p>
-                                                                                        <p style="text-align:; font-size: 20px">Chinese Professionals Association of Italy</p>
-                                                                                        <p style="text-align:; font-size: 25px; margin-bottom: 60px">意大利专业人士协会（意文缩写APCI，英文缩写CPAI）于2014年11月7日在意大利首都罗马成立的非盈利机构。协会旨在维护和保障旅意华人专业人士的合法权益，帮助其更好地融入本地社区及文化环境，丰富业余生活内容，为旅意华人华侨和留学生回国创业和回国服务提供交流的平台和合作的机会。</p>
+                                                                                        <p style="font-size: 35px">意大利华人专业人士协会</p>
+                                                                                        <p style="font-size: 20px">Associazione Professionisti Cinesi in Italia</p>
+                                                                                        <p style="font-size: 20px">Chinese Professionals Association of Italy</p>
+                                                                                        <p style="font-size: 25px; margin-bottom: 60px">意大利专业人士协会（意文缩写APCI，英文缩写CPAI）于2014年11月7日在意大利首都罗马成立的非盈利机构。协会旨在维护和保障旅意华人专业人士的合法权益，帮助其更好地融入本地社区及文化环境，丰富业余生活内容，为旅意华人华侨和留学生回国创业和回国服务提供交流的平台和合作的机会。</p>
                                                                                         <p></p>
                                                                                     </div>
 
@@ -656,7 +656,7 @@
                                                                     <div class="catItemView blog-box groupLeading">
                                                                         <div class="blg-img-box">
                                                                             <img
-                                                                                src="media/k2/items/cache/5cf9cad94714c5577919c266171d935c_L.jpg"
+                                                                                src="images/mainPageEventGallery/main_page_1.jpg"
                                                                                 alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 100%; height: auto;">
                                                                                 <div class="mask">
                                                                                     <div class="prt-lnk-wrppr editions-link clearfix">
@@ -677,87 +677,7 @@
                                                                     <div class="catItemView blog-box groupLeading">
                                                                         <div class="blg-img-box">
                                                                             <img
-                                                                                src="media/k2/items/cache/5cf9cad94714c5577919c266171d935c_L.jpg"
-                                                                                alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 100%; height: auto;">
-                                                                                <div class="mask">
-                                                                                    <div class="prt-lnk-wrppr editions-link clearfix">
-                                                                                        <div class="pull-left editions-popup popup">
-                                                                                            <a href="/tianjin-2014.php"><h2>&nbsp;</h2></a>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                        </div>
-                                                                        <div class="editions-legend clearfix">
-                                                                            <a href="/tianjin-2014.php">天津滨海高新技术产业开发区人才交流会</a>
-                                                                        </div>
-                                                                        <div class="clr"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-4 col-sm-4 item ">
-                                                                    <div class="catItemView blog-box groupLeading">
-                                                                        <div class="blg-img-box">
-                                                                            <img
-                                                                                src="media/k2/items/cache/5cf9cad94714c5577919c266171d935c_L.jpg"
-                                                                                alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 100%; height: auto;">
-                                                                                <div class="mask">
-                                                                                    <div class="prt-lnk-wrppr editions-link clearfix">
-                                                                                        <div class="pull-left editions-popup popup">
-                                                                                            <a href="/tianjin-2014.php"><h2>&nbsp;</h2></a>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                        </div>
-                                                                        <div class="editions-legend clearfix">
-                                                                            <a href="/tianjin-2014.php">天津滨海高新技术产业开发区人才交流会</a>
-                                                                        </div>
-                                                                        <div class="clr"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-4 col-sm-4 item ">
-                                                                    <div class="catItemView blog-box groupLeading">
-                                                                        <div class="blg-img-box">
-                                                                            <img
-                                                                                src="media/k2/items/cache/5cf9cad94714c5577919c266171d935c_L.jpg"
-                                                                                alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 100%; height: auto;">
-                                                                                <div class="mask">
-                                                                                    <div class="prt-lnk-wrppr editions-link clearfix">
-                                                                                        <div class="pull-left editions-popup popup">
-                                                                                            <a href="/tianjin-2014.php"><h2>&nbsp;</h2></a>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                        </div>
-                                                                        <div class="editions-legend clearfix">
-                                                                            <a href="/tianjin-2014.php">天津滨海高新技术产业开发区人才交流会</a>
-                                                                        </div>
-                                                                        <div class="clr"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-4 col-sm-4 item ">
-                                                                    <div class="catItemView blog-box groupLeading">
-                                                                        <div class="blg-img-box">
-                                                                            <img
-                                                                                src="media/k2/items/cache/5cf9cad94714c5577919c266171d935c_L.jpg"
-                                                                                alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 100%; height: auto;">
-                                                                                <div class="mask">
-                                                                                    <div class="prt-lnk-wrppr editions-link clearfix">
-                                                                                        <div class="pull-left editions-popup popup">
-                                                                                            <a href="/tianjin-2014.php"><h2>&nbsp;</h2></a>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                        </div>
-                                                                        <div class="editions-legend clearfix">
-                                                                            <a href="/tianjin-2014.php">天津滨海高新技术产业开发区人才交流会</a>
-                                                                        </div>
-                                                                        <div class="clr"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-4 col-sm-4 item ">
-                                                                    <div class="catItemView blog-box groupLeading">
-                                                                        <div class="blg-img-box">
-                                                                            <img
-                                                                                src="media/k2/items/cache/5cf9cad94714c5577919c266171d935c_L.jpg"
+                                                                                src="images/mainPageEventGallery/main_page_2.jpg"
                                                                                 alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 100%; height: auto;">
                                                                                 <div class="mask">
                                                                                     <div class="prt-lnk-wrppr editions-link clearfix">
@@ -774,7 +694,91 @@
                                                                     </div>
                                                                 </div>
 
+                                                                <div class="col-lg-4 col-sm-4 item ">
+                                                                    <div class="catItemView blog-box groupLeading">
+                                                                        <div class="blg-img-box">
+                                                                            <img
+                                                                                src="images/mainPageEventGallery/main_page_3.jpg"
+                                                                                alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 100%; height: auto;">
+                                                                                <div class="mask">
+                                                                                    <div class="prt-lnk-wrppr editions-link clearfix">
+                                                                                        <div class="pull-left editions-popup popup">
+                                                                                            <a href="/tianjin-2014.php"><h2>&nbsp;</h2></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                        </div>
+                                                                        <div class="editions-legend clearfix">
+                                                                            <a href="/tianjin-2014.php">天津滨海高新技术产业开发区人才交流会</a>
+                                                                        </div>
+                                                                        <div class="clr"></div>
+                                                                    </div>
+                                                                </div>                                                               
 
+                                                                <div class="col-lg-4 col-sm-4 item ">
+                                                                    <div class="catItemView blog-box groupLeading">
+                                                                        <div class="blg-img-box">
+                                                                            <img
+                                                                                src="images/mainPageEventGallery/main_page_4.jpg"
+                                                                                alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 100%; height: auto;">
+                                                                                <div class="mask">
+                                                                                    <div class="prt-lnk-wrppr editions-link clearfix">
+                                                                                        <div class="pull-left editions-popup popup">
+                                                                                            <a href="/tianjin-2014.php"><h2>&nbsp;</h2></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                        </div>
+                                                                        <div class="editions-legend clearfix">
+                                                                            <a href="/tianjin-2014.php">天津滨海高新技术产业开发区人才交流会</a>
+                                                                        </div>
+                                                                        <div class="clr"></div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-4 col-sm-4 item ">
+                                                                    <div class="catItemView blog-box groupLeading">
+                                                                        <div class="blg-img-box">
+                                                                            <img
+                                                                                src="images/mainPageEventGallery/main_page_5.jpg"
+                                                                                alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 100%; height: auto;">
+                                                                                <div class="mask">
+                                                                                    <div class="prt-lnk-wrppr editions-link clearfix">
+                                                                                        <div class="pull-left editions-popup popup">
+                                                                                            <a href="/tianjin-2014.php"><h2>&nbsp;</h2></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                        </div>
+                                                                        <div class="editions-legend clearfix">
+                                                                            <a href="/tianjin-2014.php">天津滨海高新技术产业开发区人才交流会</a>
+                                                                        </div>
+                                                                        <div class="clr"></div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-4 col-sm-4 item ">
+                                                                    <div class="catItemView blog-box groupLeading">
+                                                                        <div class="blg-img-box">
+                                                                            <img
+                                                                                src="images/mainPageEventGallery/main_page_6.jpg"
+                                                                                alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 100%; height: auto;">
+                                                                                <div class="mask">
+                                                                                    <div class="prt-lnk-wrppr editions-link clearfix">
+                                                                                        <div class="pull-left editions-popup popup">
+                                                                                            <a href="/tianjin-2014.php"><h2>&nbsp;</h2></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                        </div>
+                                                                        <div class="editions-legend clearfix">
+                                                                            <a href="/tianjin-2014.php">天津滨海高新技术产业开发区人才交流会</a>
+                                                                        </div>
+                                                                        <div class="clr"></div>
+                                                                    </div>
+                                                                </div>                                                                
+                                                                
+                                                                
                                                             </div>
                                                         </div>
                                                     </div>
