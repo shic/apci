@@ -377,8 +377,8 @@ $app->get('/', function() use($app) {
 
                                                                                         <p style="font-size: 60px">意大利华人专业人士协会</p>
                                                                                         <p style="font-size: 50px">以促进意大利专业人士的交流为宗旨</p>
-                                                                                        <h1>以促进学术交流为理念</h1>
-                                                                                        <h1>以服务于专业人士为目标</h1>
+                                                                                        <p style="font-size: 50px">以促进学术交流为理念</p>
+                                                                                        <p style="font-size: 50px">以服务于专业人士为目标</p>
                                                                                         <p></p>
                                                                                     </div>
 
