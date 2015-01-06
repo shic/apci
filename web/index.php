@@ -1,6 +1,6 @@
 
 <?php
-/* */
+/*
   require('../vendor/autoload.php');
 
   $app = new Silex\Application();
@@ -17,6 +17,7 @@
   $app['monolog']->addDebug('logging output.');
   return 'Hello';
   });
+ */
 ?>
 
 
@@ -243,7 +244,7 @@
 
 
 
-                                            <body id="body-container">
+                                            <body id="">
                                                 <div id="wrapper">
                                                     <header class="soci-header">
                                                         <div id="head-box" class="style2 ">
@@ -300,9 +301,9 @@
                                                             </div>
                                                             <div class="container">
                                                                 <div class="header-wrapper margint10">
-                                                                    <div class="pull-left logo">
-                                                                        <a href="/"><img src="templates/boxme/images/logo67.png"
-                                                                                         class="img-responsive logo-image" alt="Important Logo" /></a>
+                                                                    <div class="pull-left logo" >
+                                                                        <a href="/"><img   src="templates/boxme/images/logo67.png"
+                                                                                           class="img-responsive logo-image" alt="Important Logo" /></a>
                                                                     </div>
                                                                     <div class="pull-right menu">
                                                                         <nav class="pull-left menu-bar" id="responsive-menu">
@@ -506,7 +507,11 @@
                                                                             </div>
 
                                                                             <!-- Immagine -->
-                                                                            <center><img src="images/founder/liujinquan.jpg" alt="刘金权" class="img-responsive board-image"/></center>
+                                                                            <center>
+                                                                                <a href="/" target="_blank" alt="史磊">
+                                                                                    <img src="images/founder/liujinquan.jpg" alt="刘金权" class="img-responsive board-image"/>
+                                                                                </a>
+                                                                            </center>
 
                                                                             <!-- Deascrizione -->
                                                                             <div class="margint10 board-description">
@@ -515,10 +520,6 @@
                                                                                 <p><span style="font-size: 13px; text-align: center;">亚欧经贸文化交流会常务副主席</span></p>  
                                                                                 <p><span style="font-size: 13px; text-align: center;">中华医药学会副主席</span></p>                                                                              </div>
 
-                                                                            <!-- LinkedIn -->
-                                                                            <div>
-                                                                                <a href="" target="_blank" alt="刘金权"><img src="images/linkedin_button.png" alt="" class="board-link"/></a>
-                                                                            </div>
                                                                         </div>
 
 
@@ -530,17 +531,17 @@
                                                                             </div>
 
                                                                             <!-- Immagine -->
-                                                                            <center><img src="images/founder/niuyingyi.jpg" alt="牛颖异" class="img-responsive board-image"/></center>
+                                                                            <center>
+                                                                                <a href="/" target="_blank" alt="史磊">
+                                                                                    <img src="images/founder/niuyingyi.jpg" alt="牛颖异" class="img-responsive board-image"/>
+                                                                                </a>
+                                                                            </center>
 
                                                                             <!-- Deascrizione -->
                                                                             <div class="margint10 board-description">
                                                                                 <p><span style="font-size: 13px; text-align: center;">罗马大学第一建筑学院城市建筑学硕士</span></p>        		
                                                                             </div>
 
-                                                                            <!-- LinkedIn -->
-                                                                            <div>
-                                                                                <a href="" target="_blank" alt="牛颖异"><img src="images/linkedin_button.png" alt="" class="board-link"/></a>
-                                                                            </div>
 
                                                                         </div>
 
@@ -549,27 +550,59 @@
                                                                             <!-- Titolo -->
                                                                             <div class="board-title">
                                                                                 <h3 style="text-align: center; font-size: 16px; margin-bottom: 5px;">史磊</h3>
+                                                                                </a>
                                                                             </div>
-
+                                                                            
                                                                             <!-- Immagine -->
-                                                                            <center><img src="images/founder/shilei.png" alt="史磊" class="img-responsive board-image"/></center>
-
+                                                                            <center>
+                                                                                <a href="/" target="_blank" alt="史磊">
+                                                                                    <img src="images/founder/shilei.png" alt="牛颖异" class="img-responsive board-image"/>
+                                                                                </a>
+                                                                            </center>
+                                                                            
                                                                             <!-- Deascrizione -->
                                                                             <div class="margint10 board-description">
                                                                                 <p><span style="font-size: 13px; text-align: center;">意大利信息工程专业的高材生
                                                                                         连续获得过多届意大利信息工程领域的奖项。还是多年全额奖学金的获得者。</span></p>        		
                                                                             </div>
 
-                                                                            <!-- LinkedIn -->
-                                                                            <div>
-                                                                                <a href="it.linkedin.com/in/itshi" target="_blank" alt="史磊"><img src="images/linkedin_button.png" alt="" class="board-link"/></a>
-                                                                            </div>
+                                                                            
 
                                                                         </div>
 
                                                                     </div>
 
                                                                 </div>
+
+
+
+
+
+
+
+
+                                                                <!--supporter -->
+                                                                <div class="container-grey">
+                                                                    <div class="container" >
+                                                                        <div class="col-lg-4 col-sm-4 item ">
+                                                                            <a href="http://www./" target="_blank"> 
+                                                                                <img class="img-responsive" src="images/supporter/ouhua.gif" alt="" style="float: left; margin-right: 30px; padding-top: 5px;" /></a>
+                                                                        </div>
+
+                                                                        <div class="col-lg-4 col-sm-4 item ">
+                                                                            <a href="http://www./" target="_blank"> 
+                                                                                <img class="img-responsive" src="images/supporter/ouhua.gif" alt="" style="float: left; margin-right: 30px; padding-top: 5px;" /></a>
+                                                                        </div>
+
+                                                                        <div class="col-lg-4 col-sm-4 item ">
+                                                                            <a href="http://www./" target="_blank"> 
+                                                                                <img class="img-responsive" src="images/supporter/ouhua.gif" alt="" style="float: left; margin-right: 30px; padding-top: 5px;" /></a>
+                                                                        </div>
+                                                                        <!-- -->
+
+                                                                    </div>
+                                                                </div>
+
                                                         </div>
 
 
@@ -577,274 +610,212 @@
 
 
 
+                                                        <!-- EDIZIONI PRECEDENTI-->
+                                                        <div class="editions-area">
+                                                            <div class="st-divider " style="padding: 30px 0; border: none;"></div>
+                                                            <center>
+                                                                <h1 style="margin-top: 0px; font-size: 42px">主办过的活动</h1>
+                                                            </center>
+                                                            <div class="st-divider " style="padding: 20px 0; border: none;"></div>
+
+                                                            <div class="container">
+                                                                <div class="row portfolio-box">
 
 
-                                                        <!--supporter -->
-                                                        <div class="container-grey">
-                                                            <div class="container" >
-                                                                <div class="st-module module" id="Mod205" >
-                                                                    <div class="module-inner">
-                                                                        <div class="col-lg-6 col-sm-6"style="margin-bottom: 10px;">
-                                                                            <a style="margin-bottom: 10px; font-size: 42px" href="http://www.ouhuaitaly.com/" target="_blank"> <img
-                                                                                    class="img-responsive"
-                                                                                    src="images/supporter/ouhua.gif" alt="欧华时报" /></a>
-                                                                        </div>
-                                                                        <div class="col-lg-6 col-sm-6"style="margin-bottom: 10px;">
-                                                                            <a style="margin-bottom: 10px; font-size: 42px" href="http://www.ouhuaitaly.com/" target="_blank"> <img
-                                                                                    class="img-responsive"
-                                                                                    src="images/supporter/ouhua.gif" alt="欧华时报" /></a>
-                                                                        </div>
-
-                                                                        <div class="module-ct">
-                                                                            <div class="custom">
-
-                                                                                <div class="col-lg-6 col-sm-6"style="margin-bottom: 10px;">
-                                                                                    <a style="margin-bottom: 10px; font-size: 42px" href="http://www.ouhuaitaly.com/" target="_blank"> <img
-                                                                                            class="img-responsive"
-                                                                                            src="images/supporter/ouhua.gif" alt="欧华时报" /></a>
-                                                                                </div>
-
-
-                                                                                <div class="col-lg-6 col-sm-6">
-                                                                                    <a
-                                                                                        href="http://www./"
-                                                                                        target="_blank"> <img class="img-responsive"
-                                                                                                          src="images/supporter/ouhua.gif" alt=""
-                                                                                                          style="float: left; margin-right: 30px; padding-top: 5px;" /></a>
-                                                                                    <a href="http://www.it/" target="_self"> <img
-                                                                                            class="img-responsive"
-                                                                                            src="images/supporter/ouhua.gif" alt=""
-                                                                                            style="float: left; margin-right: 30px; padding-top: 15px;" /></a>
-                                                                                    <a href="http://www..it/" target="_blank"> <img
-                                                                                            class="img-responsive"
-                                                                                            src="images/supporter/ouhua.gif" alt=""
-                                                                                            style="float: left; margin-right: 10px;" /></a>
-                                                                                </div>
-                                                                                <!-- -->
-                                                                                <p></p>
-
+                                                                    <div class="col-lg-4 col-sm-4 item ">
+                                                                        <div class="catItemView blog-box groupLeading">
+                                                                            <div class="blg-img-box">
+                                                                                <img
+                                                                                    src="images/mainPageEventGallery/main_page_1.jpg"
+                                                                                    alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 90%; height: auto;">
+                                                                                    <div class="mask">
+                                                                                        <div class="prt-lnk-wrppr editions-link clearfix">
+                                                                                            <div class="pull-left editions-popup popup">
+                                                                                                <a href="/tianjin-2014.php"><h2>&nbsp;</h2></a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
                                                                             </div>
-                                                                            <p></p>
-                                                                            <p></p>
-                                                                            <p></p>
-                                                                            <p></p>
+                                                                            <div class="editions-legend clearfix">
+                                                                                <a href="/tianjin-2014.php">天津滨海高新技术产业开发区人才交流会</a>
+                                                                            </div>
+                                                                            <div class="clr"></div>
                                                                         </div>
                                                                     </div>
+
+                                                                    <div class="col-lg-4 col-sm-4 item ">
+                                                                        <div class="catItemView blog-box groupLeading">
+                                                                            <div class="blg-img-box">
+                                                                                <img
+                                                                                    src="images/mainPageEventGallery/main_page_2.jpg"
+                                                                                    alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 90%; height: auto;">
+                                                                                    <div class="mask">
+                                                                                        <div class="prt-lnk-wrppr editions-link clearfix">
+                                                                                            <div class="pull-left editions-popup popup">
+                                                                                                <a href="/tianjin-2014.php"><h2>&nbsp;</h2></a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                            </div>
+                                                                            <div class="editions-legend clearfix">
+                                                                                <a href="/tianjin-2014.php">天津滨海高新开发区人才交流会</a>
+                                                                            </div>
+                                                                            <div class="clr"></div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="col-lg-4 col-sm-4 item ">
+                                                                        <div class="catItemView blog-box groupLeading">
+                                                                            <div class="blg-img-box">
+                                                                                <img
+                                                                                    src="images/mainPageEventGallery/main_page_3.jpg"
+                                                                                    alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 90%; height: auto;">
+                                                                                    <div class="mask">
+                                                                                        <div class="prt-lnk-wrppr editions-link clearfix">
+                                                                                            <div class="pull-left editions-popup popup">
+                                                                                                <a href="/tianjin-2014.php"><h2>&nbsp;</h2></a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                            </div>
+                                                                            <div class="editions-legend clearfix">
+                                                                                <a href="/tianjin-2014.php">天津滨海高新技术产业开发区人才交流会</a>
+                                                                            </div>
+                                                                            <div class="clr"></div>
+                                                                        </div>
+                                                                    </div>                                                               
+
+                                                                    <div class="col-lg-4 col-sm-4 item ">
+                                                                        <div class="catItemView blog-box groupLeading">
+                                                                            <div class="blg-img-box">
+                                                                                <img
+                                                                                    src="images/mainPageEventGallery/main_page_4.jpg"
+                                                                                    alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 90%; height: auto;">
+                                                                                    <div class="mask">
+                                                                                        <div class="prt-lnk-wrppr editions-link clearfix">
+                                                                                            <div class="pull-left editions-popup popup">
+                                                                                                <a href="/tianjin-2014.php"><h2>&nbsp;</h2></a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                            </div>
+                                                                            <div class="editions-legend clearfix">
+                                                                                <a href="/tianjin-2014.php">天津滨海高新技术产业开发区人才交流会</a>
+                                                                            </div>
+                                                                            <div class="clr"></div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="col-lg-4 col-sm-4 item ">
+                                                                        <div class="catItemView blog-box groupLeading">
+                                                                            <div class="blg-img-box">
+                                                                                <img
+                                                                                    src="images/mainPageEventGallery/main_page_5.jpg"
+                                                                                    alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 90%; height: auto;">
+                                                                                    <div class="mask">
+                                                                                        <div class="prt-lnk-wrppr editions-link clearfix">
+                                                                                            <div class="pull-left editions-popup popup">
+                                                                                                <a href="/tianjin-2014.php"><h2>&nbsp;</h2></a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                            </div>
+                                                                            <div class="editions-legend clearfix">
+                                                                                <a href="/tianjin-2014.php">天津滨海高新技术产业开发区人才交流会</a>
+                                                                            </div>
+                                                                            <div class="clr"></div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="col-lg-4 col-sm-4 item ">
+                                                                        <div class="catItemView blog-box groupLeading">
+                                                                            <div class="blg-img-box">
+                                                                                <img
+                                                                                    src="images/mainPageEventGallery/main_page_6.jpg"
+                                                                                    alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 90%; height: auto;">
+                                                                                    <div class="mask">
+                                                                                        <div class="prt-lnk-wrppr editions-link clearfix">
+                                                                                            <div class="pull-left editions-popup popup">
+                                                                                                <a href="/tianjin-2014.php"><h2>&nbsp;</h2></a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                            </div>
+                                                                            <div class="editions-legend clearfix">
+                                                                                <a href="/tianjin-2014.php">天津滨海高新技术产业开发区人才交流会</a>
+                                                                            </div>
+                                                                            <div class="clr"></div>
+                                                                        </div>
+                                                                    </div>                                                                
+
+
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </div>
 
 
-
-
-
-
-                                                    <!-- EDIZIONI PRECEDENTI-->
-                                                    <div class="editions-area">
-                                                        <div class="st-divider " style="padding: 30px 0; border: none;"></div>
-                                                        <center>
-                                                            <h1 style="margin-top: 0px; font-size: 42px">主办过的活动</h1>
-                                                        </center>
-                                                        <div class="st-divider " style="padding: 20px 0; border: none;"></div>
-
-                                                        <div class="container">
-                                                            <div class="row portfolio-box">
-
-
-                                                                <div class="col-lg-4 col-sm-4 item ">
-                                                                    <div class="catItemView blog-box groupLeading">
-                                                                        <div class="blg-img-box">
-                                                                            <img
-                                                                                src="images/mainPageEventGallery/main_page_1.jpg"
-                                                                                alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 100%; height: auto;">
-                                                                                <div class="mask">
-                                                                                    <div class="prt-lnk-wrppr editions-link clearfix">
-                                                                                        <div class="pull-left editions-popup popup">
-                                                                                            <a href="/tianjin-2014.php"><h2>&nbsp;</h2></a>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                        </div>
-                                                                        <div class="editions-legend clearfix">
-                                                                            <a href="/tianjin-2014.php">天津滨海高新技术产业开发区人才交流会</a>
-                                                                        </div>
-                                                                        <div class="clr"></div>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div class="col-lg-4 col-sm-4 item ">
-                                                                    <div class="catItemView blog-box groupLeading">
-                                                                        <div class="blg-img-box">
-                                                                            <img
-                                                                                src="images/mainPageEventGallery/main_page_2.jpg"
-                                                                                alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 100%; height: auto;">
-                                                                                <div class="mask">
-                                                                                    <div class="prt-lnk-wrppr editions-link clearfix">
-                                                                                        <div class="pull-left editions-popup popup">
-                                                                                            <a href="/tianjin-2014.php"><h2>&nbsp;</h2></a>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                        </div>
-                                                                        <div class="editions-legend clearfix">
-                                                                            <a href="/tianjin-2014.php">天津滨海高新技术产业开发区人才交流会</a>
-                                                                        </div>
-                                                                        <div class="clr"></div>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div class="col-lg-4 col-sm-4 item ">
-                                                                    <div class="catItemView blog-box groupLeading">
-                                                                        <div class="blg-img-box">
-                                                                            <img
-                                                                                src="images/mainPageEventGallery/main_page_3.jpg"
-                                                                                alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 100%; height: auto;">
-                                                                                <div class="mask">
-                                                                                    <div class="prt-lnk-wrppr editions-link clearfix">
-                                                                                        <div class="pull-left editions-popup popup">
-                                                                                            <a href="/tianjin-2014.php"><h2>&nbsp;</h2></a>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                        </div>
-                                                                        <div class="editions-legend clearfix">
-                                                                            <a href="/tianjin-2014.php">天津滨海高新技术产业开发区人才交流会</a>
-                                                                        </div>
-                                                                        <div class="clr"></div>
-                                                                    </div>
-                                                                </div>                                                               
-
-                                                                <div class="col-lg-4 col-sm-4 item ">
-                                                                    <div class="catItemView blog-box groupLeading">
-                                                                        <div class="blg-img-box">
-                                                                            <img
-                                                                                src="images/mainPageEventGallery/main_page_4.jpg"
-                                                                                alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 100%; height: auto;">
-                                                                                <div class="mask">
-                                                                                    <div class="prt-lnk-wrppr editions-link clearfix">
-                                                                                        <div class="pull-left editions-popup popup">
-                                                                                            <a href="/tianjin-2014.php"><h2>&nbsp;</h2></a>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                        </div>
-                                                                        <div class="editions-legend clearfix">
-                                                                            <a href="/tianjin-2014.php">天津滨海高新技术产业开发区人才交流会</a>
-                                                                        </div>
-                                                                        <div class="clr"></div>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div class="col-lg-4 col-sm-4 item ">
-                                                                    <div class="catItemView blog-box groupLeading">
-                                                                        <div class="blg-img-box">
-                                                                            <img
-                                                                                src="images/mainPageEventGallery/main_page_5.jpg"
-                                                                                alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 100%; height: auto;">
-                                                                                <div class="mask">
-                                                                                    <div class="prt-lnk-wrppr editions-link clearfix">
-                                                                                        <div class="pull-left editions-popup popup">
-                                                                                            <a href="/tianjin-2014.php"><h2>&nbsp;</h2></a>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                        </div>
-                                                                        <div class="editions-legend clearfix">
-                                                                            <a href="/tianjin-2014.php">天津滨海高新技术产业开发区人才交流会</a>
-                                                                        </div>
-                                                                        <div class="clr"></div>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div class="col-lg-4 col-sm-4 item ">
-                                                                    <div class="catItemView blog-box groupLeading">
-                                                                        <div class="blg-img-box">
-                                                                            <img
-                                                                                src="images/mainPageEventGallery/main_page_6.jpg"
-                                                                                alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 100%; height: auto;">
-                                                                                <div class="mask">
-                                                                                    <div class="prt-lnk-wrppr editions-link clearfix">
-                                                                                        <div class="pull-left editions-popup popup">
-                                                                                            <a href="/tianjin-2014.php"><h2>&nbsp;</h2></a>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                        </div>
-                                                                        <div class="editions-legend clearfix">
-                                                                            <a href="/tianjin-2014.php">天津滨海高新技术产业开发区人才交流会</a>
-                                                                        </div>
-                                                                        <div class="clr"></div>
-                                                                    </div>
-                                                                </div>                                                                
-
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-
-                                                    <!-- SOCIAL MEDIA -->
-                                                    <!--
-                                                                                                           <div class="container">
-                                                                                                               <p>&nbsp;</p>
-                                                                                                               <p>&nbsp;</p>
-                                                                                                               <h1 style="text-align: center;">SOCIAL MEDIA</h1>
-                                                                                                               <p>&nbsp;</p>
-                                                                                                           </div>
-                                                                                                           <div class="container" style="padding: 0px !important">
-                                                                                                               <div class='row'>
-                                                                                                                   <div class='col-lg-6 '>
-                                                                                                                       <div class="container">
-                                                    <!-- START: Modules Anywhere -->
-                                                    <!--
-                                                    <script>!function (d, s, id) {
-                                                                var js, fjs = d.getElementsByTagName(s)[0];
-                                                                if (!d.getElementById(id)) {
-                                                                    js = d.createElement(s);
-                                                                    js.id = id;
-                                                                    js.src = "//platform.twitter.com/widgets.js";
-                                                                    fjs.parentNode.insertBefore(js, fjs);
-                                                                }
-                                                            }(document, "script", "twitter-wjs");</script>
-
-
-                                                        <a class="twitter-timeline" href="https://twitter.com/@InnovLab"
-                                                           data-widget-id="452930293221953536" data-theme="light"
-                                                           data-link-color="" data-chrome="" data-border-color="">Tweets by
-                                                            @@InnovLab</a>
-
-                                                    <!-- END: Modules Anywhere -->
-                                                    <!--
-                                                                                                      </div>
-                                                                                                                  </div>
-                                                                                                                  <div class='col-lg-6 '>
-                                                                                                                      <div class="container">
-                                                                                                                          <div class="st-module module" id="Mod203">
-                                                                                                                              <div class="module-inner">
-                                                                                                                                  <div class="module-ct">
-                                                  
-                                                                                                                                      <script>(function (d, s, id) {
-                                                                                                                                              var js, fjs = d.getElementsByTagName(s)[0];
-                                                                                                                                              if (d.getElementById(id))
-                                                                                                                                                  return;
-                                                                                                                                              js = d.createElement(s);
-                                                                                                                                              js.id = id;
-                                                                                                                                              js.src = "//connect.facebook.net/it_IT/all.js#xfbml=1";
-                                                                                                                                              fjs.parentNode.insertBefore(js, fjs);
-                                                                                                                                          }(document, 'script', 'facebook-jssdk'));</script>
-                                                                                                                                      <div class="cwlikebox100" id="cwlikebox1">
-                                                                                                                                          <div id="likebox-wrapper">
-                                                                                                                                              <div class='fb-like-box'
-                                                                                                                                                   data-href='https://www.facebook.com/InnovActionLab'
-                                                                                                                                                   data-width='200' data-height='492' data-colorscheme=''
-                                                                                                                                                   data-show_faces='0' data-show_border='0' data-stream='1'
-                                                                                                                                                   data-header='0' data-force_wall='0'></div>
+                                                        <!-- SOCIAL MEDIA -->
+                                                        <!--
+                                                                                                               <div class="container">
+                                                                                                                   <p>&nbsp;</p>
+                                                                                                                   <p>&nbsp;</p>
+                                                                                                                   <h1 style="text-align: center;">SOCIAL MEDIA</h1>
+                                                                                                                   <p>&nbsp;</p>
+                                                                                                               </div>
+                                                                                                               <div class="container" style="padding: 0px !important">
+                                                                                                                   <div class='row'>
+                                                                                                                       <div class='col-lg-6 '>
+                                                                                                                           <div class="container">
+                                                        <!-- START: Modules Anywhere -->
+                                                        <!--
+                                                        <script>!function (d, s, id) {
+                                                                    var js, fjs = d.getElementsByTagName(s)[0];
+                                                                    if (!d.getElementById(id)) {
+                                                                        js = d.createElement(s);
+                                                                        js.id = id;
+                                                                        js.src = "//platform.twitter.com/widgets.js";
+                                                                        fjs.parentNode.insertBefore(js, fjs);
+                                                                    }
+                                                                }(document, "script", "twitter-wjs");</script>
+        
+        
+                                                            <a class="twitter-timeline" href="https://twitter.com/@InnovLab"
+                                                               data-widget-id="452930293221953536" data-theme="light"
+                                                               data-link-color="" data-chrome="" data-border-color="">Tweets by
+                                                                @@InnovLab</a>
+        
+                                                        <!-- END: Modules Anywhere -->
+                                                        <!--
+                                                                                                          </div>
+                                                                                                                      </div>
+                                                                                                                      <div class='col-lg-6 '>
+                                                                                                                          <div class="container">
+                                                                                                                              <div class="st-module module" id="Mod203">
+                                                                                                                                  <div class="module-inner">
+                                                                                                                                      <div class="module-ct">
+                                                      
+                                                                                                                                          <script>(function (d, s, id) {
+                                                                                                                                                  var js, fjs = d.getElementsByTagName(s)[0];
+                                                                                                                                                  if (d.getElementById(id))
+                                                                                                                                                      return;
+                                                                                                                                                  js = d.createElement(s);
+                                                                                                                                                  js.id = id;
+                                                                                                                                                  js.src = "//connect.facebook.net/it_IT/all.js#xfbml=1";
+                                                                                                                                                  fjs.parentNode.insertBefore(js, fjs);
+                                                                                                                                              }(document, 'script', 'facebook-jssdk'));</script>
+                                                                                                                                          <div class="cwlikebox100" id="cwlikebox1">
+                                                                                                                                              <div id="likebox-wrapper">
+                                                                                                                                                  <div class='fb-like-box'
+                                                                                                                                                       data-href='https://www.facebook.com/InnovActionLab'
+                                                                                                                                                       data-width='200' data-height='492' data-colorscheme=''
+                                                                                                                                                       data-show_faces='0' data-show_border='0' data-stream='1'
+                                                                                                                                                       data-header='0' data-force_wall='0'></div>
+                                                                                                                                              </div>
+                                                      
+                                                                                                                                              <span class="cw-likebox-mod_copyrht"> Powered by <a
+                                                                                                                                                      target="_blank" title="CoalaWeb" href="http://coalaweb.com">CoalaWeb</a>
+                                                                                                                                              </span>
                                                                                                                                           </div>
-                                                  
-                                                                                                                                          <span class="cw-likebox-mod_copyrht"> Powered by <a
-                                                                                                                                                  target="_blank" title="CoalaWeb" href="http://coalaweb.com">CoalaWeb</a>
-                                                                                                                                          </span>
                                                                                                                                       </div>
                                                                                                                                   </div>
                                                                                                                               </div>
@@ -852,53 +823,318 @@
                                                                                                                       </div>
                                                                                                                   </div>
                                                                                                               </div>
-                                                                                                          </div>
-                                                                                                          <div class="container">
-                                                                                                              <div class='st-divider ' style='padding: 30px 0; border: none;'></div>
-                                                                                                          </div>
-                                                                                                          <div class="container">
-                                                                                                              <div class="st-module module" id="Mod0">
-                                                                                                                  <div class="module-inner">
-                                                                                                                      <div class="module-ct">
-                                                  
-                                                  
-                                                                                                                          <div class="custom"></div>
+                                                                                                              <div class="container">
+                                                                                                                  <div class='st-divider ' style='padding: 30px 0; border: none;'></div>
+                                                                                                              </div>
+                                                                                                              <div class="container">
+                                                                                                                  <div class="st-module module" id="Mod0">
+                                                                                                                      <div class="module-inner">
+                                                                                                                          <div class="module-ct">
+                                                      
+                                                      
+                                                                                                                              <div class="custom"></div>
+                                                                                                                          </div>
                                                                                                                       </div>
                                                                                                                   </div>
                                                                                                               </div>
-                                                                                                          </div>
-                                                    -->
-                                                </div>
-
-
-
-                                                <div id="top-footer">
-
-
-                                                    <div class="custom">
-
-
-
-                                                        <!-- AddThis Button BEGIN -->
-
-
-                                                        <div style="width: 100%; background-color: #cf1801; height: 100px">
-
-
-                                                            <div
-                                                                style="float: left; width: 60%; text-align: center; padding-top: 18px;">
-                                                                <h1 align="center" style="color: #FFF; font-size: 35px">意大利华人专业人士协会</h1>
-                                                            </div>
-
-                                                        </div>
-                                                        <div align="center"> </div>
-                                                        <div align="center"> </div>
+                                                        -->
                                                     </div>
-                                                    <div align="center"style=" font-size: 15px">All trademarks and registered trademarks appearing on </div>
-                                                    <div align="center"style=" font-size: 15px">this site are the property of their respective owners. </div>
-                                                </div>
-                                                </div>
-                                                </div>
+
+
+
+
+
+
+
+                                                    <div id="footer">
+                                                        <div class="container">
+                                                            <div class='margint30 marginb25 foo'><div class="container" style="padding: 0px !important">
+                                                                    <div class='row'>
+                                                                        <div class='col-lg-3 col-sm-6 '><div class="container">
+                                                                                <div class="st-module module" id="Mod148">
+                                                                                    <div class="module-inner">
+                                                                                        <h3 class="module-title">
+                                                                                            <span>Info e Contatti</span>
+                                                                                        </h3>
+                                                                                        <div class="module-ct">
+
+                                                                                            <div id="k2ModuleBox148" class="k2ItemsBlock">
+
+
+                                                                                                <ul>
+                                                                                                    <li class="even lastItem">
+
+                                                                                                        <!-- Plugins: BeforeDisplay -->
+
+                                                                                                        <!-- K2 Plugins: K2BeforeDisplay -->
+
+
+
+
+                                                                                                        <!-- Plugins: AfterDisplayTitle -->
+
+                                                                                                        <!-- K2 Plugins: K2AfterDisplayTitle -->
+
+                                                                                                        <!-- Plugins: BeforeDisplayContent -->
+
+                                                                                                        <!-- K2 Plugins: K2BeforeDisplayContent -->
+
+                                                                                                        <div class="moduleItemIntrotext">
+
+                                                                                                            <p>Per qualsiasi tipo di comunicazione o feedback, è possibile contattare i membri di InnovAction Lab all'indirizzo email</p>
+                                                                                                            <p>
+                                                                                                                <script type='text/javascript'>
+                                                                                                                    <!--
+                                                                                                                    var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+                                                                                                                    var path = 'hr' + 'ef' + '=';
+                                                                                                                    var addy66253 = '&#105;nf&#111;' + '&#64;';
+                                                                                                                    addy66253 = addy66253 + '&#105;nn&#111;v&#97;ct&#105;&#111;nl&#97;b' + '&#46;' + '&#111;rg';
+                                                                                                                    var addy_text66253 = '&#105;nf&#111;' + '&#64;' + '&#105;nn&#111;v&#97;ct&#105;&#111;nl&#97;b' + '&#46;' + '&#111;rg';
+                                                                                                                    document.write('<a ' + path + '\'' + prefix + ':' + addy66253 + '\' target="_blank">');
+                                                                                                                    document.write(addy_text66253);
+                                                                                                                    document.write('<\/a>');
+                                                                                                                    //-->\n </script><script type='text/javascript'>
+                                                                                                                    <!--
+                                                                                                                        document.write('<span style=\'display: none;\'>');
+                                                                                                                    //-->
+                                                                                                                </script>Questo indirizzo email è protetto dagli spambots. E' necessario abilitare JavaScript per vederlo.
+                                                                                                                <script type='text/javascript'>
+                                                                                                                    <!--
+                                                                                                                    document.write('</');
+                                                                                                                    document.write('span>');
+                                                                                                                    //-->
+                                                                                                                </script></p>      	      </div>
+
+
+                                                                                                        <div class="clr"></div>
+
+
+                                                                                                        <div class="clr"></div>
+
+                                                                                                        <!-- Plugins: AfterDisplayContent -->
+
+                                                                                                        <!-- K2 Plugins: K2AfterDisplayContent -->
+
+
+
+
+
+
+
+
+                                                                                                        <!-- Plugins: AfterDisplay -->
+
+                                                                                                        <!-- K2 Plugins: K2AfterDisplay -->
+
+                                                                                                        <div class="clr"></div>
+                                                                                                    </li>
+                                                                                                    <li class="clearList"></li>
+                                                                                                </ul>
+
+
+
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>  </div>
+                                                                        <div class='col-lg-3 col-sm-6 '><div class="container">
+                                                                                <div class="st-module module" id="Mod111">
+                                                                                    <div class="module-inner">
+                                                                                        <h3 class="module-title">
+                                                                                            <span>Scorciatoie</span>
+                                                                                        </h3>
+                                                                                        <div class="module-ct">
+                                                                                            <ul class="footer-ul-style1">
+                                                                                                <li class="item-177"><a href="/it/chi-siamo.html" >关于我们</a></ul>
+
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>  </div>
+                                                                        <div class='col-lg-3 col-sm-6 '><div class="container">
+                                                                                <div class="st-module module" id="Mod150">
+                                                                                    <div class="module-inner">
+                                                                                        <h3 class="module-title">
+                                                                                            <span>GO SOCIAL</span>
+                                                                                        </h3>
+                                                                                        <div class="module-ct">
+
+                                                                                            <div id="k2ModuleBox150" class="k2ItemsBlock">
+
+
+                                                                                                <ul>
+                                                                                                    <li class="even lastItem">
+
+                                                                                                        <!-- Plugins: BeforeDisplay -->
+
+                                                                                                        <!-- K2 Plugins: K2BeforeDisplay -->
+
+
+
+
+                                                                                                        <!-- Plugins: AfterDisplayTitle -->
+
+                                                                                                        <!-- K2 Plugins: K2AfterDisplayTitle -->
+
+                                                                                                        <!-- Plugins: BeforeDisplayContent -->
+
+                                                                                                        <!-- K2 Plugins: K2BeforeDisplayContent -->
+
+                                                                                                        <div class="moduleItemIntrotext">
+
+                                                                                                            <p>Seguici sui Social Network</p>      	      </div>
+
+
+                                                                                                        <div class="clr"></div>
+
+
+                                                                                                        <div class="clr"></div>
+
+                                                                                                        <!-- Plugins: AfterDisplayContent -->
+
+                                                                                                        <!-- K2 Plugins: K2AfterDisplayContent -->
+
+
+
+
+
+
+
+
+                                                                                                        <!-- Plugins: AfterDisplay -->
+
+                                                                                                        <!-- K2 Plugins: K2AfterDisplay -->
+
+                                                                                                        <div class="clr"></div>
+                                                                                                    </li>
+                                                                                                    <li class="clearList"></li>
+                                                                                                </ul>
+
+
+
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div><div class="container">
+                                                                                <div class="st-module module" id="Mod143">
+                                                                                    <div class="module-inner">
+                                                                                        <div class="module-ct">
+
+                                                                                            <ul class="dmt-social-links dmt-icons-16">
+                                                                                                <li class="facebook">
+                                                                                                    <a title="Facebook" rel="me nofollow" href="http://www.facebook.com/InnovActionLab" target="_blank">
+                                                                                                        <img src="/modules/mod_dmt_social/icons/facebook_16.png" alt="" />
+                                                                                                    </a>
+                                                                                                </li>
+                                                                                                <li class="twitter">
+                                                                                                    <a title="Twitter" rel="me nofollow" href="http://www.twitter.com/#!/innovlab" target="_blank">
+                                                                                                        <img src="/modules/mod_dmt_social/icons/twitter_16.png" alt="" />
+                                                                                                    </a>
+                                                                                                </li>
+                                                                                                <li class="google_wave">
+                                                                                                    <a title="Google+" rel="me nofollow" href="https://plus.google.com/100340691659587836437" target="_blank">
+                                                                                                        <img src="/modules/mod_dmt_social/icons/google_wave_16.png" alt="" />
+                                                                                                    </a>
+                                                                                                </li>
+                                                                                                <li class="linkedin">
+                                                                                                    <a title="LinkedIn" rel="me nofollow" href="http://www.linkedin.com/company/innovaction-lab" target="_blank">
+                                                                                                        <img src="/modules/mod_dmt_social/icons/linkedin_16.png" alt="" />
+                                                                                                    </a>
+                                                                                                </li>
+                                                                                                <li class="youtube">
+                                                                                                    <a title="YouTube" rel="me nofollow" href="http://www.youtube.com/user/InnovActionLab" target="_blank">
+                                                                                                        <img src="/modules/mod_dmt_social/icons/youtube_16.png" alt="" />
+                                                                                                    </a>
+                                                                                                </li>
+
+
+                                                                                            </ul>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>   </div>
+                                                                        <div class='col-lg-3 col-sm-6 '><div class="container">
+                                                                                <div class="st-module module" id="Mod149">
+                                                                                    <div class="module-inner">
+                                                                                        <h3 class="module-title">
+                                                                                            <span>Copyrights</span>
+                                                                                        </h3>
+                                                                                        <div class="module-ct">
+
+                                                                                            <div id="k2ModuleBox149" class="k2ItemsBlock">
+
+
+                                                                                                <ul>
+                                                                                                    <li class="even lastItem">
+
+                                                                                                        <!-- Plugins: BeforeDisplay -->
+
+                                                                                                        <!-- K2 Plugins: K2BeforeDisplay -->
+
+
+
+
+                                                                                                        <!-- Plugins: AfterDisplayTitle -->
+
+                                                                                                        <!-- K2 Plugins: K2AfterDisplayTitle -->
+
+                                                                                                        <!-- Plugins: BeforeDisplayContent -->
+
+                                                                                                        <!-- K2 Plugins: K2BeforeDisplayContent -->
+
+                                                                                                        <div class="moduleItemIntrotext">
+
+                                                                                                            <p>©2014 InnovAction Lab<span style="line-height: 1.3em;"> </span></p>
+                                                                                                            <p><span style="line-height: 1.3em;">Powered by</span></p>
+                                                                                                            <p><a href="http://www.tecnojam.it" target="_blank" title="Tecnojam"><span style="line-height: 1.3em;"><img src="/images/logo_tecnojam.png" alt="" /></span></a></p>
+                                                                                                            <p><span style="line-height: 1.3em;">Tech Sponsor</span></p>
+                                                                                                            <p><a href="http://www.translated.net" target="_blank" title="Translated"><span style="line-height: 1.3em;"><img src="/images/translated-logo.png" alt="" /></span></a></p>      	      </div>
+
+
+                                                                                                        <div class="clr"></div>
+
+
+                                                                                                        <div class="clr"></div>
+
+                                                                                                        <!-- Plugins: AfterDisplayContent -->
+
+                                                                                                        <!-- K2 Plugins: K2AfterDisplayContent -->
+
+
+
+
+
+
+
+
+                                                                                                        <!-- Plugins: AfterDisplay -->
+
+                                                                                                        <!-- K2 Plugins: K2AfterDisplay -->
+
+                                                                                                        <div class="clr"></div>
+                                                                                                    </li>
+                                                                                                    <li class="clearList"></li>
+                                                                                                </ul>
+
+
+
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div> 
+                                                                        </div>
+                                                                    </div>
+                                                                </div> 
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div class="custom"  >
+                                                        <div><a class="scrollup" href="#"><i class="icon-angle-up"></i></a></div></div>
 
 
 
