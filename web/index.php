@@ -1,6 +1,6 @@
 
 <?php
-/*
+/* */
   require('../vendor/autoload.php');
 
   $app = new Silex\Application();
@@ -16,7 +16,7 @@
   $app->get('/', function() use($app) {
   $app['monolog']->addDebug('logging output.');
   return 'Hello';
-  }); */
+  });
 ?>
 
 
@@ -243,7 +243,7 @@
 
 
 
-                                            <body class="">
+                                            <body id="body-container">
                                                 <div id="wrapper">
                                                     <header class="soci-header">
                                                         <div id="head-box" class="style2 ">
@@ -335,7 +335,7 @@
                                                     <!-- begin-slider -->
                                                     <div id="slid-container">
                                                         <img id = "slid-image" src="images/slider_people.jpg" alt="">        		
-                                                            <p id = "slid-text" style="font-size: 30px; left:1300px; width:100%;">因为专业所以优秀，服务于意大利专业人士!</p>
+                                                            <p id = "slid-text" style="font-size: 30px; left:200px; width:100%;">因为专业所以优秀，服务于意大利专业人士!</p>
                                                     </div>	         
 
                                                     <!-- //End-slider -->
@@ -585,16 +585,16 @@
                                                                 <div class="st-module module" id="Mod205" >
                                                                     <div class="module-inner">
                                                                         <div class="col-lg-6 col-sm-6"style="margin-bottom: 10px;">
-                                                                                    <a style="margin-bottom: 10px; font-size: 42px" href="http://www.ouhuaitaly.com/" target="_blank"> <img
-                                                                                            class="img-responsive"
-                                                                                            src="images/supporter/ouhua.gif" alt="欧华时报" /></a>
-                                                                                </div>
+                                                                            <a style="margin-bottom: 10px; font-size: 42px" href="http://www.ouhuaitaly.com/" target="_blank"> <img
+                                                                                    class="img-responsive"
+                                                                                    src="images/supporter/ouhua.gif" alt="欧华时报" /></a>
+                                                                        </div>
                                                                         <div class="col-lg-6 col-sm-6"style="margin-bottom: 10px;">
-                                                                                    <a style="margin-bottom: 10px; font-size: 42px" href="http://www.ouhuaitaly.com/" target="_blank"> <img
-                                                                                            class="img-responsive"
-                                                                                            src="images/supporter/ouhua.gif" alt="欧华时报" /></a>
-                                                                                </div>
-                                                                        
+                                                                            <a style="margin-bottom: 10px; font-size: 42px" href="http://www.ouhuaitaly.com/" target="_blank"> <img
+                                                                                    class="img-responsive"
+                                                                                    src="images/supporter/ouhua.gif" alt="欧华时报" /></a>
+                                                                        </div>
+
                                                                         <div class="module-ct">
                                                                             <div class="custom">
 
@@ -603,8 +603,8 @@
                                                                                             class="img-responsive"
                                                                                             src="images/supporter/ouhua.gif" alt="欧华时报" /></a>
                                                                                 </div>
-                                                                                
-                                                                            
+
+
                                                                                 <div class="col-lg-6 col-sm-6">
                                                                                     <a
                                                                                         href="http://www./"
@@ -620,7 +620,7 @@
                                                                                             src="images/supporter/ouhua.gif" alt=""
                                                                                             style="float: left; margin-right: 10px;" /></a>
                                                                                 </div>
-                                                                                   <!-- -->
+                                                                                <!-- -->
                                                                                 <p></p>
 
                                                                             </div>
@@ -777,8 +777,8 @@
                                                                         <div class="clr"></div>
                                                                     </div>
                                                                 </div>                                                                
-                                                                
-                                                                
+
+
                                                             </div>
                                                         </div>
                                                     </div>
@@ -887,18 +887,15 @@
 
                                                             <div
                                                                 style="float: left; width: 60%; text-align: center; padding-top: 18px;">
-                                                                <h1 align="center" style="color: #FFF;">意大利华人专业人士协会</h1>
-
-
+                                                                <h1 align="center" style="color: #FFF; font-size: 35px">意大利华人专业人士协会</h1>
                                                             </div>
 
                                                         </div>
                                                         <div align="center"> </div>
                                                         <div align="center"> </div>
-                                                        <div align="center">All trademarks and registered trademarks appearing on </div>
-                                                        <div align="center"> this site are the property of their respective owners. </div>
                                                     </div>
-
+                                                    <div align="center"style=" font-size: 15px">All trademarks and registered trademarks appearing on </div>
+                                                    <div align="center"style=" font-size: 15px">this site are the property of their respective owners. </div>
                                                 </div>
                                                 </div>
                                                 </div>
