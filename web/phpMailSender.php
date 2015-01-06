@@ -33,7 +33,6 @@
   } else {
   echo "Message sent!";
   }
- * */
 
 
 
@@ -61,4 +60,26 @@ $mail->Body = "Hello, <b>my friend</b>! \n\n This message uses HTML entities!";
   echo "Message sent!";
   }
 ?>
-    
+    */
+require("class.phpmailer.php");
+ 
+$mail = new PHPMailer();
+ 
+$mail->IsSMTP();  // diciamo alla classe di usare SMTP
+$mail->Host     = "smtp.hotmail.com"; // SMTP server, questo valore è da modificare!
+ 
+$mail->From     = "apcitalia@hotmail.com"; // L'account email che state utilizzando
+$mail->AddAddress("acpitaly@gmail.com"); // L'indirizzo email di destinazione
+ 
+$mail->Subject  = "First PHPMailer Message"; // L'oggetto della email
+$mail->Body     = "Hi! \n\n This is my first e-mail sent through PHPMailer."; // Il corpo del messaggio
+$mail->WordWrap = 50;
+ 
+if(!$mail->Send()) {
+  echo 'Message was not sent.';
+  echo 'Mailer error: ' . $mail->ErrorInfo;
+} else {
+  echo 'Message has been sent.';
+}
+
+?>
