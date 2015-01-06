@@ -285,8 +285,11 @@
                                                                     <div class="pull-right menu">
                                                                         <nav class="pull-left menu-bar" id="responsive-menu">
                                                                             <ul id="site-menu" class="site-menu">
+                                                                                
                                                                                 <li class="item-201 current active"><a class="active"href="/">主页</a></li>
+                                                                                
                                                                                 <li class="item-202"><a class="" href="/milan-2015.html">米兰世博会</a></li>
+                                                                                
                                                                                 <li class="item-237 deeper parent"><a href="#stop">活动介绍</a>
                                                                                     <ul class="nav-child unstyled small">
                                                                                         <li class="item-203"><a class=""

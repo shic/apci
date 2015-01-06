@@ -335,7 +335,7 @@
                                                     <!-- begin-slider -->
                                                     <div id="slid-container">
                                                         <img id = "slid-image" src="images/slider_people.jpg" alt="">        		
-                                                            <p id = "slid-text" style="font-size: 30px; left:180px; width:100%;">因为专业所以优秀，服务于意大利专业人士!</p>
+                                                            <p id = "slid-text" style="font-size: 30px; left:1300px; width:100%;">因为专业所以优秀，服务于意大利专业人士!</p>
                                                     </div>	         
 
                                                     <!-- //End-slider -->

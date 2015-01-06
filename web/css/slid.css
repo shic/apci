@@ -78,7 +78,9 @@
 }
 
 
-.slider-navhover .nivo-directionNav a.nivo-prevNav {left:-100px;transition:.3s all ease-in-out;}
+.slider-navhover .nivo-directionNav a.nivo-prevNav Ï{
+    left:-100px;transition:.3s all ease-in-out;
+}
 .slider-navhover:hover .nivo-directionNav  a.nivo-prevNav{left:0px;}
 .slider-navhover .nivo-directionNav a.nivo-nextNav {right:-100px;transition:.3s all ease-in-out;}
 .slider-navhover:hover .nivo-directionNav  a.nivo-nextNav{right:0px;}
@@ -87,10 +89,19 @@
 #forbottom {margin:0 !important;padding:0 !important;}
 
 #container {width:auto;}
-
+Ï
 #pp-afterslider {margin: 0 45px;}
 
 /* FIN! */
+
+
+
+
+
+
+
+
+
 
 #slid-container{
     position:relative;
@@ -113,7 +124,7 @@
     font-size: 45px;
     font-weight: bold;
     top:300px;
-    left:00px;
+    left:200px;
     width:100%;
     color: white;
 
