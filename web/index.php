@@ -1,22 +1,22 @@
 
 <?php
-/* 
-require('../vendor/autoload.php');
+/*
+  require('../vendor/autoload.php');
 
-$app = new Silex\Application();
-$app['debug'] = true;
+  $app = new Silex\Application();
+  $app['debug'] = true;
 
-// Register the monolog logging service
-$app->register(new Silex\Provider\MonologServiceProvider(), array(
-    'monolog.logfile' => 'php://stderr',
-));
+  // Register the monolog logging service
+  $app->register(new Silex\Provider\MonologServiceProvider(), array(
+  'monolog.logfile' => 'php://stderr',
+  ));
 
-// Our web handlers
+  // Our web handlers
 
-$app->get('/', function() use($app) {
-    $app['monolog']->addDebug('logging output.');
-    return 'Hello';
-});*/
+  $app->get('/', function() use($app) {
+  $app['monolog']->addDebug('logging output.');
+  return 'Hello';
+  }); */
 ?>
 
 
@@ -241,8 +241,8 @@ $app->get('/', function() use($app) {
 
                                             </head>
 
-    
-    
+
+
                                             <body class="">
                                                 <div id="wrapper">
                                                     <header class="soci-header">
@@ -301,15 +301,15 @@ $app->get('/', function() use($app) {
                                                             <div class="container">
                                                                 <div class="header-wrapper margint10">
                                                                     <div class="pull-left logo">
-                                                                        <a href="/"><img src="templates/boxme/images/logo.png"
-                                                                                         class="img-responsive logo-image" alt="BoxMe!" /></a>
+                                                                        <a href="/"><img src="templates/boxme/images/logo67.png"
+                                                                                         class="img-responsive logo-image" alt="Important Logo" /></a>
                                                                     </div>
                                                                     <div class="pull-right menu">
                                                                         <nav class="pull-left menu-bar" id="responsive-menu">
                                                                             <ul id="site-menu" class="site-menu">
-                                                                                
+
                                                                                 <li class="item-201 current active"><a class="active"href="/">主页</a></li>
-                                                                                <li class="item-202"><a style="font-size: 10px" href="/milan-2015.html">米兰世博会</a></li>
+                                                                                <li class="item-202"><a style="font-size:" href="/milan-2015.html">米兰世博会</a></li>
                                                                                 <li class="item-237 deeper parent"><a href="#stop">活动介绍</a>
                                                                                     <ul class="nav-child unstyled small">
                                                                                         <li class="item-203"><a class=""
@@ -319,7 +319,7 @@ $app->get('/', function() use($app) {
                                                                                 <li class="item-206"><a class="" href="/federation-artical.html">协会章程</a></li>
                                                                                 <li class="item-207"><a class="" href="/joinus.html">加入协会</a></li>
                                                                                 <li class="item-242"><a class="" href="/contactus.html">联系我们</a></li>
-                                                                                
+
                                                                             </ul>
 
                                                                         </nav>
@@ -335,7 +335,7 @@ $app->get('/', function() use($app) {
                                                     <!-- begin-slider -->
                                                     <div id="slid-container">
                                                         <img id = "slid-image" src="images/slider_people.jpg" alt="">        		
-                                                            <p id = "slid-text">因为专业所以优秀，服务于意大利专业人士！</p>
+                                                            <p id = "slid-text" style="font-size: 30px; left:180px; width:100%;">因为专业所以优秀，服务于意大利专业人士!</p>
                                                     </div>	         
 
                                                     <!-- //End-slider -->
@@ -377,10 +377,10 @@ $app->get('/', function() use($app) {
 
                                                                                     <div class="moduleItemIntrotext">
 
-                                                                                        <p style="font-size: 60px">意大利华人专业人士协会</p>
-                                                                                        <p style="font-size: 50px">以促进意大利专业人士的交流为宗旨</p>
-                                                                                        <p style="font-size: 50px">以促进学术交流为理念</p>
-                                                                                        <p style="font-size: 50px">以服务于专业人士为目标</p>
+                                                                                        <p style="text-align:; font-size: 35px">意大利华人专业人士协会</p>
+                                                                                        <p style="text-align:; font-size: 20px">Associazione Professionisti Cinesi in Italia</p>
+                                                                                        <p style="text-align:; font-size: 20px">Chinese Professionals Association of Italy</p>
+                                                                                        <p style="text-align:; font-size: 25px; margin-bottom: 60px">意大利专业人士协会（意文缩写APCI，英文缩写CPAI）于2014年11月7日在意大利首都罗马成立的非盈利机构。协会旨在维护和保障旅意华人专业人士的合法权益，帮助其更好地融入本地社区及文化环境，丰富业余生活内容，为旅意华人华侨和留学生回国创业和回国服务提供交流的平台和合作的机会。</p>
                                                                                         <p></p>
                                                                                     </div>
 
@@ -490,9 +490,7 @@ $app->get('/', function() use($app) {
                                                         <!-- Fonder -->
                                                         <div class="founder-container">
                                                             <center>
-                                                                <h1 style="margin-top: 60px;">协会创立人员</h1>
-
-                                                                <p>以下仅列出协会初创人员</p>
+                                                                <h1 style="margin-top: 60px; margin-bottom: 60px; font-size: 42px">协会创立人员</h1>
                                                                 <p></p>
                                                                 <p></p>
                                                                 <h1></h1>
@@ -583,43 +581,53 @@ $app->get('/', function() use($app) {
 
                                                         <!--supporter -->
                                                         <div class="container-grey">
-                                                            <div class="container">
-                                                                <div class="st-module module" id="Mod205">
+                                                            <div class="container" >
+                                                                <div class="st-module module" id="Mod205" >
                                                                     <div class="module-inner">
-                                                                        <div class="module-ct">
-                                                                            <div class="custom">
-                                                                                <p></p>
-                                                                                <p></p>
-                                                                                <center>
-                                                                                    <h1>支持企业</h1>
-                                                                                </center>
-
-                                                                                <p></p>
-                                                                                <div class="col-lg-6 col-sm-6">
-                                                                                    <a href="http://www.ouhuaitaly.com/" target="_blank"> <img
+                                                                        <div class="col-lg-6 col-sm-6"style="margin-bottom: 10px;">
+                                                                                    <a style="margin-bottom: 10px; font-size: 42px" href="http://www.ouhuaitaly.com/" target="_blank"> <img
                                                                                             class="img-responsive"
                                                                                             src="images/supporter/ouhua.gif" alt="欧华时报" /></a>
                                                                                 </div>
-                                                                                <!--
+                                                                        <div class="col-lg-6 col-sm-6"style="margin-bottom: 10px;">
+                                                                                    <a style="margin-bottom: 10px; font-size: 42px" href="http://www.ouhuaitaly.com/" target="_blank"> <img
+                                                                                            class="img-responsive"
+                                                                                            src="images/supporter/ouhua.gif" alt="欧华时报" /></a>
+                                                                                </div>
+                                                                        
+                                                                        <div class="module-ct">
+                                                                            <div class="custom">
+
+                                                                                <div class="col-lg-6 col-sm-6"style="margin-bottom: 10px;">
+                                                                                    <a style="margin-bottom: 10px; font-size: 42px" href="http://www.ouhuaitaly.com/" target="_blank"> <img
+                                                                                            class="img-responsive"
+                                                                                            src="images/supporter/ouhua.gif" alt="欧华时报" /></a>
+                                                                                </div>
+                                                                                
+                                                                            
                                                                                 <div class="col-lg-6 col-sm-6">
                                                                                     <a
                                                                                         href="http://www./"
                                                                                         target="_blank"> <img class="img-responsive"
-                                                                                                          src="images/supporter/todo.png" alt=""
+                                                                                                          src="images/supporter/ouhua.gif" alt=""
                                                                                                           style="float: left; margin-right: 30px; padding-top: 5px;" /></a>
                                                                                     <a href="http://www.it/" target="_self"> <img
                                                                                             class="img-responsive"
-                                                                                            src="images/supporter/todo.png" alt=""
+                                                                                            src="images/supporter/ouhua.gif" alt=""
                                                                                             style="float: left; margin-right: 30px; padding-top: 15px;" /></a>
                                                                                     <a href="http://www..it/" target="_blank"> <img
                                                                                             class="img-responsive"
-                                                                                            src="images/supporter/todo.png" alt=""
+                                                                                            src="images/supporter/ouhua.gif" alt=""
                                                                                             style="float: left; margin-right: 10px;" /></a>
                                                                                 </div>
-                                                                                -->
+                                                                                   <!-- -->
                                                                                 <p></p>
-                                                                                <p></p>
+
                                                                             </div>
+                                                                            <p></p>
+                                                                            <p></p>
+                                                                            <p></p>
+                                                                            <p></p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -636,7 +644,7 @@ $app->get('/', function() use($app) {
                                                     <div class="editions-area">
                                                         <div class="st-divider " style="padding: 30px 0; border: none;"></div>
                                                         <center>
-                                                            <h1>主办过的活动</h1>
+                                                            <h1 style="margin-top: 0px; font-size: 42px">主办过的活动</h1>
                                                         </center>
                                                         <div class="st-divider " style="padding: 20px 0; border: none;"></div>
 
@@ -665,6 +673,106 @@ $app->get('/', function() use($app) {
                                                                     </div>
                                                                 </div>
 
+                                                                <div class="col-lg-4 col-sm-4 item ">
+                                                                    <div class="catItemView blog-box groupLeading">
+                                                                        <div class="blg-img-box">
+                                                                            <img
+                                                                                src="media/k2/items/cache/5cf9cad94714c5577919c266171d935c_L.jpg"
+                                                                                alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 100%; height: auto;">
+                                                                                <div class="mask">
+                                                                                    <div class="prt-lnk-wrppr editions-link clearfix">
+                                                                                        <div class="pull-left editions-popup popup">
+                                                                                            <a href="/tianjin-2014.php"><h2>&nbsp;</h2></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                        </div>
+                                                                        <div class="editions-legend clearfix">
+                                                                            <a href="/tianjin-2014.php">天津滨海高新技术产业开发区人才交流会</a>
+                                                                        </div>
+                                                                        <div class="clr"></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-4 col-sm-4 item ">
+                                                                    <div class="catItemView blog-box groupLeading">
+                                                                        <div class="blg-img-box">
+                                                                            <img
+                                                                                src="media/k2/items/cache/5cf9cad94714c5577919c266171d935c_L.jpg"
+                                                                                alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 100%; height: auto;">
+                                                                                <div class="mask">
+                                                                                    <div class="prt-lnk-wrppr editions-link clearfix">
+                                                                                        <div class="pull-left editions-popup popup">
+                                                                                            <a href="/tianjin-2014.php"><h2>&nbsp;</h2></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                        </div>
+                                                                        <div class="editions-legend clearfix">
+                                                                            <a href="/tianjin-2014.php">天津滨海高新技术产业开发区人才交流会</a>
+                                                                        </div>
+                                                                        <div class="clr"></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-4 col-sm-4 item ">
+                                                                    <div class="catItemView blog-box groupLeading">
+                                                                        <div class="blg-img-box">
+                                                                            <img
+                                                                                src="media/k2/items/cache/5cf9cad94714c5577919c266171d935c_L.jpg"
+                                                                                alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 100%; height: auto;">
+                                                                                <div class="mask">
+                                                                                    <div class="prt-lnk-wrppr editions-link clearfix">
+                                                                                        <div class="pull-left editions-popup popup">
+                                                                                            <a href="/tianjin-2014.php"><h2>&nbsp;</h2></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                        </div>
+                                                                        <div class="editions-legend clearfix">
+                                                                            <a href="/tianjin-2014.php">天津滨海高新技术产业开发区人才交流会</a>
+                                                                        </div>
+                                                                        <div class="clr"></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-4 col-sm-4 item ">
+                                                                    <div class="catItemView blog-box groupLeading">
+                                                                        <div class="blg-img-box">
+                                                                            <img
+                                                                                src="media/k2/items/cache/5cf9cad94714c5577919c266171d935c_L.jpg"
+                                                                                alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 100%; height: auto;">
+                                                                                <div class="mask">
+                                                                                    <div class="prt-lnk-wrppr editions-link clearfix">
+                                                                                        <div class="pull-left editions-popup popup">
+                                                                                            <a href="/tianjin-2014.php"><h2>&nbsp;</h2></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                        </div>
+                                                                        <div class="editions-legend clearfix">
+                                                                            <a href="/tianjin-2014.php">天津滨海高新技术产业开发区人才交流会</a>
+                                                                        </div>
+                                                                        <div class="clr"></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-4 col-sm-4 item ">
+                                                                    <div class="catItemView blog-box groupLeading">
+                                                                        <div class="blg-img-box">
+                                                                            <img
+                                                                                src="media/k2/items/cache/5cf9cad94714c5577919c266171d935c_L.jpg"
+                                                                                alt="天津滨海高新技术产业开发区召开投资与人才交流会" style="width: 100%; height: auto;">
+                                                                                <div class="mask">
+                                                                                    <div class="prt-lnk-wrppr editions-link clearfix">
+                                                                                        <div class="pull-left editions-popup popup">
+                                                                                            <a href="/tianjin-2014.php"><h2>&nbsp;</h2></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                        </div>
+                                                                        <div class="editions-legend clearfix">
+                                                                            <a href="/tianjin-2014.php">天津滨海高新技术产业开发区人才交流会</a>
+                                                                        </div>
+                                                                        <div class="clr"></div>
+                                                                    </div>
+                                                                </div>
 
 
                                                             </div>
