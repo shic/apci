@@ -68,7 +68,7 @@ error_reporting(E_ALL ^ E_NOTICE);
 
  * * PLEASE NOTE **  If you are using the script to process your own forms (or older FormToEmail forms) you must ensure that the email field is named correctly in your form, like this for example: <input type="text" name="email">.  Note the lower case "email".  If you don't do this, the visitor's email address will not be available to the script and the script won't be able to check the validity of the email, amongst other things.  If you are using the form code below, you don't need to check for this.
 
-  This is a PHP script.  In order for it to run, you must have PHP (version 4.1.0 or later) on your webhosting account, and have the PHP mail() function enabled and working.  If you are not sure about this, please ask your webhost about it.
+  This is a PHP script.  In order for it to run, you must have PHP (version 4.1.0 or later) on your webhosting accounsdt, and have the PHP mail() function enabled and working.  If you are not sure about this, please ask your webhost about it.
 
   SETUP INSTRUCTIONS
 
@@ -97,7 +97,7 @@ error_reporting(E_ALL ^ E_NOTICE);
 
  */
 
-$my_email = "apcitalia@hotmail.com";
+$my_email = "itshilei@gmail.com,apcitalia@hotmail.com";
 
 /*
 
@@ -115,7 +115,7 @@ $from_email = "";
 
  */
 
-//$continue = "http://www.1stoptutorials.com";
+$continue = "http://www.apci-italia.it";
 
 /*
 
