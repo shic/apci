@@ -1,26 +1,3 @@
-
-<?php
-/*
-  require('../vendor/autoload.php');
-
-  $app = new Silex\Application();
-  $app['debug'] = true;
-
-  // Register the monolog logging service
-  $app->register(new Silex\Provider\MonologServiceProvider(), array(
-  'monolog.logfile' => 'php://stderr',
-  ));
-
-  // Our web handlers
-
-  $app->get('/', function() use($app) {
-  $app['monolog']->addDebug('logging output.');
-  return 'Hello';
-  });
- */
-?>
-
-
 <!DOCTYPE html>
 <html prefix="og: http://ogp.me/ns#"
       xmlns="http://www.w3.org/1999/xhtml" xml:lang="it-it" lang="it-it"
@@ -35,7 +12,7 @@
         <meta name="keywords"
               content="startup, start, up, innovation, innovazione, investitori, imprenditoria, imprenditore, idea, corso, pitch" />
         <meta name="description"
-              content="意大利华人专业人士协会 è il primo corso che ti permette di portare la tua idea davanti a degli investitori" />
+              content="意大利华人专业人士协会 " />
         <meta name="generator"
               content="Joomla! - Open Source Content Management" />
         <link href="templates/boxme/favicon.ico" rel="shortcut icon"
@@ -163,7 +140,7 @@
 
 
             <meta itemprop="description"
-                  content="意大利华人专业人士协会 è il primo corso che ti permette di portare la tua idea davanti agli investitori">
+                  content="意大利华人专业人士协会 ">
 
 
                 <meta itemprop="image" content="/logo.jpg">
@@ -178,7 +155,7 @@
                     <meta name="twitter:card" content="summary">
 
 
-                        <meta name="twitter:creator" content="@innovlab">
+                        <meta name="twitter:creator" content="http://www.apci-italia.it/">
 
 
                             <meta name="twitter:url" content="http://www.apci-italia.it/">
@@ -188,7 +165,7 @@
 
 
                                     <meta name="twitter:description"
-                                          content="意大利华人专业人士协会 è il primo corso che ti permette di portare la tua idea davanti agli investitori">
+                                          content="意大利华人专业人士协会 ">
 
 
                                         <meta name="twitter:image" content="/logo.jpg">
@@ -210,7 +187,7 @@
 
 
                                             <meta property="og:description"
-                                                  content="意大利华人专业人士协会 è il primo corso che ti permette di portare la tua idea davanti agli investitori" />
+                                                  content="意大利华人专业人士协会 " />
 
 
                                             <meta property="og:image" content="/logo.jpg" />
@@ -240,28 +217,9 @@
                                                 })();
                                             </script>
 
-                                            <!---- styles for the slid begin ---->
-
-
-                                            <!---- animated-css 
-                                            <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
-                                            <script src="js/wow.min.js"></script>
-                                                            <script>
-                                                                     new WOW().init();
-                                                            </script>
-                                            ---->
-
-                                            <!----- theme-style 											
-                                            <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
------->	
-                                            <!----- //theme-style 
-                                            <meta name="viewport" content="width=device-width, initial-scale=1">
-                                            <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-                                            </script>
-                                    ------>	<!---- styles for the slid end ---->
-
-
                                             </head>
+
+
 
                                             <body class="">
                                                 <div id="wrapper">
@@ -273,25 +231,25 @@
 
                                                                         <ul class="dmt-social-links dmt-icons-16">
                                                                             <li class="facebook"><a title="Facebook" rel="me nofollow"
-                                                                                                    href="http://www.facebook.com/InnovActionLab" target="_blank">
+                                                                                                    href="http://www.apci-italia.it/" target="_blank">
                                                                                     <img src="modules/mod_dmt_social/icons/facebook_16.png" alt="" />
                                                                                 </a></li>
                                                                             <li class="twitter"><a title="Twitter" rel="me nofollow"
-                                                                                                   href="http://www.twitter.com/#!/innovlab" target="_blank"> <img
+                                                                                                   href="http://www.apci-italia.it/" target="_blank"> <img
                                                                                         src="modules/mod_dmt_social/icons/twitter_16.png" alt="" />
                                                                                 </a></li>
                                                                             <li class="google_wave"><a title="Google+" rel="me nofollow"
-                                                                                                       href="https://plus.google.com/100340691659587836437"
+                                                                                                       href="http://www.apci-italia.it/"
                                                                                                        target="_blank"> <img
                                                                                         src="modules/mod_dmt_social/icons/google_wave_16.png" alt="" />
                                                                                 </a></li>
                                                                             <li class="linkedin"><a title="LinkedIn" rel="me nofollow"
-                                                                                                    href="http://www.linkedin.com/company/innovaction-lab"
+                                                                                                    href="http://www.apci-italia.it/"
                                                                                                     target="_blank"> <img
                                                                                         src="modules/mod_dmt_social/icons/linkedin_16.png" alt="" />
                                                                                 </a></li>
                                                                             <li class="youtube"><a title="YouTube" rel="me nofollow"
-                                                                                                   href="http://www.youtube.com/user/InnovActionLab"
+                                                                                                   href="http://www.apci-italia.it/"
                                                                                                    target="_blank"> <img
                                                                                         src="modules/mod_dmt_social/icons/youtube_16.png" alt="" />
                                                                                 </a></li>
@@ -327,20 +285,17 @@
                                                                     <div class="pull-right menu">
                                                                         <nav class="pull-left menu-bar" id="responsive-menu">
                                                                             <ul id="site-menu" class="site-menu">
-                                                                                <li class="item-201 current active"><a class="active"
-                                                                                                                       href="/it/">主页</a></li>
-                                                                                <li class="item-196"><a class="" href="/it/chi-siamo.html">关于我们</a></li>
-                                                                                <li class="item-202"><a class="" href="/it/lab-2015.html">米兰世博会</a></li>
+                                                                                <li class="item-201 current active"><a class="active"href="/">主页</a></li>
+                                                                                <li class="item-202"><a class="" href="/milan-2015.html">米兰世博会</a></li>
                                                                                 <li class="item-237 deeper parent"><a href="#stop">活动介绍</a>
                                                                                     <ul class="nav-child unstyled small">
                                                                                         <li class="item-203"><a class=""
-                                                                                                                href="/it/edizioni-precedenti/lab.html">过往活动</a></li>
-                                                                                        <li class="item-204"><a href="/it/finale-2013.html">即将进行</a></li>
+                                                                                                                href="/tianjin-2014.php">过往活动</a></li>
+                                                                                        <li class="item-204"><a href="/milan-2015.html">即将进行</a></li>
                                                                                     </ul></li>
-                                                                                <li class="item-205"><a class="" href="/itmedia-social.html">媒体</a></li>
-                                                                                <li class="item-206"><a class="" href="/it/blog.html">Blog</a></li>
-                                                                                <li class="item-207"><a class="" href="/it/alumni.html">Alumni</a></li>
-                                                                                <li class="item-242"><a class="" href="/it/live.html">LIVE</a></li>
+                                                                                <li class="item-206"><a class="" href="/federation-artical.html">协会章程</a></li>
+                                                                                <li class="item-207"><a class="" href="/joinus.html">加入协会</a></li>
+                                                                                <li class="item-242"><a class="" href="/contactus.html">联系我们</a></li>
                                                                             </ul>
 
                                                                         </nav>
@@ -362,6 +317,104 @@
                                                     <!-- //End-slider -->
 
                                                     <!----//banner---->
+
+
+
+
+                                                    <!-- Foto Gallaries -->
+                                                    <div class="container">
+                                                        <div class="st-module module" id="Mod235">
+                                                            <div class="module-inner">
+                                                                <div class="module-ct">
+
+                                                                    <div id="k2ModuleBox235" class="k2ItemsBlock">
+
+
+                                                                        <ul>
+                                                                            <li class="even lastItem">
+
+                                                                                <!-- Plugins: BeforeDisplay -->
+
+                                                                                <!-- K2 Plugins: K2BeforeDisplay -->
+
+
+
+
+                                                                                <!-- Plugins: AfterDisplayTitle -->
+
+                                                                                <!-- K2 Plugins: K2AfterDisplayTitle -->
+
+                                                                                <!-- Plugins: BeforeDisplayContent -->
+
+                                                                                <!-- K2 Plugins: K2BeforeDisplayContent -->
+
+                                                                                <div class="moduleItemIntrotext">
+
+                                                                                    <h1><br />天津滨海高新技术产业开发区召开投资与人才交流会</h1>      	      </div>
+
+
+                                                                                <div class="clr"></div>
+
+                                                                                <div class="moduleItemVideo">
+                                                                                    <span class="moduleItemVideoCaption"></span>
+                                                                                    <span class="moduleItemVideoCredits"></span>
+                                                                                </div>
+
+                                                                                <div class="clr"></div>
+
+                                                                                <!-- Plugins: AfterDisplayContent -->
+
+                                                                                <!-- K2 Plugins: K2AfterDisplayContent -->
+
+
+
+
+
+
+
+
+                                                                                <!-- Plugins: AfterDisplay -->
+
+                                                                                <!-- K2 Plugins: K2AfterDisplay -->
+
+                                                                                <div class="clr"></div>
+                                                                            </li>
+                                                                            <li class="clearList"></li>
+                                                                        </ul>
+
+
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div><div class="container">
+                                                        <div class="st-module module" id="Mod181">
+                                                            <div class="module-inner">
+                                                                <div class="module-ct">
+                                                                    <div id="sp-sig181" class="sp-sig ">
+                                                                        <!-- thumb file size 233*233 -->
+                                                                        <a href="images/tianjin2014/tianjin1.jpeg" rel="lightbox-atomium" title="tianjin">
+                                                                            <img class="sp_simple_gallery" src="images/tianjin2014/thumbs/tianjin1.jpeg" alt="tianjin" />
+                                                                        </a>
+                                                                        <a href="images/tianjin2014/tianjin2.jpeg" rel="lightbox-atomium" title="tianjin">
+                                                                            <img class="sp_simple_gallery" src="images/tianjin2014/thumbs/tianjin2.jpeg" alt="tianjin" />
+                                                                        </a>
+                                                                        <a href="images/tianjin2014/tianjin3.png" rel="lightbox-atomium" title="tianjin">
+                                                                            <img class="sp_simple_gallery" src="images/tianjin2014/thumbs/tianjin3.png" alt="tianjin" />
+                                                                        </a>
+                                                                        <a href="images/tianjin2014/tianjin4.png" rel="lightbox-atomium" title="tianjin">
+                                                                            <img class="sp_simple_gallery" src="images/tianjin2014/thumbs/tianjin4.png" alt="tianjin" />
+                                                                        </a>
+                                                                         
+                                                                    </div>            
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- Foto Gallaries End-->
+
 
 
 
@@ -398,8 +451,74 @@
 
                                                                                     <div class="moduleItemIntrotext">
 
-                                                                                  
-                                                                                        <p>以服务于专业人士为目标</p>
+
+                                                                                        <div class="rich_media_content" id="js_content">
+                                                                                            <p style="text-indent: 28px">
+                                                                                                <span style="font-family: 宋体"></span>
+                                                                                            </p>
+                                                                         
+                                                                                            <p style="text-indent: 28px">
+                                                                                                <span style="font-family: 宋体"></span> 11<span
+                                                                                                    style="font-family: 宋体">月</span>7<span style="font-family: 宋体">日上午，天津滨海高新技术产业开发区代表团一行六人在代表团团长</span>---<span
+                                                                                                    style="font-family: 宋体">高新区管委会副主任张世军的率领下，到访罗马召开投资与人才交流会。交流会由天津市政协港澳台海外委员、意大利天津同乡会会长、意大利华总会常务副会长、意大利专业人士协会筹委会主席刘金权主持。</span><br />
+                                                                                            </p>
+                                                                                            <p style="text-indent: 28px">
+                                                                                                <span style="font-family: 宋体">刘会长首先向与会人士代表团介绍了与会罗马各界人士，对代表团的到访表示热烈欢迎。作为天津籍的华侨，刘会长对滨海高新区，感情深厚、非常熟悉。他向与会嘉宾介绍了滨海新区，是我国直辖市天津下辖的副省级区、国家级新区和国家综合配套改革试验区，国务院批准的第一个国家综合改革创新区。滨海新区位于天津东部沿海地区，环渤海经济圈的中心地带，总面积</span>2270<span
+                                                                                                    style="font-family: 宋体">平方公里，人口</span>263<span
+                                                                                                    style="font-family: 宋体">万人，是中国北方对外开放的门户、高水平的现代制造业和研发转化基地、北方国际航运中心和国际物流中心、宜居生态型新城区，被誉为“中国经济的第三增长极”。</span>
+                                                                                            </p>
+                                                                                            <p>
+                                                                                                <span style="font-family: 宋体">随后在热烈的掌声中张世军团长应邀发表讲话，他首先请嘉宾们观看了高新区介绍的专题</span>dvd<span
+                                                                                                    style="font-family: 宋体">片，给大家带来直观强烈的震撼，对高新区的现代化发展印象深刻，张团长介绍了高新区的八个主要产业区功能，和面临国家京津冀一体化战略后的四大发展机遇。</span>
+                                                                                            </p>
+                                                                                            <p>
+                                                                                                1994<span style="font-family: 宋体">年</span>3<span
+                                                                                                    style="font-family: 宋体">月，天津市决定在天津经济技术开发区、天津港保税区的基础上“用十年左右的时间，基本建成滨海新区”。经过天津市</span>10<span
+                                                                                                    style="font-family: 宋体">余年自主发展后，滨海新区在</span>2005<span
+                                                                                                    style="font-family: 宋体">年开始被写入“十一五”规划并纳入国家发展战略，成为国家重点支持开发开放的国家级新区。</span>
+                                                                                            </p>
+                                                                                            <p>
+                                                                                                2013<span style="font-family: 宋体">年，滨海新区</span>gdp<span
+                                                                                                    style="font-family: 宋体">达到</span>8020.4<span style="font-family: 宋体">亿元，人均</span>GDP<span
+                                                                                                    style="font-family: 宋体">达到</span>31<span style="font-family: 宋体">万元人民币，约合</span>5<span
+                                                                                                    style="font-family: 宋体">万美元。到今年为止二十几年的发展使滨海高新区编制完成了</span> <span
+                                                                                                    style="font-family: 宋体">“十一五”规划纲要、城市总体规划和土地利用规划。规划确定滨海新区的功能定位为：依托京津冀、服务环渤海、辐射“三北”、面向东北亚，努力建设成为中国北方对外开放的门户、高水平的现代制造业和研发转化基地、北方国际航运中心和国际物流中心，逐步成为经济繁荣、社会和谐、环境优美的宜居生态型新城区。</span>
+                                                                                            </p>
+                                                                                            <p>
+                                                                                                <span style="font-family: 宋体">确定的空间和产业布局为：“一轴”、“一带”、“三个城区”、“九个功能区”。</span>
+                                                                                            </p>
+                                                                                            <p>
+                                                                                                <span style="font-family: 宋体">一轴：即沿京津塘高速公路和海河下游建设“高新技术产业发展轴”。</span>
+                                                                                            </p>
+                                                                                            <p>
+                                                                                                <span style="font-family: 宋体">一带：即沿海岸线和海滨大道建设“海洋经济发展带”。</span>
+                                                                                            </p>
+                                                                                            <p>
+                                                                                                <span style="font-family: 宋体">三个生态城区：即建设以塘沽为中心、大港和汉沽为两翼的三个宜居生态型新城区。</span>
+                                                                                            </p>
+                                                                                            <p>
+                                                                                                <span style="font-family: 宋体">九大功能区包括：</span>
+                                                                                            </p>
+                                                                                            <p>
+                                                                                                <span style="font-family: 宋体">一是滨海新区中心商务区，主要发展金融、贸易、商务、航运服务产业；</span>
+                                                                                            </p>
+                                                                                            <p>
+                                                                                                <span style="font-family: 宋体">二是临空产业区，主要发展临空产业、航空制造产业；</span>
+                                                                                            </p>
+                                                                                            <p>
+                                                                                                <span style="font-family: 宋体">三是滨海高新区，主要发展航天产业、生物、新能源等新兴产业；</span>
+                                                                                            </p>
+                                                                                            <p>
+                                                                                                <span style="font-family: 宋体">张团长的讲话获得热烈的掌声，随后与会代表与代表团面对面的进行了项目洽谈，因为与会嘉宾多为意大利政界和经济界知名人士和侨团负责人，大家都是有备而来，有的意大利企业和侨商甚至已经在滨海新区投资多年，所以双方的交流针对性强、富有实效和成果，有几家意大利企业当场表示会近期去滨海考察投资、一位意大利历史悠久生物保健企业还带来三项最新发明专利，寻找与滨海的合作模式。</span>
+                                                                                            </p>
+                                                                                            <p style="text-indent: 28px">
+                                                                                                <span style="font-family: 宋体">刘金权会长在讲话中对本次活动在天气恶劣的情况下，与会嘉宾座无虚席，后来的只能站着参加活动表示感谢，他表示，这样的活动富有成效，今后还将与国内密切协作，继续举办，在会上，刘会长透露，即将成立的意大利专业人士协会将为国内引进人才发挥重要作用。</span>
+                                                                                            </p>
+                                                                                            <p style="text-indent: 28px">
+                                                                                                <span style="font-family: 宋体">本次滨海高新区投资与人才交流会获得圆满成功！</span>
+                                                                                            </p>
+                                          
+                                                                                        </div>                                                                                    
                                                                                     </div>
 
 
@@ -428,10 +547,10 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        
-                                                        </div>
-                                                        </div>
-                                                       
+
+                                                    </div>
+                                                </div>
+
 
 
                                                 <div id="top-footer">
@@ -469,9 +588,3 @@
 
                                             </body>
                                             </html>
-
-
-                                            <?php
-                                            /* */
-                                            $app->run();
-                                            ?>

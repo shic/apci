@@ -1,23 +1,22 @@
 
 <?php
-/* */
-  require('../vendor/autoload.php');
+/* 
+require('../vendor/autoload.php');
 
-  $app = new Silex\Application();
-  $app['debug'] = true;
+$app = new Silex\Application();
+$app['debug'] = true;
 
-  // Register the monolog logging service
-  $app->register(new Silex\Provider\MonologServiceProvider(), array(
-  'monolog.logfile' => 'php://stderr',
-  ));
+// Register the monolog logging service
+$app->register(new Silex\Provider\MonologServiceProvider(), array(
+    'monolog.logfile' => 'php://stderr',
+));
 
-  // Our web handlers
+// Our web handlers
 
-  $app->get('/', function() use($app) {
-  $app['monolog']->addDebug('logging output.');
-  return 'Hello';
-  });
-
+$app->get('/', function() use($app) {
+    $app['monolog']->addDebug('logging output.');
+    return 'Hello';
+});*/
 ?>
 
 
@@ -35,7 +34,7 @@
         <meta name="keywords"
               content="startup, start, up, innovation, innovazione, investitori, imprenditoria, imprenditore, idea, corso, pitch" />
         <meta name="description"
-              content="意大利华人专业人士协会 è il primo corso che ti permette di portare la tua idea davanti a degli investitori" />
+              content="意大利华人专业人士协会 " />
         <meta name="generator"
               content="Joomla! - Open Source Content Management" />
         <link href="templates/boxme/favicon.ico" rel="shortcut icon"
@@ -163,7 +162,7 @@
 
 
             <meta itemprop="description"
-                  content="意大利华人专业人士协会 è il primo corso che ti permette di portare la tua idea davanti agli investitori">
+                  content="意大利华人专业人士协会 ">
 
 
                 <meta itemprop="image" content="/logo.jpg">
@@ -178,7 +177,7 @@
                     <meta name="twitter:card" content="summary">
 
 
-                        <meta name="twitter:creator" content="@innovlab">
+                        <meta name="twitter:creator" content="http://www.apci-italia.it/">
 
 
                             <meta name="twitter:url" content="http://www.apci-italia.it/">
@@ -188,7 +187,7 @@
 
 
                                     <meta name="twitter:description"
-                                          content="意大利华人专业人士协会 è il primo corso che ti permette di portare la tua idea davanti agli investitori">
+                                          content="意大利华人专业人士协会 ">
 
 
                                         <meta name="twitter:image" content="/logo.jpg">
@@ -210,7 +209,7 @@
 
 
                                             <meta property="og:description"
-                                                  content="意大利华人专业人士协会 è il primo corso che ti permette di portare la tua idea davanti agli investitori" />
+                                                  content="意大利华人专业人士协会 " />
 
 
                                             <meta property="og:image" content="/logo.jpg" />
@@ -240,29 +239,10 @@
                                                 })();
                                             </script>
 
-                                            <!---- styles for the slid begin ---->
-
-
-                                            <!---- animated-css 
-                                            <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
-                                            <script src="js/wow.min.js"></script>
-                                                            <script>
-                                                                     new WOW().init();
-                                                            </script>
-                                            ---->
-
-                                            <!----- theme-style 											
-                                            <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
------->	
-                                            <!----- //theme-style 
-                                            <meta name="viewport" content="width=device-width, initial-scale=1">
-                                            <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-                                            </script>
-                                    ------>	<!---- styles for the slid end ---->
-
-
                                             </head>
 
+    
+    
                                             <body class="">
                                                 <div id="wrapper">
                                                     <header class="soci-header">
@@ -273,25 +253,25 @@
 
                                                                         <ul class="dmt-social-links dmt-icons-16">
                                                                             <li class="facebook"><a title="Facebook" rel="me nofollow"
-                                                                                                    href="http://www.facebook.com/InnovActionLab" target="_blank">
+                                                                                                    href="http://www.apci-italia.it/" target="_blank">
                                                                                     <img src="modules/mod_dmt_social/icons/facebook_16.png" alt="" />
                                                                                 </a></li>
                                                                             <li class="twitter"><a title="Twitter" rel="me nofollow"
-                                                                                                   href="http://www.twitter.com/#!/innovlab" target="_blank"> <img
+                                                                                                   href="http://www.apci-italia.it/" target="_blank"> <img
                                                                                         src="modules/mod_dmt_social/icons/twitter_16.png" alt="" />
                                                                                 </a></li>
                                                                             <li class="google_wave"><a title="Google+" rel="me nofollow"
-                                                                                                       href="https://plus.google.com/100340691659587836437"
+                                                                                                       href="http://www.apci-italia.it/"
                                                                                                        target="_blank"> <img
                                                                                         src="modules/mod_dmt_social/icons/google_wave_16.png" alt="" />
                                                                                 </a></li>
                                                                             <li class="linkedin"><a title="LinkedIn" rel="me nofollow"
-                                                                                                    href="http://www.linkedin.com/company/innovaction-lab"
+                                                                                                    href="http://www.apci-italia.it/"
                                                                                                     target="_blank"> <img
                                                                                         src="modules/mod_dmt_social/icons/linkedin_16.png" alt="" />
                                                                                 </a></li>
                                                                             <li class="youtube"><a title="YouTube" rel="me nofollow"
-                                                                                                   href="http://www.youtube.com/user/InnovActionLab"
+                                                                                                   href="http://www.apci-italia.it/"
                                                                                                    target="_blank"> <img
                                                                                         src="modules/mod_dmt_social/icons/youtube_16.png" alt="" />
                                                                                 </a></li>
@@ -328,18 +308,16 @@
                                                                         <nav class="pull-left menu-bar" id="responsive-menu">
                                                                             <ul id="site-menu" class="site-menu">
                                                                                 <li class="item-201 current active"><a class="active"href="/">主页</a></li>
-                                                                                <li class="item-196"><a class="" href="/tianjin-2014.php">关于我们</a></li>
-                                                                                <li class="item-202"><a class="" href="/-2015.html">米兰世博会</a></li>
+                                                                                <li class="item-202"><a class="" href="/milan-2015.html">米兰世博会</a></li>
                                                                                 <li class="item-237 deeper parent"><a href="#stop">活动介绍</a>
                                                                                     <ul class="nav-child unstyled small">
                                                                                         <li class="item-203"><a class=""
                                                                                                                 href="/tianjin-2014.php">过往活动</a></li>
-                                                                                        <li class="item-204"><a href="/it/finale-2013.html">即将进行</a></li>
+                                                                                        <li class="item-204"><a href="/milan-2015.html">即将进行</a></li>
                                                                                     </ul></li>
-                                                                                <li class="item-205"><a class="" href="/itmedia-social.html">媒体</a></li>
-                                                                                <li class="item-206"><a class="" href="/it/blog.html">Blog</a></li>
-                                                                                <li class="item-207"><a class="" href="/it/alumni.html">Alumni</a></li>
-                                                                                <li class="item-242"><a class="" href="/it/live.html">LIVE</a></li>
+                                                                                <li class="item-206"><a class="" href="/federation-artical.html">协会章程</a></li>
+                                                                                <li class="item-207"><a class="" href="/joinus.html">加入协会</a></li>
+                                                                                <li class="item-242"><a class="" href="/contactus.html">联系我们</a></li>
                                                                             </ul>
 
                                                                         </nav>
@@ -397,8 +375,8 @@
 
                                                                                     <div class="moduleItemIntrotext">
 
-                                                                                        <h1>意大利华人专业人士协会</h1>
-                                                                                        <h1>以促进意大利专业人士的交流为宗旨</h1>
+                                                                                        <p style="font-size: 60px">意大利华人专业人士协会</p>
+                                                                                        <p style="font-size: 50px">以促进意大利专业人士的交流为宗旨</p>
                                                                                         <h1>以促进学术交流为理念</h1>
                                                                                         <h1>以服务于专业人士为目标</h1>
                                                                                         <p></p>
@@ -532,10 +510,10 @@
 
                                                                             <!-- Deascrizione -->
                                                                             <div class="margint10 board-description">
-<p><span style="font-size: 13px; text-align: center;">意大利天津同乡会会长</span></p>  
-<p><span style="font-size: 13px; text-align: center;">意大利华商总会常务副会长</span></p>  
-<p><span style="font-size: 13px; text-align: center;">亚欧经贸文化交流会常务副主席</span></p>  
-<p><span style="font-size: 13px; text-align: center;">中华医药学会副主席</span></p>                                                                              </div>
+                                                                                <p><span style="font-size: 13px; text-align: center;">意大利天津同乡会会长</span></p>  
+                                                                                <p><span style="font-size: 13px; text-align: center;">意大利华商总会常务副会长</span></p>  
+                                                                                <p><span style="font-size: 13px; text-align: center;">亚欧经贸文化交流会常务副主席</span></p>  
+                                                                                <p><span style="font-size: 13px; text-align: center;">中华医药学会副主席</span></p>                                                                              </div>
 
                                                                             <!-- LinkedIn -->
                                                                             <div>
@@ -673,13 +651,13 @@
                                                                                 <div class="mask">
                                                                                     <div class="prt-lnk-wrppr editions-link clearfix">
                                                                                         <div class="pull-left editions-popup popup">
-                                                                                            <a href="/index.php/activity"><h2>&nbsp;</h2></a>
+                                                                                            <a href="/tianjin-2014.php"><h2>&nbsp;</h2></a>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
                                                                         </div>
                                                                         <div class="editions-legend clearfix">
-                                                                            <a href="/index.php/lazio-2013">天津滨海高新技术产业开发区人才交流会</a>
+                                                                            <a href="/tianjin-2014.php">天津滨海高新技术产业开发区人才交流会</a>
                                                                         </div>
                                                                         <div class="clr"></div>
                                                                     </div>
