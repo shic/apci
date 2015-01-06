@@ -19,6 +19,9 @@ $mail->AddReplyTo('acpitaly@gmail.com', 'APCI'); // Reply TO
 $mail->Subject = "APCI Registration Mail";
 
 $mail->Body = $message;
+$mail->AltBody    = "To view the message, please use an HTML compatible email viewer!"; // optional, comment out and test
+$mail->MsgHTML($message);
+
 
 $recipiant = $_GET["email"];
 $mail->AddAddress($recipiant, "jone nash");
