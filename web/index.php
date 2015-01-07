@@ -380,12 +380,12 @@
 
                                                                                     <div class="container">
                                                                                         <h1 style="font-size: 35px;line-height: 1.5em">意大利华人专业人士协会</h1>
-                                                                                        <h2 style="font-size: 20px;line-height: 1.5em;">Associazione Professionisti Cinesi in Italia</h2>
+                                                                                        <h2 style="font-size: 20px;line-height: 1.5em;">Associazione Professionisti Cinesi in Italia</p>
                                                                                         <h2 style="font-size: 20px;line-height: 1.5em; margin-bottom: 15px;">Chinese Professionals Association of Italy</h2>
-                                                                                        <p style="font-size: 25px; line-height: 1.5em">意大利专业人士协会（意文缩写APCI）是于2014年11月7日在意大利首都罗马成立的非盈利机构。</p>
-                                                                                        <p style="font-size: 25px; line-height: 1.5em">协会旨在维护和保障旅意华人专业人士的合法权益，帮助其更好地融入本地社区及文化环境，</p>
-                                                                                        <p style="font-size: 25px; line-height: 1.5em">丰富业余生活内容，为旅意华人华侨和留学生回国创业和回国服务提供交流的平台和合作的机会。</p>
-                                                                                        <p style="font-size: 25px; line-height: 1.5em; margin-bottom: 35px; "></p>
+                                                                                        <h2 style="font-size: 25px; line-height: 1.5em">意大利华人专业人士协会（意文缩写APCI）是于2014年11月7日在意大利首都罗马成立的非盈利机构。协会旨在维护和保障旅意华人专业人士的合法权益，帮助其更好地融入本地社区及文化环境，丰富业余生活内容，为旅意华人华侨和留学生回国创业和回国服务提供交流的平台和合作的机会。</h2>
+                                                                                        <h2 style="font-size: 25px; line-height: 1.5em"></h2>
+                                                                                        <h2 style="font-size: 25px; line-height: 1.5em"></h2>
+                                                                                        <h2 style="font-size: 25px; line-height: 1.5em; margin-bottom: 35px; "></h2>
                                                                                     </div>
 
 
