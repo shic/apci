@@ -1,6 +1,6 @@
 
 <?php
-/*
+/* */
   require('../vendor/autoload.php');
 
   $app = new Silex\Application();
@@ -17,7 +17,7 @@
   $app['monolog']->addDebug('logging output.');
   return 'Hello';
   });
- */
+
 ?>
 
 
@@ -79,7 +79,10 @@
               type="text/css" />
 
         <link rel="stylesheet" href="css/slid.css"
-              type="text/css" />	
+              type="text/css" />
+
+        <link rel="stylesheet" href="css/font-setting.css"
+              type="text/css" />
 
         <link rel="stylesheet" href="css/founder.css"
               type="text/css" />	
@@ -148,6 +151,9 @@
             src="media/com_uniterevolution/assets/rs-plugin/js/jquery.themepunch.revolution.min.js"
         type="text/javascript"></script>
 
+                <script
+                    src="templates/boxme/js/main_1420213682874.js"
+        type="text/javascript"></script>
 
 
 
@@ -244,98 +250,110 @@
 
 
 
-                                            <body id="" style="font-family:Microsoft JhengHei; ">
-                                                <div id="wrapper">
-                                                    <header class="soci-header">
-                                                        <div id="head-box" class="style2 ">
-                                                            <div class="head-social-box">
-                                                                <div class="container clearfix pos-center">
-                                                                    <div class="pull-right">
 
-                                                                        <ul class="dmt-social-links dmt-icons-16">
-                                                                            <li class="facebook"><a title="Facebook" rel="me nofollow"
-                                                                                                    href="http://www.apci-italia.it/" target="_blank">
-                                                                                    <img src="modules/mod_dmt_social/icons/facebook_16.png" alt="" />
-                                                                                </a></li>
-                                                                            <li class="twitter"><a title="Twitter" rel="me nofollow"
-                                                                                                   href="http://www.apci-italia.it/" target="_blank"> <img
-                                                                                        src="modules/mod_dmt_social/icons/twitter_16.png" alt="" />
-                                                                                </a></li>
-                                                                            <li class="google_wave"><a title="Google+" rel="me nofollow"
-                                                                                                       href="http://www.apci-italia.it/"
-                                                                                                       target="_blank"> <img
-                                                                                        src="modules/mod_dmt_social/icons/google_wave_16.png" alt="" />
-                                                                                </a></li>
-                                                                            <li class="linkedin"><a title="LinkedIn" rel="me nofollow"
-                                                                                                    href="http://www.apci-italia.it/"
-                                                                                                    target="_blank"> <img
-                                                                                        src="modules/mod_dmt_social/icons/linkedin_16.png" alt="" />
-                                                                                </a></li>
-                                                                            <li class="youtube"><a title="YouTube" rel="me nofollow"
-                                                                                                   href="http://www.apci-italia.it/"
-                                                                                                   target="_blank"> <img
-                                                                                        src="modules/mod_dmt_social/icons/youtube_16.png" alt="" />
-                                                                                </a></li>
+                                            <header class="soci-header">
+                                                <div id="head-box" class="style2 ">
+                                                    <div class="head-social-box">
+                                                        <div class="container clearfix pos-center">
+                                                            <div class="pull-right">
+
+                                                                <ul class="dmt-social-links dmt-icons-16">
+                                                                    <li class="facebook"><a title="Facebook" rel="me nofollow"
+                                                                                            href="http://www.apci-italia.it/" target="_blank">
+                                                                            <img src="modules/mod_dmt_social/icons/facebook_16.png" alt="" />
+                                                                        </a></li>
+                                                                    <li class="twitter"><a title="Twitter" rel="me nofollow"
+                                                                                           href="http://www.apci-italia.it/" target="_blank"> <img
+                                                                                src="modules/mod_dmt_social/icons/twitter_16.png" alt="" />
+                                                                        </a></li>
+                                                                    <li class="google_wave"><a title="Google+" rel="me nofollow"
+                                                                                               href="http://www.apci-italia.it/"
+                                                                                               target="_blank"> <img
+                                                                                src="modules/mod_dmt_social/icons/google_wave_16.png" alt="" />
+                                                                        </a></li>
+                                                                    <li class="linkedin"><a title="LinkedIn" rel="me nofollow"
+                                                                                            href="http://www.apci-italia.it/"
+                                                                                            target="_blank"> <img
+                                                                                src="modules/mod_dmt_social/icons/linkedin_16.png" alt="" />
+                                                                        </a></li>
+                                                                    <li class="youtube"><a title="YouTube" rel="me nofollow"
+                                                                                           href="http://www.apci-italia.it/"
+                                                                                           target="_blank"> <img
+                                                                                src="modules/mod_dmt_social/icons/youtube_16.png" alt="" />
+                                                                        </a></li>
 
 
-                                                                        </ul>
-                                                                        <div class="mod-languages">
+                                                                </ul>
+                                                                <div class="mod-languages">
 
-                                                                            <ul class="lang-inline">
+                                                                    <ul class="lang-inline">
 
-                                                                                <!-- >>> [FREE] >>> -->
-                                                                                <!-- <<< [FREE] <<< -->
+                                                                        <!-- >>> [FREE] >>> -->
+                                                                        <!-- <<< [FREE] <<< -->
 
-                                                                                <!-- >>> [FREE] >>> -->
-                                                                                <li class="" dir="ltr"><a href="/en/"> <img
-                                                                                            src="media/mod_falang/images/en.gif" alt="English (UK)"
-                                                                                            title="English (UK)" />
-                                                                                    </a></li>
-                                                                                    <!-- <<< [FREE] <<< -->
-                                                                            </ul>
+                                                                        <!-- >>> [FREE] >>> -->
+                                                                        <li class="" dir="ltr"><a href="/en/"> <img
+                                                                                    src="media/mod_falang/images/en.gif" alt="English (UK)"
+                                                                                    title="English (UK)" />
+                                                                            </a></li>
+                                                                            <!-- <<< [FREE] <<< -->
+                                                                    </ul>
 
-                                                                        </div>
-
-                                                                    </div>
                                                                 </div>
-                                                            </div>
-                                                            <div class="container">
-                                                                <div class="header-wrapper margint10">
-                                                                    <div class="pull-left logo" margin-bottom="10px" >
-                                                                        <a href="/"><img   src="images/logo67.png"
-                                                                                           class="img-responsive logo-image" alt="Important Logo" /></a>
-                                                                    </div>
-                                                                    <div class="pull-right menu">
-                                                                        <nav class="pull-left menu-bar" id="responsive-menu">
-                                                                            <ul id="site-menu" class="site-menu">
 
-                                                                                <li class="item-201 current active"><a class="active"href="/">主页</a></li>
-                                                                                <li class="item-202"><a style="font-size:" href="/milan-2015.html">米兰世博会</a></li>
-                                                                                <li class="item-237 deeper parent"><a href="#stop">活动介绍</a>
-                                                                                    <ul class="nav-child unstyled small">
-                                                                                        <li class="item-203"><a class=""
-                                                                                                                href="/tianjin-2014.php">过往活动</a></li>
-                                                                                        <li class="item-204"><a href="/milan-2015.html">即将进行</a></li>
-                                                                                    </ul></li>
-                                                                                <li class="item-206"><a class="" href="/federation-artical.html">协会章程</a></li>
-                                                                                <li class="item-207"><a class="" href="/joinus.html">加入协会</a></li>
-                                                                                <li class="item-242"><a class="" href="/contactus.html">联系我们</a></li>
-
-                                                                            </ul>
-
-                                                                        </nav>
-                                                                    </div>
-                                                                </div>
                                                             </div>
                                                         </div>
-                                                    </header>
+                                                    </div>
+                                                    
+                                                    
+                                                    <div class="container">
+                                                        <div class="header-wrapper margint10">
+                                                            <div class="pull-left logo" margin-bottom="10px" >
+                                                                <a href="/"><img   src="images/logo67.png"
+                                                                                   class="img-responsive logo-image" alt="Important Logo" /></a>
+                                                            </div>
+                                                            <div class="pull-right menu">
+                                                                <nav class="pull-left menu-bar" id="responsive-menu">
+                                                                    <ul id="site-menu" class=" site-menu" >
 
+                                                                        <li class="item-201 current active"><a class="active menu-font" href="/" >主页</a></li>
+
+                                                                        <li class="item-202"><a class="menu-font" href="/milan-2015.html">米兰世博会</a></li>
+
+                                                                        <li class="item-237 deeper parent"><a class="menu-font" href="#stop">活动介绍</a>
+                                                                            <ul class="nav-child unstyled small">
+                                                                                <li class="item-203"><a class="menu-font"
+                                                                                                        href="/tianjin-2014.php">过往活动</a></li>
+                                                                                <li class="item-204"><a class="menu-font"href="/milan-2015.html">即将进行</a></li>
+                                                                            </ul>
+                                                                        </li>
+
+                                                                        <li class="item-206"><a class="menu-font" href="/federation-artical.html">协会章程</a></li>
+
+                                                                        <li class="item-207"><a class="menu-font" href="/joinus.html">加入协会</a></li>
+
+                                                                        <li class="item-242"><a class="menu-font" href="/contactus.html">联系我们</a></li>
+
+                                                                    </ul>
+
+                                                                </nav>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    
+                                                    
+                                                </div>
+                                            </header>
+
+                                            <body id=""  style="font-family:Microsoft JhengHei; ">
+                                                <div id="wrapper" >
+                                                    <p style="font-size:0px"margin-top = "">&nbsp;</p>
 
                                                     <!----banner---->
-
                                                     <!-- begin-slider -->
 
-                                                    <div id="slid-container">
+                                                    <div id="slid-container" class="rev_slider_wrapper fullwidthbanner-container fullwidthabanner" margin-top="0px"  >
                                                         <img id = "slid-image" src="images/slider_people.jpg" alt="">        		
                                                             <div class="container">
                                                                 <p id = "slid-text" style="font-size: 30px; left:200px; width:100%;">因为专业所以优秀，服务于意大利专业人士!</p>
@@ -379,13 +397,16 @@
                                                                                     <!-- Plugins: BeforeDisplayContent --> <!-- K2 Plugins: K2BeforeDisplayContent -->
 
                                                                                     <div class="container">
+                                                                                        
+                                                                                        <center>                                                                                        </center>
+
                                                                                         <h1 style="font-size: 35px;line-height: 1.5em">意大利华人专业人士协会</h1>
                                                                                         <h2 style="font-size: 20px;line-height: 1.5em;">Associazione Professionisti Cinesi in Italia</p>
-                                                                                        <h2 style="font-size: 20px;line-height: 1.5em; margin-bottom: 15px;">Chinese Professionals Association of Italy</h2>
-                                                                                        <h2 style="font-size: 25px; line-height: 1.5em">意大利华人专业人士协会（意文缩写APCI）是于2014年11月7日在意大利首都罗马成立的非盈利机构。协会旨在维护和保障旅意华人专业人士的合法权益，帮助其更好地融入本地社区及文化环境，丰富业余生活内容，为旅意华人华侨和留学生回国创业和回国服务提供交流的平台和合作的机会。</h2>
-                                                                                        <h2 style="font-size: 25px; line-height: 1.5em"></h2>
-                                                                                        <h2 style="font-size: 25px; line-height: 1.5em"></h2>
-                                                                                        <h2 style="font-size: 25px; line-height: 1.5em; margin-bottom: 35px; "></h2>
+                                                                                            <h2 style="font-size: 20px;line-height: 1.5em; margin-bottom: 15px;">Chinese Professionals Association of Italy</h2>
+                                                                                            <h2 style="font-size: 25px; line-height: 1.5em ">意大利华人专业人士协会（意文缩写APCI）是于2014年11月7日在意大利首都罗马成立的非盈利机构。协会旨在维护和保障旅意华人专业人士的合法权益，帮助其更好地融入本地社区及文化环境，丰富业余生活内容，为旅意华人华侨和留学生回国创业和回国服务提供交流的平台和合作的机会。</h2>
+                                                                                            <h2 style="font-size: 25px; line-height: 1.5em"></h2>
+                                                                                            <h2 style="font-size: 25px; line-height: 1.5em"></h2>
+                                                                                            <h2 style="font-size: 25px; line-height: 1.5em; margin-bottom: 35px; "></h2>
                                                                                     </div>
 
 
@@ -491,22 +512,20 @@
                                                             </div>
                                                         </div>
 
-                                                        <!-- Fonder -->
+                                                        <!-- Founder -->
                                                         <div class="founder-container">
-                                                            <center>
-                                                                <h1 style="margin-top: 60px; margin-bottom: 60px; font-size: 42px">协会创立人员</h1>
-                                                                <p></p>
-                                                                <p></p>
-                                                                <h1></h1>
+                                                            <div class="container">
 
-                                                                <div class="container">
+                                                                <h1 style="margin-top: 60px; margin-bottom: 60px; font-size: 42px">协会创立人员</h1>
+                                                                <center>
                                                                     <div class="row portfolio-box">
 
                                                                         <div class="col-lg-2 col-sm-2 item ">
 
                                                                             <!-- Titolo -->
+                                                                            <!-- Titolo -->
                                                                             <div class="board-title">
-                                                                                <h3 style="text-align: center; font-size: 16px; margin-bottom: 5px;">刘金权</h3>
+                                                                                <span style="text-align: center; font-size: 16px; margin-bottom: 5px;">刘金权</span>
                                                                             </div>
 
                                                                             <!-- Immagine <a href="/" target="_blank" alt="">-->
@@ -521,16 +540,18 @@
                                                                                 <p><span style="font-size: 13px; text-align: center;">意大利天津同乡会会长</span></p>  
                                                                                 <p><span style="font-size: 13px; text-align: center;">意大利华商总会常务副会长</span></p>  
                                                                                 <p><span style="font-size: 13px; text-align: center;">亚欧经贸文化交流会常务副主席</span></p>  
-                                                                                <p><span style="font-size: 13px; text-align: center;">中华医药学会副主席</span></p>                                                                              </div>
-
+                                                                                <p><span style="font-size: 13px; text-align: center;">意大利中华医药学会副主席</span></p>                                                                              </div>
                                                                         </div>
+
+
+
 
 
                                                                         <div class="col-lg-2 col-sm-2 item ">
 
                                                                             <!-- Titolo -->
                                                                             <div class="board-title">
-                                                                                <h3 style="text-align: center; font-size: 16px; margin-bottom: 5px;">牛颖异</h3>
+                                                                                <span style="text-align: center; font-size: 16px; margin-bottom: 5px;">牛颖异</span>
                                                                             </div>
 
                                                                             <!-- Immagine -->
@@ -543,7 +564,7 @@
                                                                             <!-- Deascrizione -->
                                                                             <div class="margint10 board-description">
                                                                                 <p><span style="font-size: 13px; text-align: center;">罗马大学第一建筑学院城市建筑学硕士</span></p>        		
-                                                                                <p><span style="font-size: 13px; text-align: center;">主攻城市建筑学</span></p>        		
+                                                                                <p><span style="font-size: 13px; text-align: center;"></span></p>        		
                                                                             </div>
 
 
@@ -636,9 +657,163 @@
                                                                             </div>
                                                                         </div>                                                                    
                                                                     </div>
+                                                                </center>
 
+                                                            </div>
+                                                        </div>
+
+
+
+
+                                                        <!--professional members -->
+                                                        <div class="container">
+                                                            <h1 style="margin-top: 60px; margin-bottom: 60px; font-size: 42px">协会创立人员</h1>
+
+                                                            <div class="row portfolio-box">
+
+                                                                <div class="col-lg-3 col-sm-3 item  testimonial-main-container">
+                                                                    <a href="http://it.linkedin.com/in/emilabirascid" target="_blank" alt="EMIL ABIRASCID"> 
+
+                                                                        <!-- Immagine -->
+                                                                        <div class="col-lg-4 testimonial-right-column">
+                                                                            <div class="testimonial-image-container">
+                                                                                <img src="http://www.innovactionlab.org/media/k2/items/cache/d4ece76a0fc75091c09eca5036691827_M.jpg" alt="EMIL ABIRASCID" class="testimonial-image"/> 
+                                                                                <img src="http://www.innovactionlab.org/images/linkedinSquare.jpg" class="testimonial-linkedin-image"/>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-lg-8 col-sm-8 testimonial-content">
+
+                                                                            <!-- Titolo -->
+                                                                            <div>
+                                                                                <p class="testimonial-title testimonial-text-align">EMIL ABIRASCID</p>
+                                                                            </div>
+
+                                                                            <!-- Deascrizione -->
+                                                                            <div class="testimonial-description">
+                                                                                <p>Innovologist - journalist</p>        			</div>
+
+                                                                        </div>               
+
+                                                                    </a>            
                                                                 </div>
-                                                            </center>
+
+
+
+                                                                <div class="col-lg-3 col-sm-3 item  testimonial-main-container">
+                                                                    <a href="http://fr.linkedin.com/in/gfn87" target="_blank" alt="GIOVANNI NATELLA"> 
+
+                                                                        <!-- Immagine -->
+                                                                        <div class="col-lg-4 testimonial-right-column">
+                                                                            <div class="testimonial-image-container">
+                                                                                <img src="http://www.innovactionlab.org/media/k2/items/cache/7d2898c3630feea92ec1553d16389ff6_M.jpg" alt="GIOVANNI NATELLA" class="testimonial-image"/> 
+                                                                                <img src="http://www.innovactionlab.org/images/linkedinSquare.jpg" class="testimonial-linkedin-image"/>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-lg-8 col-sm-8 testimonial-content">
+
+                                                                            <!-- Titolo -->
+                                                                            <div>
+                                                                                <p class="testimonial-title testimonial-text-align">GIOVANNI NATELLA</p>
+                                                                            </div>
+
+                                                                            <!-- Deascrizione -->
+                                                                            <div class="testimonial-description">
+                                                                                <p>Director at iStarter</p>        			</div>
+
+                                                                        </div>               
+
+                                                                    </a>            
+                                                                </div>
+
+
+
+                                                                <div class="col-lg-3 col-sm-3 item  testimonial-main-container">
+                                                                    <a href="http://ch.linkedin.com/in/lucaesposito" target="_blank" alt="LUCA ESPOSITO"> 
+
+                                                                        <!-- Immagine -->
+                                                                        <div class="col-lg-4 testimonial-right-column">
+                                                                            <div class="testimonial-image-container">
+                                                                                <img src="http://www.innovactionlab.org/media/k2/items/cache/cca34d17b5186097267678a76444a0b0_M.jpg" alt="LUCA ESPOSITO" class="testimonial-image"/> 
+                                                                                <img src="http://www.innovactionlab.org/images/linkedinSquare.jpg" class="testimonial-linkedin-image"/>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-lg-8 col-sm-8 testimonial-content">
+
+                                                                            <!-- Titolo -->
+                                                                            <div>
+                                                                                <p class="testimonial-title testimonial-text-align">LUCA ESPOSITO</p>
+                                                                            </div>
+
+                                                                            <!-- Deascrizione -->
+                                                                            <div class="testimonial-description">
+                                                                                <p>Oracle EMEA Senior Account Manager for Insight Technologies</p>        			</div>
+
+                                                                        </div>               
+
+                                                                    </a>            
+                                                                </div>
+
+
+
+                                                                <div class="col-lg-3 col-sm-3 item  testimonial-main-container">
+                                                                    <a href="http://www.linkedin.com/in/desantispaolo" target="_blank" alt="PAOLO DE SANTIS"> 
+
+                                                                        <!-- Immagine -->
+                                                                        <div class="col-lg-4 testimonial-right-column">
+                                                                            <div class="testimonial-image-container">
+                                                                                <img src="http://www.innovactionlab.org/media/k2/items/cache/c9e8d9069e929f4898939a62f1adcffd_M.jpg" alt="PAOLO DE SANTIS" class="testimonial-image"/> 
+                                                                                <img src="http://www.innovactionlab.org/images/linkedinSquare.jpg" class="testimonial-linkedin-image"/>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-lg-8 col-sm-8 testimonial-content">
+
+                                                                            <!-- Titolo -->
+                                                                            <div>
+                                                                                <p class="testimonial-title testimonial-text-align">PAOLO DE SANTIS</p>
+                                                                            </div>
+
+                                                                            <!-- Deascrizione -->
+                                                                            <div class="testimonial-description">
+                                                                                <p>Co-founder at Chupamobile Limited</p>        			</div>
+
+                                                                        </div>               
+
+                                                                    </a>            
+                                                                </div>
+
+                                                                <div class="clr"></div>
+
+                                                                <div class="col-lg-3 col-sm-3 item  testimonial-main-container">
+                                                                    <a href="http://it.linkedin.com/pub/andrea-colombo/47/a70/a30" target="_blank" alt="ANDREA COLOMBO"> 
+
+                                                                        <!-- Immagine -->
+                                                                        <div class="col-lg-4 testimonial-right-column">
+                                                                            <div class="testimonial-image-container">
+                                                                                <img src="http://www.innovactionlab.org/media/k2/items/cache/fff4548682445ceca36c12620f894d26_M.jpg" alt="ANDREA COLOMBO" class="testimonial-image"/> 
+                                                                                <img src="http://www.innovactionlab.org/images/linkedinSquare.jpg" class="testimonial-linkedin-image"/>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-lg-8 col-sm-8 testimonial-content">
+
+                                                                            <!-- Titolo -->
+                                                                            <div>
+                                                                                <p class="testimonial-title testimonial-text-align">ANDREA COLOMBO</p>
+                                                                            </div>
+
+                                                                            <!-- Deascrizione -->
+                                                                            <div class="testimonial-description">
+                                                                                <p>COO U-start.biz</p>        			</div>
+
+                                                                        </div>               
+
+                                                                    </a>            
+                                                                </div>
+                                                            </div>
                                                         </div>
 
 
@@ -1058,7 +1233,7 @@
                                                                                                     <div class="moduleItemIntrotext">
 
                                                                                                         <p>via giuseppe de leva 19
-roma, RM 00174 Italy</p>      	     
+                                                                                                            roma, RM 00174 Italy</p>      	     
                                                                                                     </div>
 
 
@@ -1132,27 +1307,27 @@ roma, RM 00174 Italy</p>
                                                                                                         <p><span style="line-height: 1.3em;">技术支持：史磊</span></p>
 
 
-                                                                                                    <div class="clr"></div>
+                                                                                                        <div class="clr"></div>
 
 
-                                                                                                    <div class="clr"></div>
+                                                                                                        <div class="clr"></div>
 
-                                                                                                    <!-- Plugins: AfterDisplayContent -->
+                                                                                                        <!-- Plugins: AfterDisplayContent -->
 
-                                                                                                    <!-- K2 Plugins: K2AfterDisplayContent -->
-
-
-
+                                                                                                        <!-- K2 Plugins: K2AfterDisplayContent -->
 
 
 
 
 
-                                                                                                    <!-- Plugins: AfterDisplay -->
 
-                                                                                                    <!-- K2 Plugins: K2AfterDisplay -->
 
-                                                                                                    <div class="clr"></div>
+
+                                                                                                        <!-- Plugins: AfterDisplay -->
+
+                                                                                                        <!-- K2 Plugins: K2AfterDisplay -->
+
+                                                                                                        <div class="clr"></div>
                                                                                                 </li>
                                                                                                 <li class="clearList"></li>
                                                                                             </ul>
