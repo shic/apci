@@ -434,8 +434,8 @@
 .board-image {
 	border: 2px solid #ddd; 
 	border-radius: 50%; 
-	width: 80%; 
-	max-width: 200px;
+	width: 100%; 
+	max-width: 150px;
 }
 
 .board-link {
@@ -1231,7 +1231,8 @@ header {
 
 @media (min-width: 1200px) {
 .logo {
-	margin-top: 5px;
+	margin-top: 0px;
+        margin-bottom: 5px;
 }
 
 .logo-image {
