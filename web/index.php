@@ -244,7 +244,7 @@
 
 
 
-                                            <body id="">
+                                            <body id="" style="font-family:Microsoft JhengHei; ">
                                                 <div id="wrapper">
                                                     <header class="soci-header">
                                                         <div id="head-box" class="style2 ">
@@ -379,14 +379,13 @@
                                                                                     <!-- Plugins: BeforeDisplayContent --> <!-- K2 Plugins: K2BeforeDisplayContent -->
 
                                                                                     <div class="container">
-                                                                                        <center>
                                                                                         <h1 style="font-size: 35px;line-height: 1.5em">意大利华人专业人士协会</h1>
-                                                                                        <h2 style="font-size: 20px;line-height: 1.5em; margin-bottom: 15px;">Associazione Professionisti Cinesi in Italia</h2>
+                                                                                        <h2 style="font-size: 20px;line-height: 1.5em;">Associazione Professionisti Cinesi in Italia</h2>
+                                                                                        <h2 style="font-size: 20px;line-height: 1.5em; margin-bottom: 15px;">Chinese Professionals Association of Italy</h2>
                                                                                         <p style="font-size: 25px; line-height: 1.5em">意大利专业人士协会（意文缩写APCI）是于2014年11月7日在意大利首都罗马成立的非盈利机构。</p>
                                                                                         <p style="font-size: 25px; line-height: 1.5em">协会旨在维护和保障旅意华人专业人士的合法权益，帮助其更好地融入本地社区及文化环境，</p>
                                                                                         <p style="font-size: 25px; line-height: 1.5em">丰富业余生活内容，为旅意华人华侨和留学生回国创业和回国服务提供交流的平台和合作的机会。</p>
                                                                                         <p style="font-size: 25px; line-height: 1.5em; margin-bottom: 35px; "></p>
-                                                                                        </center>
                                                                                     </div>
 
 
@@ -544,6 +543,7 @@
                                                                             <!-- Deascrizione -->
                                                                             <div class="margint10 board-description">
                                                                                 <p><span style="font-size: 13px; text-align: center;">罗马大学第一建筑学院城市建筑学硕士</span></p>        		
+                                                                                <p><span style="font-size: 13px; text-align: center;">主攻城市建筑学</span></p>        		
                                                                             </div>
 
 
@@ -566,8 +566,10 @@
 
                                                                             <!-- Deascrizione -->
                                                                             <div class="margint10 board-description">
-                                                                                <p><span style="font-size: 13px; text-align: center;">意大利信息工程专业的高材生
-                                                                                        连续获得过多届意大利信息工程领域的奖项。还是多年全额奖学金的获得者。</span></p>        		
+                                                                                <p><span style="font-size: 13px; text-align: center;">意大利IT工程师</span></p>
+                                                                                <p><span style="font-size: 13px; text-align: center;">曾获得2012年BMW宝马公司编程大赛头等奖</span></p>
+                                                                                <p><span style="font-size: 13px; text-align: center;">2014年获得意大利拉齐奥大区政府创业资助</span></p>
+
                                                                             </div>
                                                                         </div>
 
@@ -588,8 +590,7 @@
 
                                                                             <!-- Deascrizione -->
                                                                             <div class="margint10 board-description">
-                                                                                <p><span style="font-size: 13px; text-align: center;">意大利信息工程专业的高材生
-                                                                                        连续获得过多届意大利信息工程领域的奖项。还是多年全额奖学金的获得者。</span></p>        		
+                                                                                <p><span style="font-size: 13px; text-align: center;">还是多年全额奖学金的获得者。</span></p>        		
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-lg-2 col-sm-2 item ">
@@ -947,7 +948,7 @@
                                                                             <div class="st-module module" id="Mod148">
                                                                                 <div class="module-inner">
                                                                                     <h3 class="module-title">
-                                                                                        <span>Info e Contatti</span>
+                                                                                        <span>Info</span>
                                                                                     </h3>
                                                                                     <div class="module-ct">
 
@@ -974,29 +975,9 @@
 
                                                                                                     <div class="moduleItemIntrotext">
 
-                                                                                                        <p>Per qualsiasi tipo di comunicazione o feedback, è possibile contattare i membri di InnovAction Lab all'indirizzo email</p>
-                                                                                                        <p>
-                                                                                                            <script type='text/javascript'>
-                                                                                                                <!--
-                                                                                                                var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
-                                                                                                                var path = 'hr' + 'ef' + '=';
-                                                                                                                var addy66253 = '&#105;nf&#111;' + '&#64;';
-                                                                                                                addy66253 = addy66253 + '&#105;nn&#111;v&#97;ct&#105;&#111;nl&#97;b' + '&#46;' + '&#111;rg';
-                                                                                                                var addy_text66253 = '&#105;nf&#111;' + '&#64;' + '&#105;nn&#111;v&#97;ct&#105;&#111;nl&#97;b' + '&#46;' + '&#111;rg';
-                                                                                                                document.write('<a ' + path + '\'' + prefix + ':' + addy66253 + '\' target="_blank">');
-                                                                                                                document.write(addy_text66253);
-                                                                                                                document.write('<\/a>');
-                                                                                                                //-->\n </script><script type='text/javascript'>
-                                                                                                                <!--
-                                                                                                                    document.write('<span style=\'display: none;\'>');
-                                                                                                                //-->
-                                                                                                            </script>Questo indirizzo email è protetto dagli spambots. E' necessario abilitare JavaScript per vederlo.
-                                                                                                            <script type='text/javascript'>
-                                                                                                                <!--
-                                                                                                                document.write('</');
-                                                                                                                document.write('span>');
-                                                                                                                //-->
-                                                                                                            </script></p>      	      </div>
+                                                                                                        <p>客户服务邮箱：</p>
+                                                                                                        <p>apcitalia@hotmail.com</p>
+                                                                                                    </div>
 
 
                                                                                                     <div class="clr"></div>
@@ -1035,7 +1016,7 @@
                                                                             <div class="st-module module" id="Mod111">
                                                                                 <div class="module-inner">
                                                                                     <h3 class="module-title">
-                                                                                        <span>Scorciatoie</span>
+                                                                                        <span>About</span>
                                                                                     </h3>
                                                                                     <div class="module-ct">
                                                                                         <ul class="footer-ul-style1">
@@ -1049,7 +1030,7 @@
                                                                             <div class="st-module module" id="Mod150">
                                                                                 <div class="module-inner">
                                                                                     <h3 class="module-title">
-                                                                                        <span>GO SOCIAL</span>
+                                                                                        <span>Address</span>
                                                                                     </h3>
                                                                                     <div class="module-ct">
 
@@ -1076,7 +1057,9 @@
 
                                                                                                     <div class="moduleItemIntrotext">
 
-                                                                                                        <p>Seguici sui Social Network</p>      	      </div>
+                                                                                                        <p>via giuseppe de leva 19
+roma, RM 00174 Italy</p>      	     
+                                                                                                    </div>
 
 
                                                                                                     <div class="clr"></div>
@@ -1110,44 +1093,8 @@
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
-                                                                        </div><div class="container">
-                                                                            <div class="st-module module" id="Mod143">
-                                                                                <div class="module-inner">
-                                                                                    <div class="module-ct">
-
-                                                                                        <ul class="dmt-social-links dmt-icons-16">
-                                                                                            <li class="facebook">
-                                                                                                <a title="Facebook" rel="me nofollow" href="http://www.facebook.com/InnovActionLab" target="_blank">
-                                                                                                    <img src="/modules/mod_dmt_social/icons/facebook_16.png" alt="" />
-                                                                                                </a>
-                                                                                            </li>
-                                                                                            <li class="twitter">
-                                                                                                <a title="Twitter" rel="me nofollow" href="http://www.twitter.com/#!/innovlab" target="_blank">
-                                                                                                    <img src="/modules/mod_dmt_social/icons/twitter_16.png" alt="" />
-                                                                                                </a>
-                                                                                            </li>
-                                                                                            <li class="google_wave">
-                                                                                                <a title="Google+" rel="me nofollow" href="https://plus.google.com/100340691659587836437" target="_blank">
-                                                                                                    <img src="/modules/mod_dmt_social/icons/google_wave_16.png" alt="" />
-                                                                                                </a>
-                                                                                            </li>
-                                                                                            <li class="linkedin">
-                                                                                                <a title="LinkedIn" rel="me nofollow" href="http://www.linkedin.com/company/innovaction-lab" target="_blank">
-                                                                                                    <img src="/modules/mod_dmt_social/icons/linkedin_16.png" alt="" />
-                                                                                                </a>
-                                                                                            </li>
-                                                                                            <li class="youtube">
-                                                                                                <a title="YouTube" rel="me nofollow" href="http://www.youtube.com/user/InnovActionLab" target="_blank">
-                                                                                                    <img src="/modules/mod_dmt_social/icons/youtube_16.png" alt="" />
-                                                                                                </a>
-                                                                                            </li>
-
-
-                                                                                        </ul>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>   </div>
+                                                                        </div>
+                                                                    </div>
                                                                     <div class='col-lg-3 col-sm-6 '><div class="container">
                                                                             <div class="st-module module" id="Mod149">
                                                                                 <div class="module-inner">
@@ -1179,11 +1126,10 @@
 
                                                                                                     <div class="moduleItemIntrotext">
 
-                                                                                                        <p>©2014 InnovAction Lab<span style="line-height: 1.3em;"> </span></p>
-                                                                                                        <p><span style="line-height: 1.3em;">Powered by</span></p>
-                                                                                                        <p><a href="http://www.tecnojam.it" target="_blank" title="Tecnojam"><span style="line-height: 1.3em;"><img src="/images/logo_tecnojam.png" alt="" /></span></a></p>
-                                                                                                        <p><span style="line-height: 1.3em;">Tech Sponsor</span></p>
-                                                                                                        <p><a href="http://www.translated.net" target="_blank" title="Translated"><span style="line-height: 1.3em;"><img src="/images/translated-logo.png" alt="" /></span></a></p>      	      </div>
+                                                                                                        <p>©2014 APCI<span style="line-height: 1.3em;"> </span></p>
+                                                                                                        <p><span style="line-height: 1.3em;">会标设计：王雪莹</span></p>
+                                                                                                        <p><a href="http://www.apci-italia.it/" target="_blank" title="Tecnojam"><span style="line-height: 1.3em;"><img src="images/logo_footer.png" alt="" /></span></a></p>
+                                                                                                        <p><span style="line-height: 1.3em;">技术支持：史磊</span></p>
 
 
                                                                                                     <div class="clr"></div>
