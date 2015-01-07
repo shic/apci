@@ -334,11 +334,13 @@
                                                     <!----banner---->
 
                                                     <!-- begin-slider -->
+
                                                     <div id="slid-container">
                                                         <img id = "slid-image" src="images/slider_people.jpg" alt="">        		
-                                                            <p id = "slid-text" style="font-size: 30px; left:200px; width:100%;">因为专业所以优秀，服务于意大利专业人士!</p>
-                                                    </div>	         
-
+                                                            <div class="container">
+                                                                <p id = "slid-text" style="font-size: 30px; left:200px; width:100%;">因为专业所以优秀，服务于意大利专业人士!</p>
+                                                            </div>	         
+                                                    </div>
                                                     <!-- //End-slider -->
 
                                                     <!----//banner---->
@@ -376,13 +378,15 @@
 
                                                                                     <!-- Plugins: BeforeDisplayContent --> <!-- K2 Plugins: K2BeforeDisplayContent -->
 
-                                                                                    <div class="moduleItemIntrotext">
-
-                                                                                        <p style="font-size: 35px">意大利华人专业人士协会</p>
-                                                                                        <p style="font-size: 20px">Associazione Professionisti Cinesi in Italia</p>
-                                                                                        <p style="font-size: 20px">Chinese Professionals Association of Italy</p>
-                                                                                        <p style="font-size: 25px; margin-bottom: 60px">意大利专业人士协会（意文缩写APCI，英文缩写CPAI）于2014年11月7日在意大利首都罗马成立的非盈利机构。协会旨在维护和保障旅意华人专业人士的合法权益，帮助其更好地融入本地社区及文化环境，丰富业余生活内容，为旅意华人华侨和留学生回国创业和回国服务提供交流的平台和合作的机会。</p>
-                                                                                        <p></p>
+                                                                                    <div class="container">
+                                                                                        <center>
+                                                                                        <h1 style="font-size: 35px;line-height: 1.5em">意大利华人专业人士协会</h1>
+                                                                                        <h2 style="font-size: 20px;line-height: 1.5em; margin-bottom: 15px;">Associazione Professionisti Cinesi in Italia</h2>
+                                                                                        <p style="font-size: 25px; line-height: 1.5em">意大利专业人士协会（意文缩写APCI）是于2014年11月7日在意大利首都罗马成立的非盈利机构。</p>
+                                                                                        <p style="font-size: 25px; line-height: 1.5em">协会旨在维护和保障旅意华人专业人士的合法权益，帮助其更好地融入本地社区及文化环境，</p>
+                                                                                        <p style="font-size: 25px; line-height: 1.5em">丰富业余生活内容，为旅意华人华侨和留学生回国创业和回国服务提供交流的平台和合作的机会。</p>
+                                                                                        <p style="font-size: 25px; line-height: 1.5em; margin-bottom: 35px; "></p>
+                                                                                        </center>
                                                                                     </div>
 
 
