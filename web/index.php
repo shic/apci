@@ -1,6 +1,6 @@
 
 <?php
-/* */
+/*
   require('../vendor/autoload.php');
 
   $app = new Silex\Application();
@@ -17,7 +17,7 @@
   $app['monolog']->addDebug('logging output.');
   return 'Hello';
   });
-
+ */
 ?>
 
 
@@ -151,8 +151,8 @@
             src="media/com_uniterevolution/assets/rs-plugin/js/jquery.themepunch.revolution.min.js"
         type="text/javascript"></script>
 
-                <script
-                    src="templates/boxme/js/main_1420213682874.js"
+        <script
+            src="templates/boxme/js/main_1420213682874.js"
         type="text/javascript"></script>
 
 
@@ -304,8 +304,8 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    
-                                                    
+
+
                                                     <div class="container">
                                                         <div class="header-wrapper margint10">
                                                             <div class="pull-left logo" margin-bottom="10px" >
@@ -341,25 +341,120 @@
                                                         </div>
                                                     </div>
 
-                                                    
-                                                    
+
+
                                                 </div>
                                             </header>
 
                                             <body id=""  style="font-family:Microsoft JhengHei; ">
                                                 <div id="wrapper" >
-                                                    <p style="font-size:0px"margin-top = "">&nbsp;</p>
 
                                                     <!----banner---->
-                                                    <!-- begin-slider -->
 
-                                                    <div id="slid-container" class="rev_slider_wrapper fullwidthbanner-container fullwidthabanner" margin-top="0px"  >
-                                                        <img id = "slid-image" src="images/slider_people.jpg" alt="">        		
-                                                            <div class="container">
-                                                                <p id = "slid-text" style="font-size: 30px; left:200px; width:100%;">因为专业所以优秀，服务于意大利专业人士!</p>
-                                                            </div>	         
+                                                    <div id="slideshow">
+
+
+                                                        <!-- START REVOLUTION SLIDER ver. 2.2.1 -->
+
+                                                        <div id="rev_slider_8_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:500px;direction:ltr;">
+                                                            <div id="rev_slider_8_1" class="rev_slider fullwidthabanner" style="display:none;max-height:500px;height:500px;">						
+                                                                <ul>
+
+                                                                    <li data-transition="fade" data-slotamount="7" data-masterspeed="300" > 
+
+                                                                        <img src="http://www.innovactionlab.org/images/slider_web.jpg" alt="" />
+
+
+
+
+                                                                        <div class="tp-caption rev-slider-title-nobackground fade"  
+                                                                             data-x="3" 
+                                                                             data-y="112" 
+                                                                             data-speed="300" 
+                                                                             data-start="500" 
+                                                                             data-easing="easeOutExpo"  ></div>
+
+
+
+
+                                                                        <div class="tp-caption rev-slider-title-nobackground fade"  
+                                                                             data-x="2" 
+                                                                             data-y="178" 
+                                                                             data-speed="300" 
+                                                                             data-start="800" 
+                                                                             data-easing="easeOutExpo"  >因为专业所以优秀</div>
+
+                                                                        <div class="tp-caption rev-slider-title-nobackground fade"  
+                                                                             data-x="5" 
+                                                                             data-y="293" 
+                                                                             data-speed="300" 
+                                                                             data-start="1200" 
+                                                                             data-easing="easeOutExpo"  >服务于意大利专业人士!</div>
+                                                                        
+                                                                        <div class="tp-caption rev-slider-button fade"  
+                                                                             data-x="8" 
+                                                                             data-y="401" 
+                                                                             data-speed="300" 
+                                                                             data-start="1500" 
+                                                                             data-easing="easeOutExpo"  ><div class="bigbutton-place"><a href="http://www.innovactionlab.org/it/lab-2015.html" class="bigbutton bigbutton2" target="tag">加入我们</a></div></div>
+
+
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+
+                                                        <script type="text/javascript">
+
+                                                            var tpj = jQuery;
+
+
+                                                            var revapi8;
+
+                                                            tpj(document).ready(function () {
+
+                                                                if (tpj.fn.cssOriginal != undefined)
+                                                                    tpj.fn.css = tpj.fn.cssOriginal;
+
+                                                                if (tpj('#rev_slider_8_1').revolution == undefined)
+                                                                    revslider_showDoubleJqueryError('#rev_slider_8_1', "joomla");
+                                                                else
+                                                                    revapi8 = tpj('#rev_slider_8_1').show().revolution(
+                                                                            {
+                                                                                delay: 10000,
+                                                                                startwidth: 1140,
+                                                                                startheight: 500,
+                                                                                hideThumbs: 200,
+                                                                                thumbWidth: 100,
+                                                                                thumbHeight: 50,
+                                                                                thumbAmount: 1,
+                                                                                navigationType: "none",
+                                                                                navigationArrows: "verticalcentered",
+                                                                                navigationStyle: "round",
+                                                                                touchenabled: "on",
+                                                                                onHoverStop: "off",
+                                                                                shadow: 0,
+                                                                                fullWidth: "on",
+                                                                                navigationHAlign: "center",
+                                                                                navigationVAlign: "bottom",
+                                                                                navigationHOffset: 0,
+                                                                                navigationVOffset: 20,
+                                                                                stopLoop: "off",
+                                                                                stopAfterLoops: -1,
+                                                                                stopAtSlide: -1,
+                                                                                shuffle: "off",
+                                                                                hideSliderAtLimit: 0,
+                                                                                hideCaptionAtLimit: 0,
+                                                                                hideAllCaptionAtLilmit: 0});
+
+                                                            });	//ready
+
+                                                        </script>
+
+                                                        <!-- END REVOLUTION SLIDER -->
+
                                                     </div>
-                                                    <!-- //End-slider -->
+
 
                                                     <!----//banner---->
 
@@ -397,7 +492,7 @@
                                                                                     <!-- Plugins: BeforeDisplayContent --> <!-- K2 Plugins: K2BeforeDisplayContent -->
 
                                                                                     <div class="container">
-                                                                                        
+
                                                                                         <center>                                                                                        </center>
 
                                                                                         <h1 style="font-size: 35px;line-height: 1.5em">意大利华人专业人士协会</h1>
