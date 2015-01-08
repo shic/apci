@@ -38,6 +38,28 @@
               content="意大利华人专业人士协会 " />
         <meta name="generator"
               content="Joomla! - Open Source Content Management" />
+
+
+        <!-- metadata -->
+        <!-- Schema.org markup for Google+ -->
+        <meta itemprop="name" content="意大利华人专业人士协会"/>
+        <meta itemprop="description" content="意大利华人专业人士协会 "/>
+        <meta itemprop="image" content="/logo.jpg"/>
+        <!-- Twitter Card data -->
+        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:creator" content="http://www.apci-italia.it/"/>
+        <meta name="twitter:url" content="http://www.apci-italia.it/"/>
+        <meta name="twitter:title" content="意大利华人专业人士协会"/>
+        <meta name="twitter:description"  content="意大利华人专业人士协会 "/>
+        <meta name="twitter:image" content="/logo.jpg"/>
+        <!-- Open Graph data -->
+        <meta property="og:locale" content="it_IT" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="意大利华人专业人士协会" />
+        <meta property="og:description" content="意大利华人专业人士协会 " />
+        <meta property="og:image" content="/logo.jpg" />
+        <meta property="og:url" content="http://www.apci-italia.it/" />
+
         <link href="templates/boxme/favicon.ico" rel="shortcut icon"
               type="image/vnd.microsoft.icon" />
         <link rel="stylesheet" href="components/com_k2/css/k2.css"
@@ -156,25 +178,14 @@
         type="text/javascript"></script>
 
 
-        <!-- metadata -->
-        <!-- Schema.org markup for Google+ -->
-        <meta itemprop="name" content="意大利华人专业人士协会"/>
-        <meta itemprop="description" content="意大利华人专业人士协会 "/>
-        <meta itemprop="image" content="/logo.jpg"/>
-        <!-- Twitter Card data -->
-        <meta name="twitter:card" content="summary"/>
-        <meta name="twitter:creator" content="http://www.apci-italia.it/"/>
-        <meta name="twitter:url" content="http://www.apci-italia.it/"/>
-        <meta name="twitter:title" content="意大利华人专业人士协会"/>
-        <meta name="twitter:description"  content="意大利华人专业人士协会 "/>
-        <meta name="twitter:image" content="/logo.jpg"/>
-        <!-- Open Graph data -->
-        <meta property="og:locale" content="it_IT" />
-        <meta property="og:type" content="article" />
-        <meta property="og:title" content="意大利华人专业人士协会" />
-        <meta property="og:description" content="意大利华人专业人士协会 " />
-        <meta property="og:image" content="/logo.jpg" />
-        <meta property="og:url" content="http://www.apci-italia.it/" />
+
+        <!--[animation]-->
+        <script
+            src="templates/boxme/js/main_1420213682874.js"
+        type="text/javascript"></script>
+        <!--[filte isotope.pkgd.min.js]-->
+        <script src ="js/isotope.pkgd.min.js" type="text/javascript"></script>
+
 
 
 
@@ -271,7 +282,6 @@
                                     <ul id="site-menu" class=" site-menu" >
 
                                         <li class="item-201 current active"><a class="active menu-font" href="/" >主页</a></li>
-
                                         <li class="item-202"><a class="menu-font" href="/milan-2015.html">米兰世博会</a></li>
 
                                         <li class="item-237 deeper parent"><a class="menu-font" href="#stop">活动介绍</a>
@@ -282,11 +292,9 @@
                                             </ul>
                                         </li>
 
-                                        <li class="item-206"><a class="menu-font" href="/federation-artical.html">协会章程</a></li>
-
-                                        <li class="item-207"><a class="menu-font" href="/joinus.html">加入协会</a></li>
-
-                                        <li class="item-242"><a class="menu-font" href="/contactus.html">联系我们</a></li>
+                                        <li class="item-206"><a class="menu-font" href="/member.html">协会会员</a></li>
+                                        <li class="item-207"><a class="menu-font" href="/join-us.html">加入协会</a></li>
+                                        <li class="item-242"><a class="menu-font" href="/contact-us.html">联系我们</a></li>
 
                                     </ul>
 
@@ -298,42 +306,8 @@
                 </div>
             </header>
 
-
-            <!----begin floating menu
-
-            <div id="floating-menu">
-                <div class="custom"  >
-                    <script language="javascript" type="text/javascript">
-
-                        jQuery(document).ready(function () {
-                            jQuery('.subMenu').smint({
-                                'scrollSpeed': 1000
-                            });
-                        });
-
-                    </script> 
-                    <div class="subMenu" onload="setTimeout(function () {
-                                window.scrollTo(0, 1)
-                            }, 100);"> 
-                        <div> 
-                            <a id="intro" class="subNavBtn" href="#">Introduzione</a> 
-                            <a id="eventi" class="subNavBtn" href="#">Presentazione</a> 
-                            <a id="video" class="subNavBtn" href="#">Video</a> 
-                            <a id="istruzioni" class="subNavBtn" href="#">Istruzioni</a> 
-                            <a id="countdown" class="subNavBtn" href="#">Application Form</a> 
-                            <a id="supporter" class="subNavBtn" href="#">Supporter</a> 
-                        </div> 
-                    </div>
-                </div>
-            </div>  
-            <!----end floating menu---->
-
-            <!----banner---->
-
+            <!--SLIDER -->
             <div id="slideshow">
-
-
-                <!-- START REVOLUTION SLIDER ver. 2.2.1 -->
 
                 <div id="rev_slider_8_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:500px;direction:ltr;">
                     <div id="rev_slider_8_1" class="rev_slider fullwidthabanner" style="display:none;max-height:500px;height:500px;">						
@@ -343,17 +317,12 @@
 
                                 <img src="http://www.innovactionlab.org/images/slider_web.jpg" alt="" />
 
-
-
-
                                 <div class="tp-caption rev-slider-title-nobackground fade"  
                                      data-x="3" 
                                      data-y="112" 
                                      data-speed="300" 
                                      data-start="500" 
                                      data-easing="easeOutExpo"  ></div>
-
-
 
 
                                 <div class="tp-caption rev-slider-title-nobackground fade"  
@@ -372,17 +341,22 @@
 
                                 <div class="tp-caption rev-slider-button fade"  
                                      data-x="8" 
-                                     data-y="401" 
+                                     data-y="380" 
                                      data-speed="300" 
                                      data-start="1500" 
-                                     data-easing="easeOutExpo"  ><div class="bigbutton-place"><a href="http://www.innovactionlab.org/it/lab-2015.html" class="bigbutton bigbutton2" target="tag">加入我们</a></div></div>
+                                     data-easing="easeOutExpo"  >
+                                    <div class="bigbutton-place">
+                                        <a class="bigbutton bigbutton2" target="tag" style=" " href="/join-us.html" >加入我们</a>
+                                    </div>
+                                </div>
 
 
                             </li>
                         </ul>
                     </div>
                 </div>
-
+                
+                <!--Slid script-->
                 <script type="text/javascript">
 
                     var tpj = jQuery;
@@ -433,6 +407,7 @@
 
             </div>
 
+            <!--component session -->
             <div id="component">
                 <div class="container">
 
@@ -604,7 +579,7 @@
                                             <img id="founder-hover" class="img-responsive board-image" src="images/founder/liujinquan.jpg" alt="刘金权" />
                                         </a>-->
                                     <center>
-                                        
+
                                         <div class="blg-img-box" style="width: 90%; height: auto;">
                                             <a href="/" target="_blank" alt="">
                                                 <!--board-image class to make the foto round-->
@@ -748,13 +723,10 @@
 
                 <!--professional members -->
                 <div class="container">
-                    <h1 style="margin-top: 60px; margin-bottom: 60px; font-size: 42px">各行业专业人员</h1>
-
+                    <h1 style="margin-top: 60px; margin-bottom: 60px; font-size: 42px">专业会员介绍</h1>
                     <div class="row portfolio-box">
-
                         <div class="col-lg-3 col-sm-3 item  testimonial-main-container">
                             <a href="http://it.linkedin.com/in/emilabirascid" target="_blank" alt="EMIL ABIRASCID"> 
-
                                 <!-- Immagine -->
                                 <div class="col-lg-4 testimonial-right-column">
                                     <div class="testimonial-image-container">
@@ -762,20 +734,16 @@
                                         <img src="http://www.innovactionlab.org/images/linkedinSquare.jpg" class="testimonial-linkedin-image"/>
                                     </div>
                                 </div>
-
                                 <div class="col-lg-8 col-sm-8 testimonial-content">
-
                                     <!-- Titolo -->
                                     <div>
                                         <p class="testimonial-title testimonial-text-align">EMIL ABIRASCID</p>
                                     </div>
-
                                     <!-- Deascrizione -->
                                     <div class="testimonial-description">
-                                        <p>Innovologist - journalist</p>        			</div>
-
+                                        <p>Innovologist - journalist</p>        			
+                                    </div>
                                 </div>               
-
                             </a>            
                         </div>
 

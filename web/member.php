@@ -38,6 +38,9 @@
         <meta property="og:image" content="/logo.jpg" />
         <meta property="og:url" content="http://www.apci-italia.it/" />
 
+
+
+
         <link href="templates/boxme/favicon.ico" rel="shortcut icon"
               type="image/vnd.microsoft.icon" />
         <link rel="stylesheet" href="components/com_k2/css/k2.css"
@@ -98,6 +101,8 @@
                 min-width: 200px;
             }
         </style>
+
+
         <script src="media/system/js/mootools-core.js" type="text/javascript"></script>
         <script src="media/system/js/core.js" type="text/javascript"></script>
         <script src="media/jui/js/jquery.min.js" type="text/javascript"></script>
@@ -150,19 +155,14 @@
         <script
             src="media/com_uniterevolution/assets/rs-plugin/js/jquery.themepunch.revolution.min.js"
         type="text/javascript"></script>
-
-        <script
-            src="templates/boxme/js/main_1420213682874.js"
-        type="text/javascript"></script>
-
-
-
         <!--[animation]-->
         <script
             src="templates/boxme/js/main_1420213682874.js"
         type="text/javascript"></script>
         <!--[filte isotope.pkgd.min.js]-->
         <script src ="js/isotope.pkgd.min.js" type="text/javascript"></script>
+
+
 
 
 
@@ -239,7 +239,7 @@
                                                     src="media/mod_falang/images/en.gif" alt="English (UK)"
                                                     title="English (UK)" />
                                             </a></li>
-                                            <!-- <<< [FREE] <<< -->
+                                        <!-- <<< [FREE] <<< -->
                                     </ul>
 
                                 </div>
@@ -260,6 +260,7 @@
                                     <ul id="site-menu" class=" site-menu" >
 
                                         <li class="item-201 current active"><a class="active menu-font" href="/" >主页</a></li>
+
                                         <li class="item-202"><a class="menu-font" href="/milan-2015.html">米兰世博会</a></li>
 
                                         <li class="item-237 deeper parent"><a class="menu-font" href="#stop">活动介绍</a>
@@ -270,9 +271,11 @@
                                             </ul>
                                         </li>
 
-                                        <li class="item-206"><a class="menu-font" href="/member.html">协会会员</a></li>
-                                        <li class="item-207"><a class="menu-font" href="/join-us.html">加入协会</a></li>
-                                        <li class="item-242"><a class="menu-font" href="/contact-us.html">联系我们</a></li>
+                                        <li class="item-206"><a class="menu-font" href="/federation-artical.html">协会章程</a></li>
+
+                                        <li class="item-207"><a class="menu-font" href="/joinus.html">加入协会</a></li>
+
+                                        <li class="item-242"><a class="menu-font" href="/contactus.html">联系我们</a></li>
 
                                     </ul>
 
@@ -284,14 +287,22 @@
                 </div>
             </header>
 
-            <!-- START  SLIDER -->
+
             <div id="slideshow">
+
+
+                <!-- START  SLIDER -->
+
                 <div id="rev_slider_8_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:500px;direction:ltr;">
                     <div id="rev_slider_8_1" class="rev_slider fullwidthabanner" style="display:none;max-height:500px;height:500px;">						
                         <ul>
+
                             <li data-transition="fade" data-slotamount="7" data-masterspeed="300" > 
 
                                 <img src="http://www.innovactionlab.org/images/slider_web.jpg" alt="" />
+
+
+
 
                                 <div class="tp-caption rev-slider-title-nobackground fade"  
                                      data-x="3" 
@@ -299,6 +310,9 @@
                                      data-speed="300" 
                                      data-start="500" 
                                      data-easing="easeOutExpo"  ></div>
+
+
+
 
                                 <div class="tp-caption rev-slider-title-nobackground fade"  
                                      data-x="2" 
@@ -321,9 +335,11 @@
                                      data-start="1500" 
                                      data-easing="easeOutExpo"  >
                                     <div class="bigbutton-place">
-                                        <a class="bigbutton bigbutton2" target="tag" style=" " href="/join-us.html" >加入我们</a>
+                                        <a class="bigbutton bigbutton2" target="tag" style=" " href="http://www.innovactionlab.org/it/lab-2015.html" >加入我们</a>
                                     </div>
                                 </div>
+
+
                             </li>
                         </ul>
                     </div>
@@ -371,11 +387,14 @@
                                         hideSliderAtLimit: 0,
                                         hideCaptionAtLimit: 0,
                                         hideAllCaptionAtLilmit: 0});
+
                     });	//ready
+
                 </script>
+
+
             </div>
 
-            <!--Component-->
             <div id="component">
                 <div class="container">
 
@@ -388,269 +407,214 @@
                     <div class='st-divider ' style='padding: 20px 0; border: none;'></div>
                 </div>
 
-                <!----Text below banner---->
 
-                <div class="container">
-                    <div class="st-module module" id="Mod231">
-                        <div class="module-inner">
-                            <div class="module-ct">
-                                <div id="k2ModuleBox231" class="k2ItemsBlock">
-                                    <ul>
-                                        <li class="even lastItem">
-                                            <!-- Plugins: BeforeDisplay --> <!-- K2 Plugins: K2BeforeDisplay -->
-
-                                            <!-- Plugins: AfterDisplayTitle --> <!-- K2 Plugins: K2AfterDisplayTitle -->
-
-                                            <!-- Plugins: BeforeDisplayContent --> <!-- K2 Plugins: K2BeforeDisplayContent -->
-
-                                            <div class="container">
-                                                <h1 style="font-size: 35px;line-height: 1.5em">意大利华人专业人士协会</h1>
-                                                <h2 style="font-size: 20px;line-height: 1.5em;">Associazione Professionisti Cinesi in Italia</h2>
-                                                <h2 style="font-size: 20px;line-height: 1.5em; margin-bottom: 15px;">Chinese Professionals Association of Italy</h2>
-                                                <h2 style="font-size: 25px; line-height: 1.5em ">意大利华人专业人士协会（意文缩写APCI）是于2014年11月7日在意大利首都罗马成立的非盈利机构。协会旨在维护和保障旅意华人专业人士的合法权益，帮助其更好地融入本地社区及文化环境，丰富业余生活内容，为旅意华人华侨和留学生回国创业和回国服务提供交流的平台和合作的机会。</h2>
-                                                <h2 style="font-size: 25px; line-height: 1.5em"></h2>
-                                                <h2 style="font-size: 25px; line-height: 1.5em"></h2>
-                                                <h2 style="font-size: 25px; line-height: 1.5em; margin-bottom: 35px; "></h2>
-                                            </div>
+            </div>
 
 
-                                            <div class="clr"></div>
 
-                                            <div class="moduleItemVideo">
-                                                <span class="moduleItemVideoCaption"></span> <span
-                                                    class="moduleItemVideoCredits"></span>
-                                            </div>
 
-                                            <div class="clr"></div> <!-- Plugins: AfterDisplayContent -->
+            <!--People section title-->
+            <div class="container">
+                <div class="st-module module" id="Mod237">
+                    <div class="module-inner">
+                        <div class="module-ct">
 
-                                            <!-- K2 Plugins: K2AfterDisplayContent --> <!-- Plugins: AfterDisplay -->
+                            <div id="k2ModuleBox237" class="k2ItemsBlock">
 
-                                            <!-- K2 Plugins: K2AfterDisplay -->
 
-                                            <div class="clr"></div>
-                                        </li>
-                                        <li class="clearList"></li>
-                                    </ul>
-                                </div>
+                                <ul>
+                                    <li class="even lastItem">
+
+                                        <!-- Plugins: BeforeDisplay -->
+
+                                        <!-- K2 Plugins: K2BeforeDisplay -->
+
+                                        <!-- Plugins: AfterDisplayTitle -->
+
+                                        <!-- K2 Plugins: K2AfterDisplayTitle -->
+
+                                        <!-- Plugins: BeforeDisplayContent -->
+
+                                        <!-- K2 Plugins: K2BeforeDisplayContent -->
+
+                                        <div class="moduleItemIntrotext">
+
+                                            <h1 style="margin-bottom: 20px">优秀专业会员<br/></h1>      	      </div>
+
+
+                                        <div class="clr"></div>
+
+                                        <div class="moduleItemVideo">
+                                            <span class="moduleItemVideoCaption"></span>
+                                            <span class="moduleItemVideoCredits"></span>
+                                        </div>
+
+                                        <div class="clr"></div>
+
+                                        <!-- Plugins: AfterDisplayContent -->
+
+                                        <!-- K2 Plugins: K2AfterDisplayContent -->
+
+
+                                        <!-- Plugins: AfterDisplay -->
+
+                                        <!-- K2 Plugins: K2AfterDisplay -->
+
+                                        <div class="clr"></div>
+                                    </li>
+                                    <li class="clearList"></li>
+                                </ul>
+
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                
-            <!--  End beginner before component-->
-                
             </div>
-           
 
+            <!--People section profession list-->
+            <div class="container">
+                <div class="portfolio-filters clearfix">
+                    <ul>
+                        <li><a href="#" class="active" data-filter="*">所有</a></li>
 
+                        <li>
+                            <a href="#" data-filter=".2014" style="margin-left:50px ">医师</a>
+                        </li>  
 
+                        <li>
+                            <a href="#" data-filter=".2013" style="margin-left:50px ">律师</a>
+                        </li>  
 
+                        <li>
+                            <a href="#" data-filter=".2012" style="margin-left:50px ">会计师</a>
+                        </li>  
 
-            <!--  Footer -->
-            <div id="footer">
-                <div class="container">
-                    <div class='margint30 marginb25 foo'>
-                        <div class="container" style="padding: 0px !important">
-                            <div class='row'>
-                                <div class='col-lg-3 col-sm-6 '>
-                                    <div class="container">
-                                        <div class="st-module module" id="Mod148">
-                                            <div class="module-inner">
-                                                <h3 class="module-title">
-                                                    <span>Info</span>
-                                                </h3>
-                                                <div class="module-ct">
+                        <li>
+                            <a href="#" data-filter=".2011" style="margin-left:50px ">工程师</a>
+                        </li>  
 
-                                                    <div id="k2ModuleBox148" class="k2ItemsBlock">
+                        <li>
+                            <a href="#" data-filter=".2010" style="margin-left:50px ">学生</a>
+                        </li>  
+                    </ul>
+                </div>
+            </div>
 
+            <!--People section list-->
 
-                                                        <ul>
-                                                            <li class="even lastItem">
+            <div class="container">
+                <div class="row portfolio-box">
 
-                                                                <!-- Plugins: BeforeDisplay -->
-
-                                                                <!-- K2 Plugins: K2BeforeDisplay -->
-
-
-
-
-                                                                <!-- Plugins: AfterDisplayTitle -->
-
-                                                                <!-- K2 Plugins: K2AfterDisplayTitle -->
-
-                                                                <!-- Plugins: BeforeDisplayContent -->
-
-                                                                <!-- K2 Plugins: K2BeforeDisplayContent -->
-
-                                                                <div class="moduleItemIntrotext">
-
-                                                                    <p>客户服务邮箱：</p>
-                                                                    <p>apcitalia@hotmail.com</p>
-                                                                </div>
-
-
-                                                                <div class="clr"></div>
-
-
-                                                                <div class="clr"></div>
-
-                                                                <!-- Plugins: AfterDisplayContent -->
-
-                                                                <!-- K2 Plugins: K2AfterDisplayContent -->
-
-
-
-
-
-
-
-
-                                                                <!-- Plugins: AfterDisplay -->
-
-                                                                <!-- K2 Plugins: K2AfterDisplay -->
-
-                                                                <div class="clr"></div>
-                                                            </li>
-                                                            <li class="clearList"></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>  
-                                </div>
-
-                                <div class='col-lg-3 col-sm-6 '><div class="container">
-                                        <div class="st-module module" id="Mod111">
-                                            <div class="module-inner">
-                                                <h3 class="module-title">
-                                                    <span>About</span>
-                                                </h3>
-                                                <div class="module-ct">
-                                                    <ul class="footer-ul-style1">
-                                                        <li class="item-177"><a href="/it/chi-siamo.html" >关于我们</a></ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>  </div>
-                                <div class='col-lg-3 col-sm-6 '><div class="container">
-                                        <div class="st-module module" id="Mod150">
-                                            <div class="module-inner">
-                                                <h3 class="module-title">
-                                                    <span>Address</span>
-                                                </h3>
-                                                <div class="module-ct">
-                                                    <div id="k2ModuleBox150" class="k2ItemsBlock">
-                                                        <ul>
-                                                            <li class="even lastItem">
-
-                                                                <!-- Plugins: BeforeDisplay -->
-
-                                                                <!-- K2 Plugins: K2BeforeDisplay -->
-                                                                <!-- Plugins: AfterDisplayTitle -->
-
-                                                                <!-- K2 Plugins: K2AfterDisplayTitle -->
-
-                                                                <!-- Plugins: BeforeDisplayContent -->
-
-                                                                <!-- K2 Plugins: K2BeforeDisplayContent -->
-
-                                                                <div class="moduleItemIntrotext">
-
-                                                                    <p>via giuseppe de leva 19
-                                                                        roma, RM 00174 Italy</p>      	     
-                                                                </div>
-
-
-                                                                <div class="clr"></div>
-
-
-                                                                <div class="clr"></div>
-
-                                                                <!-- Plugins: AfterDisplayContent -->
-
-                                                                <!-- K2 Plugins: K2AfterDisplayContent -->
-                                                                <!-- Plugins: AfterDisplay -->
-
-                                                                <!-- K2 Plugins: K2AfterDisplay -->
-
-                                                                <div class="clr"></div>
-                                                            </li>
-                                                            <li class="clearList"></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                    <div class="col-lg-6 col-sm-6 item 2011">
+                        <!-- Background -->
+                        <div class="article-container ">
+                            <a href="" target="_blank" alt="刘金权"> 
+                                <!-- Immagine -->
+                                <div class="col-lg-4 testimonial-right-column">
+                                    <div class="testimonial-image-container">
+                                        <img src="images/founder/liujinquan.jpg" alt="刘金权" class="testimonial-image"/> 
                                     </div>
                                 </div>
-                                <div class='col-lg-3 col-sm-6 '><div class="container">
-                                        <div class="st-module module" id="Mod149">
-                                            <div class="module-inner">
-                                                <h3 class="module-title">
-                                                    <span>Copyrights</span>
-                                                </h3>
-                                                <div class="module-ct">
+                                <div class="col-lg-8 col-sm-8 testimonial-content">
+                                    <!-- Titolo -->
+                                    <div>
+                                        <p class="testimonial-title testimonial-text-align">刘金权</p>
+                                    </div>
+                                    <!--Linea di separazione --> 
+                                    <div class="article-separator"></div>
 
-                                                    <div id="k2ModuleBox149" class="k2ItemsBlock">
-
-                                                        <ul>
-                                                            <li class="even lastItem">
-
-                                                                <!-- Plugins: BeforeDisplay -->
-
-                                                                <!-- K2 Plugins: K2BeforeDisplay -->
-
-                                                                <!-- Plugins: AfterDisplayTitle -->
-
-                                                                <!-- K2 Plugins: K2AfterDisplayTitle -->
-
-                                                                <!-- Plugins: BeforeDisplayContent -->
-
-                                                                <!-- K2 Plugins: K2BeforeDisplayContent -->
-
-                                                                <div class="moduleItemIntrotext">
-
-                                                                    <p>©2014 APCI<span style="line-height: 1.3em;"> </span></p>
-                                                                    <p><span style="line-height: 1.3em;">会标设计：王雪莹</span></p>
-                                                                    <p><a href="http://www.apci-italia.it/" target="_blank" title="Tecnojam"><span style="line-height: 1.3em;"><img src="images/logo_footer.png" alt="" /></span></a></p>
-                                                                    <p><span style="line-height: 1.3em;"></span></p>
-                                                                    <p><span style="line-height: 1.3em;">技术支持：史磊</span></p>
-
-                                                                    <div class="clr"></div>
-                                                                    <div class="clr"></div>
-
-                                                                    <!-- Plugins: AfterDisplayContent -->
-
-                                                                    <!-- K2 Plugins: K2AfterDisplayContent -->
-
-                                                                    <!-- Plugins: AfterDisplay -->
-
-                                                                    <!-- K2 Plugins: K2AfterDisplay -->
-
-                                                                    <div class="clr"></div>
-                                                            </li>
-                                                            <li class="clearList"></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> 
-                                </div>
-                            </div>
-                        </div> 
+                                    <!-- Deascrizione -->
+                                    <div class="testimonial-description" style="margin-top:15px">
+                                        <p>意大利天津同乡会会长</p> 
+                                        <p>意大利华商总会常务副会长</p>
+                                        <p>亚欧经贸文化交流会常务副主席</p>
+                                        <p>中华医药学会副主席</p>
+                                    </div>
+                                </div>  
+                            </a> 
+                        </div>
                     </div>
+
+                    <div class="col-lg-6 col-sm-6 item 2014">
+                        <!-- Background -->
+                        <div class="article-container ">
+                            <a href="" target="_blank" alt="刘金权"> 
+                                <!-- Immagine -->
+                                <div class="col-lg-4 testimonial-right-column">
+                                    <div class="testimonial-image-container">
+                                        <img src="images/founder/liujinquan.jpg" alt="刘金权" class="testimonial-image"/> 
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-sm-8 testimonial-content">
+                                    <!-- Titolo -->
+                                    <div>
+                                        <p class="testimonial-title testimonial-text-align">张医师</p>
+                                    </div>
+                                    <!--Linea di separazione --> 
+                                    <div class="article-separator"></div>
+
+                                    <!-- Deascrizione -->
+                                    <div class="testimonial-description" style="margin-top:15px">
+                                        <p>意大利天津同乡会会长</p> 
+                                        <p>意大利华商总会常务副会长</p>
+                                        <p>亚欧经贸文化交流会常务副主席</p>
+                                        <p>中华医药学会副主席</p>
+                                    </div>
+                                </div>  
+                            </a> 
+                        </div>
+                    </div>
+                    
+
                 </div>
+                <div class="clr"></div>      
             </div>
+            <div class="clr"></div>
+
+        </div>
+        <!--script-->
+
+        <script>
+            /* Isotope */
+            var $container = jQuery('.portfolio-box');
+            var $filter = jQuery('.portfolio-filters');
+
+            jQuery('.portfolio-box .item:last-child .prtf-itm >img').load(function () {
+                $container.isotope({
+                    filter: '*',
+                    layoutMode: 'sloppyMasonry',
+                    animationOptions: {duration: 400}
+                });
+            });
 
 
-            <div class="custom"  >
-                <div>
-                    <a class="scrollup" href="#"><i class="icon-angle-up"></i></a>
-                </div>
-            </div>
+            $filter.find('a').click(function () {
+                var selector = jQuery(this).attr('data-filter');
+                $filter.find('a').removeClass('active');
+                jQuery(this).addClass('active');
+                $container.isotope({
+                    filter: selector,
+                    animationOptions: {
+                        animationDuration: 400,
+                        queue: false
+                    }
+                });
+                return false;
+            });
+            /* Isotope */
+        </script>
+
+
+
+
+        <div class="container">
+            <div class='st-divider ' style='padding:30px 0;border:none;' ></div>
+        </div>
+
+
+        </div>
+
+
         </div>
     </body>
 </html>
