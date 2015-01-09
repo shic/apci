@@ -86,10 +86,10 @@
 
         <link rel="stylesheet" href="css/founder.css"
               type="text/css" />	
-        
+
         <link rel="stylesheet" href="css/contact-form.css"
               type="text/css" />
-        
+
         <style type="text/css">
             #likebox-wrapper * {
                 min-width: 200px;
@@ -101,7 +101,7 @@
                 min-width: 200px;
             }
         </style>
-        
+
         <script src="media/system/js/mootools-core.js" type="text/javascript"></script>
         <script src="media/system/js/core.js" type="text/javascript"></script>
         <script src="media/jui/js/jquery.min.js" type="text/javascript"></script>
@@ -172,10 +172,28 @@
 
 
 
-        <!-- Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-                                                     <script src="templates/boxme/js/respond.min.js"></script>
-                                                     <![endif]-->
+        <!--google maps-->
+        <style>
+            #map-canvas {
+                width: 300px;
+                height: 280px;
+            }
+        </style>
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <script>
+            function initialize() {
+                var mapCanvas = document.getElementById('map-canvas');
+                var mapOptions = {
+                    center: new google.maps.LatLng(44.5403, -78.5463),
+                    zoom: 8,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                }
+                var map = new google.maps.Map(mapCanvas, mapOptions)
+            }
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+        <!--google maps end-->
+
 
         <script type="text/javascript">
             var _gaq = _gaq || [];
@@ -393,72 +411,61 @@
                 </div>
 
                 <!--  End beginner before component
-                                            <div class="map">
-                                <iframe width="100%" height="175" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265&amp;output=embed">
-
-                                </iframe>
-                                <br>
-                                    <small>
-                                        <a href="https://maps.google.co.in/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265" style="color: rgba(180, 192, 21, 0.71);;text-align:left;font-size:12px">
-                                            View Larger Map
-                                        </a>
-                                    </small>
-                            </div>
+                <div id="map-canvas"></div>
+                                            
                 -->
-                <div class="section group">				
-                    <div class="col span_1_of_3">
-                        <div class="contact_info">
-                            <h3>Find Us Here</h3>
-                            <div class="map">
-                                <iframe width="100%" height="175" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
-                                        src="https://www.google.com/maps/place/Largo+Appio+Claudio,+365,+00174+Roma,+Italia/@41.85477,12.5637697,17z/data=!3m1!4b1!4m2!3m1!1s0x132589da038c928d:0xca79ce43cd5844ca">
+                <div class="container">
 
-                                </iframe>
-                                <br>
-                                    <small>
-                                        <a href="  https://www.google.com/maps/place/Largo+Appio+Claudio,+365,+00174+Roma,+Italia/@41.85477,12.5637697,17z/data=!3m1!4b1!4m2!3m1!1s0x132589da038c928d:0xca79ce43cd5844ca" style="color: rgba(180, 192, 21, 0.71);;text-align:left;font-size:12px">
-                                            View Larger Map
-                                        </a>
-                                    </small>
+                    <div class="section group">				
+                        <div class="col span_1_of_3">
+                            <div class="contact_info">
+                                <h3>Find Us Here</h3>
+                                <div class="map">
+                                    <iframe width="100%" height="175" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"         src="https://www.google.com/maps/embed/v1/place?q=Largo%20Appio%20Claudio%2C%20365%2C%20Roma%2C%2000174%20RM%2C%20Italia&key=AIzaSyAfjbjJGcndvrG2L6U6U8WJXgDq3acW9wY">  </iframe>
+                                    <br>
+                                        <small>
+                                            <a href="https://www.google.com/maps/embed/v1/place?q=Largo%20Appio%20Claudio%2C%20365%2C%20Roma%2C%2000174%20RM%2C%20Italia&key=AIzaSyAfjbjJGcndvrG2L6U6U8WJXgDq3acW9wY"" style="color: rgba(180, 192, 21, 0.71);;text-align:left;font-size:12px">View Larger Map</a>
+                                        </small>
+                                </div>    
                             </div>
-                        </div>
-                        <div class="company_address">
-                            <h3>协会信息:</h3>
-                            <h3>&nbsp;</h3>
-                            <p>Largo Appio Claudio, 365</p>
-                            <p>00174 Roma</p>
-                            <p>Italia</p>
-                            <p>Phone:(+39) 388 342 5556</p>
-                            <p>Email: <span>apcitalia@hotmail.com</span></p>
-                            <!--<p>Follow on: <span>Facebook</span>, <span>Twitter</span></p>-->
-                        </div>
-                    </div>				
-                    <div class="col span_2_of_3">
-                        <div class="contact-form">
-                            <h3>Contact Us</h3>
-                            <form action="">
-                                <div>
-                                    <span><label>NAME</label></span>
-                                    <span><input type="text" value=""></span>
-                                </div>
-                                <div>
-                                    <span><label>E-MAIL</label></span>
-                                    <span><input type="text" value=""></span>
-                                </div>
-                                <div>
-                                    <span><label>MOBILE</label></span>
-                                    <span><input type="text" value=""></span>
-                                </div>
-                                <div>
-                                    <span><label>SUBJECT</label></span>
-                                    <span><textarea> </textarea></span>
-                                </div>
-                                <div>
-                                    <span><input type="submit" value="Submit"></span>
-                                </div>
-                            </form>
-                        </div>
-                    </div>				
+                            <div class="company_address">
+                                <h3>协会信息:</h3>
+                                <h3>&nbsp;</h3>
+                                <p>Largo Appio Claudio, 365</p>
+                                <p>00174 Roma</p>
+                                <p>Italia</p>
+                                <p>Phone:(+39) 388 342 5556</p>
+                                <p>Email: <span>apcitalia@hotmail.com</span></p>
+                                <!--<p>Follow on: <span>Facebook</span>, <span>Twitter</span></p>-->
+                            </div>
+                        </div>				
+                        <div class="col span_2_of_3">
+                            <div class="contact-form">
+                                <h3>Contact Us</h3>
+                                <form action="">
+                                    <div>
+                                        <span><label>NAME</label></span>
+                                        <span><input type="text" value=""></span>
+                                    </div>
+                                    <div>
+                                        <span><label>E-MAIL</label></span>
+                                        <span><input type="text" value=""></span>
+                                    </div>
+                                    <div>
+                                        <span><label>MOBILE</label></span>
+                                        <span><input type="text" value=""></span>
+                                    </div>
+                                    <div>
+                                        <span><label>SUBJECT</label></span>
+                                        <span><textarea> </textarea></span>
+                                    </div>
+                                    <div>
+                                        <span><input type="submit" value="Submit"></span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>				
+                    </div>
                 </div>
             </div>
 
