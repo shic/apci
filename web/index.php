@@ -213,7 +213,6 @@
         <script>
             //声明_czc对象:
             var _czc = _czc || [];
-            _czc.push(["_trackEvent", "意大利华人专业人士协会 Associazione Professionisti Cinesi in Italia Chinese Professionals Association of Italy", "回到顶部", "意大利华人专业人士协会 Associazione Professionisti Cinesi in Italia Chinese Professionals Association of Italy"]);
         </script>
     </head>
 
@@ -1393,7 +1392,11 @@
             <div><a class="scrollup" href="#"><i class="icon-angle-up"></i></a></div></div>
 
 
-        <!--StatCounter website statistic-->
+        <!--StatCounter website statistic-->    
+        <!--cnzz website statistic-->
+        <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+            document.write(unescape("%3Cspan id='cnzz_stat_icon_1254054430'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254054430' type='text/javascript'%3E%3C/script%3E"));</script>
+
         <!-- Start of StatCounter Code for Default Guide -->
         <script type="text/javascript">
             var sc_project = 10225486;
@@ -1412,10 +1415,7 @@
                                      alt="shopify visitor statistics"></a></div></noscript>
         <!-- End of StatCounter Code for Default Guide -->
 
-        <!--cnzz website statistic-->
 
-        <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-            document.write(unescape("%3Cspan id='cnzz_stat_icon_1254054430'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254054430' type='text/javascript'%3E%3C/script%3E"));</script>
     </body>
 </html>
 
