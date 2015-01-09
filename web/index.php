@@ -1388,7 +1388,7 @@
             <div><a class="scrollup" href="#"><i class="icon-angle-up"></i></a></div></div>
 
 
-        <!--website statistic-->
+        <!--StatCounter website statistic-->
         <!-- Start of StatCounter Code for Default Guide -->
         <script type="text/javascript">
             var sc_project = 10225486;
@@ -1406,6 +1406,11 @@
                                      src="http://c.statcounter.com/10225486/0/1578c8e5/0/"
                                      alt="shopify visitor statistics"></a></div></noscript>
         <!-- End of StatCounter Code for Default Guide -->
+
+        <!--cnzz website statistic-->
+
+        <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+            document.write(unescape("%3Cspan id='cnzz_stat_icon_1254054430'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254054430' type='text/javascript'%3E%3C/script%3E"));</script>
     </body>
 </html>
 
