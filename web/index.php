@@ -209,7 +209,12 @@
             })();
         </script>
 
-
+        <!--cnzz “虚拟PV跟踪”、“事件跟踪” -->
+        <script>
+            //声明_czc对象:
+            var _czc = _czc || [];
+            _czc.push(["_trackEvent", "意大利华人专业人士协会 Associazione Professionisti Cinesi in Italia Chinese Professionals Association of Italy", "回到顶部", "意大利华人专业人士协会 Associazione Professionisti Cinesi in Italia Chinese Professionals Association of Italy"]);
+        </script>
     </head>
 
 
