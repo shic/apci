@@ -41,8 +41,8 @@
 
 
 
-        <link href="templates/boxme/favicon.ico" rel="shortcut icon"
-              type="image/vnd.microsoft.icon" />
+                <link rel="shortcut icon" href="images/logo/favicon.ico" /> 
+              
         <link rel="stylesheet" href="components/com_k2/css/k2.css"
               type="text/css" />
         <link rel="stylesheet"
