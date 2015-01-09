@@ -60,8 +60,8 @@
         <meta property="og:image" content="/logo.jpg" />
         <meta property="og:url" content="http://www.apci-italia.it/" />
 
-                <link rel="shortcut icon" href="images/logo/favicon.ico" /> 
-              
+        <link rel="shortcut icon" href="images/logo/favicon.ico" /> 
+
         <link rel="stylesheet" href="components/com_k2/css/k2.css"
               type="text/css" />
         <link rel="stylesheet"
@@ -355,7 +355,7 @@
                         </ul>
                     </div>
                 </div>
-                
+
                 <!--Slid script-->
                 <script type="text/javascript">
 
@@ -1388,7 +1388,24 @@
             <div><a class="scrollup" href="#"><i class="icon-angle-up"></i></a></div></div>
 
 
-
+        <!--website statistic-->
+        <!-- Start of StatCounter Code for Default Guide -->
+        <script type="text/javascript">
+            var sc_project = 10225486;
+            var sc_invisible = 0;
+            var sc_security = "1578c8e5";
+            var scJsHost = (("https:" == document.location.protocol) ?
+                    "https://secure." : "http://www.");
+            document.write("<sc" + "ript type='text/javascript' src='" +
+                    scJsHost +
+                    "statcounter.com/counter/counter.js'></" + "script>");
+        </script>
+        <noscript><div class="statcounter"><a title="shopify visitor
+                                              statistics" href="http://statcounter.com/shopify/"
+                                              target="_blank"><img class="statcounter"
+                                     src="http://c.statcounter.com/10225486/0/1578c8e5/0/"
+                                     alt="shopify visitor statistics"></a></div></noscript>
+        <!-- End of StatCounter Code for Default Guide -->
     </body>
 </html>
 
