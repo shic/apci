@@ -725,6 +725,105 @@
                     </div>
                 </div>
 
+
+
+
+
+
+
+                <!--professional members style 2-->
+
+                <div class="container-grey">
+                    <div class="container">
+
+                        <center>                    
+                            <h1 style="margin-top: 60px; margin-bottom: 60px; font-size: 42px">专业会员介绍</h1>
+                        </center>
+                        <center><p class="margint20" style="font-family: HelveticaNeueLTCom45Light; font-size: 16px; text-transform:uppercase; max-width: 850px;">
+                            </p></center>
+                        <ul class="prtfl-list">
+                            <li>
+                                <center>
+                                    <a href="/index.php/chi-siamo#testimonial"><img src="http://www.innovactionlab.org/media/k2/items/cache/d4ece76a0fc75091c09eca5036691827_M.jpg" alt="EMIL ABIRASCID" class="testimonial-image" style="width: 100px"/></a>
+                                    <p class="testimonial-title margint10 testimonial-text-home">EMIL ABIRASCID</p>
+                                </center>
+                            </li>
+                            <li>
+                                <center>
+                                    <a href="/index.php/chi-siamo#testimonial"><img src="http://www.innovactionlab.org/media/k2/items/cache/7d2898c3630feea92ec1553d16389ff6_M.jpg" alt="GIOVANNI NATELLA" class="testimonial-image" style="width: 100px"/></a>
+                                    <p class="testimonial-title margint10 testimonial-text-home">GIOVANNI NATELLA</p>
+                                </center>
+                            </li>
+                            <li>
+                                <center>
+                                    <a href="/index.php/chi-siamo#testimonial"><img src="http://www.innovactionlab.org/media/k2/items/cache/cca34d17b5186097267678a76444a0b0_M.jpg" alt="LUCA ESPOSITO" class="testimonial-image" style="width: 100px"/></a>
+                                    <p class="testimonial-title margint10 testimonial-text-home">LUCA ESPOSITO</p>
+                                </center>
+                            </li>
+                            <li>
+                                <center>
+                                    <a href="/index.php/chi-siamo#testimonial"><img src="http://www.innovactionlab.org/media/k2/items/cache/c9e8d9069e929f4898939a62f1adcffd_M.jpg" alt="PAOLO DE SANTIS" class="testimonial-image" style="width: 100px"/></a>
+                                    <p class="testimonial-title margint10 testimonial-text-home">PAOLO DE SANTIS</p>
+                                </center>
+                            </li>
+                            <li>
+                                <center>
+                                    <a href="/index.php/chi-siamo#testimonial"><img src="http://www.innovactionlab.org/media/k2/items/cache/fff4548682445ceca36c12620f894d26_M.jpg" alt="ANDREA COLOMBO" class="testimonial-image" style="width: 100px"/></a>
+                                    <p class="testimonial-title margint10 testimonial-text-home">ANDREA COLOMBO</p>
+                                </center>
+                            </li>
+                            <li>
+                                <center>
+                                    <a href="/index.php/chi-siamo#testimonial"><img src="http://www.innovactionlab.org/media/k2/items/cache/f9bbdeb62248e2fc4418a6935e64cf4c_M.jpg" alt="MAURIZIO CARMIGNANI" class="testimonial-image" style="width: 100px"/></a>
+                                    <p class="testimonial-title margint10 testimonial-text-home">MAURIZIO CARMIGNANI</p>
+                                </center>
+                            </li>
+                            <li>
+                                <center>
+                                    <a href="/index.php/chi-siamo#testimonial"><img src="http://www.innovactionlab.org/media/k2/items/cache/d382bd8ae87d9139df6458192532657c_M.jpg" alt="ANTONELLO SCANO" class="testimonial-image" style="width: 100px"/></a>
+                                    <p class="testimonial-title margint10 testimonial-text-home">ANTONELLO SCANO</p>
+                                </center>
+                            </li>
+                            <li>
+                                <center>
+                                    <a href="/index.php/chi-siamo#testimonial"><img src="http://www.innovactionlab.org/media/k2/items/cache/e17bf28887a04e7713039bc3ae638d41_M.jpg" alt="GIUSEPPE LITTERA" class="testimonial-image" style="width: 100px"/></a>
+                                    <p class="testimonial-title margint10 testimonial-text-home">GIUSEPPE LITTERA</p>
+                                </center>
+                            </li>
+                            <li>
+                                <center>
+                                    <a href="/index.php/chi-siamo#testimonial"><img src="http://www.innovactionlab.org/media/k2/items/cache/3f670763861139bf2201e7bc224257d4_M.jpg" alt="MATTEO STIFANELLI" class="testimonial-image" style="width: 100px"/></a>
+                                    <p class="testimonial-title margint10 testimonial-text-home">MATTEO STIFANELLI</p>
+                                </center>
+                            </li>
+                            <li>
+                                <center>
+                                    <a href="/index.php/chi-siamo#testimonial"><img src="http://www.innovactionlab.org/media/k2/items/cache/8c4e7ddecfb739ef5c33c55621b27630_M.jpg" alt="MATTEO LAI" class="testimonial-image" style="width: 100px"/></a>
+                                    <p class="testimonial-title margint10 testimonial-text-home">MATTEO LAI</p>
+                                </center>
+                            </li>
+                        </ul>
+       <center>
+                        <ul class="prtfl-list-controller margint40 clearfix" style="margin-left:0; margin-right:0; margin-bottom: 60px;">
+                            <li><a id="prev" href="/"><i class="icon-angle-left"></i></a></li>
+                            <li>                                   
+                         
+
+                                    <div class="bigbutton-place">
+                                        <a href="/index.php/chi-siamo#testimonial" class="events-link" style="font-size:23px; color:#fff !important;">所有会员</a>
+                                    </div>                              
+                                
+
+                            </li>
+                            <li><a id="next" href="/"><i class="icon-angle-right"></i></a></li>
+                        </ul>
+</center>
+                    </div>
+
+                </div>
+
+
+
                 <!--professional members -->
                 <div class="container">
                     <h1 style="margin-top: 60px; margin-bottom: 60px; font-size: 42px">专业会员介绍</h1>
@@ -870,7 +969,7 @@
                 </div>
 
 
-                <!--supporter -->
+                <!--business supporter ad -->
                 <div class="container-grey">
                     <div class="container">
                         <div class="st-module module" id="Mod205">
