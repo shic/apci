@@ -568,11 +568,11 @@
                 <div class="founder-container">
                     <div class="container">
 
-                        <h1 style="margin-top: 60px; margin-bottom: 60px; font-size: 42px">协会创立人员</h1>
+                        <h1 style="margin-top: 60px; margin-bottom: 60px; font-size: 42px">协会理事会成员</h1>
                         <center>
                             <div class="row portfolio-box">
 
-                                <div class="col-lg-2 col-sm-2 item ">
+                                <div class="col-lg-3 col-sm-3 item ">
 
                                     <!-- Titolo -->
                                     <div class="board-title">
@@ -610,7 +610,7 @@
                                 </div>
 
 
-                                <div class="col-lg-2 col-sm-2 item ">
+                                <div class="col-lg-3 col-sm-3 item ">
 
                                     <!-- Titolo -->
                                     <div class="board-title">
@@ -633,7 +633,7 @@
 
                                 </div>
 
-                                <div class="col-lg-2 col-sm-2 item ">
+                                <div class="col-lg-3 col-sm-3 item ">
 
                                     <!-- Titolo -->
                                     <div class="board-title">
@@ -657,68 +657,9 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-2 col-sm-2 item ">
-
-                                    <!-- Titolo -->
-                                    <div class="board-title">
-                                        <h3 style="text-align: center; font-size: 16px; margin-bottom: 5px;">史磊</h3>
-                                        </a>
-                                    </div>
-
-                                    <!-- Immagine -->
-                                    <center>
-                                        <a href="/" target="_blank" alt="史磊">
-                                            <img src="images/founder/shilei.png" alt="牛颖异" class="img-responsive board-image"/>
-                                        </a>
-                                    </center>
-
-                                    <!-- Deascrizione -->
-                                    <div class="margint10 board-description">
-                                        <p><span style="font-size: 13px; text-align: center;">还是多年全额奖学金的获得者。</span></p>        		
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-sm-2 item ">
-
-                                    <!-- Titolo -->
-                                    <div class="board-title">
-                                        <h3 style="text-align: center; font-size: 16px; margin-bottom: 5px;">史磊</h3>
-                                        </a>
-                                    </div>
-
-                                    <!-- Immagine -->
-                                    <center>
-                                        <a href="/" target="_blank" alt="史磊">
-                                            <img src="images/founder/shilei.png" alt="牛颖异" class="img-responsive board-image"/>
-                                        </a>
-                                    </center>
-
-                                    <!-- Deascrizione -->
-                                    <div class="margint10 board-description">
-                                        <p><span style="font-size: 13px; text-align: center;">意大利信息工程专业的高材生
-                                                连续获得过多届意大利信息工程领域的奖项。还是多年全额奖学金的获得者。</span></p>        		
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-sm-2 item ">
-
-                                    <!-- Titolo -->
-                                    <div class="board-title">
-                                        <h3 style="text-align: center; font-size: 16px; margin-bottom: 5px;">史磊</h3>
-                                        </a>
-                                    </div>
-
-                                    <!-- Immagine -->
-                                    <center>
-                                        <a href="/" target="_blank" alt="史磊">
-                                            <img src="images/founder/32-PLus-button.jpg" alt="牛颖异" class="img-responsive board-image"/>
-                                        </a>
-                                    </center>
-
-                                    <!-- Deascrizione -->
-                                    <div class="margint10 board-description">
-                                        <p><span style="font-size: 13px; text-align: center;">意大利信息工程专业的高材生
-                                                连续获得过多届意大利信息工程领域的奖项。还是多年全额奖学金的获得者。</span></p>        		
-                                    </div>
-                                </div>                                                                    
+                                
+                                
+                                                                                            
                             </div>
                         </center>
 
@@ -747,7 +688,7 @@
                         <center>
                             <div class="row portfolio-box">
 
-                                <div class="col-lg-1 col-sm-1 item ">
+                                <!--<div class="col-lg-1 col-sm-1 item ">
 
                                     <center>
                                         <ul class="prtfl-list-controller margint40 clearfix" style="margin-left:0; margin-right:0; margin-bottom: 60px;">
@@ -755,7 +696,8 @@
                                         </ul>
                                     </center>
                                 </div>
-                                <div class="col-lg-10 col-sm-10 item ">
+                                -->
+                                <div class="col-lg-12 col-sm-12 item ">
 
                                     <ul class="prtfl-list">
 
