@@ -4507,6 +4507,10 @@ label.error{
 	background-color: #d9dad2;
 }
 
+.container-grey-cv {
+	background-color: #585858;
+}
+
 .applications-text ul li {
 	list-style: disc!important;
 	margin-left: 20px;

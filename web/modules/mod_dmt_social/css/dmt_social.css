@@ -40,6 +40,8 @@
 	margin: 0;
 }
 
+
+//first layer of social icons begin
 .dmt-social-links li.facebook a {
 	background: url(../icons/facebook_16_grey.png);
 }
@@ -59,6 +61,9 @@
 .dmt-social-links li.youtube a {
 	background: url(../icons/youtube_16_grey.png);
 }
+
+//first layer of social icons end
+
 
 #footer .dmt-social-links li.facebook a {
 	background: url(../icons/facebook_16_dark.png);
