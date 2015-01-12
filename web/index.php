@@ -589,7 +589,7 @@
                                                 <!--board-image class to make the foto round-->
                                                 <img id="founder-hover" class="img-responsive board-image" src="images/founder/liujinquan.jpg" alt="刘金权" />
                                             </a>
-                                            <!--mask class to make the foto round-->
+                                            <!--mask class to make the foto round
                                             <div class="mask board-image" >
                                                 <div class="prt-lnk-wrppr editions-link clearfix">
                                                     <div class="pull-left editions-popup popup">
@@ -597,6 +597,7 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            -->
                                         </div>
 
                                     </center>
