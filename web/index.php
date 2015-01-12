@@ -645,7 +645,7 @@
                                     <!-- Immagine -->
                                     <center>
                                         <a href="/" target="_blank" alt="史磊">
-                                            <img src="images/founder/shilei.png" alt="牛颖异" class="img-responsive board-image"/>
+                                            <img src="images/founder/shilei.jpg" alt="牛颖异" class="img-responsive board-image"/>
                                         </a>
                                     </center>
 
